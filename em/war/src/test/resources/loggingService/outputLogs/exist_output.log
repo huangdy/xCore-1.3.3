@@ -1,0 +1,336 @@
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Mon Jan 24 12:19:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=Failed 0 items to remove. ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Mon Jan 24 12:19:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=Removing collection /db/UICDS/WorkProducts/ICS/ICS-a1e11337-357c-47ce-8388-c0d060d1e24f ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Mon Jan 24 12:19:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=Removing collection '/db/UICDS/WorkProducts/ICS/ICS-a1e11337-357c-47ce-8388-c0d060d1e24f' took 79 ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Mon Jan 24 12:19:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=Removing collection /db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Mon Jan 24 12:19:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Tue Jan 25 12:19:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Wed Jan 26 12:19:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 12:19:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 13:19:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 13:19:06 EST 2011]
+[Status:WARN-WARN]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 14:19:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 15:19:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 15:29:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 16:29:06 EST 2011]
+[Status:WARN-WARN]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 16:39:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 16:49:06 EST 2011]
+[Status:WARN-WARN]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 17:29:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="WARN" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 17:49:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... failed]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 17:49:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... failed]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 17:59:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... failed]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 17:59:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... failed]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 18:09:06 EST 2011]
+[Status:WARN-WARN]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 18:19:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... failed]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 18:29:06 EST 2011]
+[Status:WARN-WARN]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 18:39:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="WARN" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 18:49:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 18:49:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 18:49:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 18:49:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 18:59:06 EST 2011]
+[Status:WARN-WARN]
+[Message=Failed resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="WARN" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 19:09:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 19:19:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 19:29:06 EST 2011]
+[Status:WARN-WARN]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 19:39:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 19:49:06 EST 2011]
+[Status:WARN-WARN]
+[Message=Failed resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="INFO" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 19:51:06 EST 2011]
+[Status:NORMAL-NORMAL]
+[Message=resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... ]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 19:59:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'... failed]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Jan 27 20:09:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'...]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Fri Jan 28 20:09:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'...]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Sat Jan 29 20:09:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'...]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Sun Jan 30 00:09:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'...]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Sun Jan 30 01:09:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'...]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Sun Jan 30 02:09:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'...]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Tue Feb 01 02:09:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'...]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Tue Feb 01 05:09:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'...]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Tue Feb 01 15:09:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'...]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-9">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Wed Feb 02 15:09:06 EST 2011]
+[Status:ERROR-ERROR]
+[Message=Exception resources in '/db/UICDS/WorkProducts/ICS/ICS-dd328a82-fedf-4071-b23d-924312485c1b'...]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\exist_output.log" timestamp="0" sequenceNumber="0" level="DEBUG" thread="Timer-1">
+<log4j:message><![CDATA[[Component=exist]
+[Time=Thu Mar 24 00:40:04 EDT 2011]
+[Status:WARN-WARN]
+[Message=No Event since 25000 milliseconds (No rule matched the last Event)]]]></log4j:message>
+</log4j:event>
+

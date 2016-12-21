@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ps:UpdateEndpointRequest xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:ims="http://uicds.org/IncidentManagementService" xmlns:inc="http://uicds.org/incident" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:nga="http://niem.gov/niem/nga/2.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:ps="http://uicds.org/ProfileService" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:unece="http://niem.gov/niem/unece_rec20-misc/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/ProfileService ../../../com.saic.uicds.core.xmlbeans-em/src/main/xsd/services/Profile/0.1/Profile.xsd ">
+  <ps:entityID>IncidentCommander@core1.saic.com</ps:entityID>
+  <ps:endpoint>http://localhost:8080/uicds/testWS/ws/services/NotificationService"</ps:endpoint>
+  <ps:isWebService>true</ps:isWebService>
+</ps:UpdateEndpointRequest>

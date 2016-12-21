@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:GetSOIRequest xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0" xmlns:smil20="http://www.w3.org/2001/SMIL20/" xmlns:smil20lang="http://www.w3.org/2001/SMIL20/Language" xmlns:sos="http://www.opengis.net/sos/1.0" xmlns:tns="http://uicds.org/SensorService" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/SensorService SensorService.xsd ">
+  <tns:productID>SOI-3ca66a27-c501-44d4-8b2c-fedf5a8b1167</tns:productID>
+</tns:GetSOIRequest>

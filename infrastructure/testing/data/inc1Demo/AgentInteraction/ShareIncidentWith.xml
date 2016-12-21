@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:ShareIncidentRequest xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1"
+    xmlns:edxl-cap="http://niem.gov/niem/edxl-cap/2.0" xmlns:inc="http://uicds.org/incident"
+    xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0"
+    xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0" xmlns:s="http://niem.gov/niem/structures/2.0"
+    xmlns:tns="http://uicds.org/IncidentManagementService" xmlns:wp="http://uicds.org/WorkProduct"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/IncidentManagementService ../../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/IMS.xsd ">
+    <tns:IncidentId>bb9af5ed-21b1-46fe-8bdd-c28c1054490c
+    </tns:IncidentId>
+    <tns:CoreName>uicds-test3</tns:CoreName>
+</tns:ShareIncidentRequest>

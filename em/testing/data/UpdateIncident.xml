@@ -1,0 +1,115 @@
+<ims:UpdateIncidentRequest xmlns:as="http://uicds.org/AlertService"
+    xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:ims="http://uicds.org/IncidentManagementService"
+    xmlns:inc="http://uicds.org/incident" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:nga="http://niem.gov/niem/nga/2.0"
+    xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0"
+    xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:unece="http://niem.gov/niem/unece_rec20-misc/2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/IncidentManagementService ../../xmlbeans-em/src/main/xsd/services/IncidentManagementService.xsd "
+    xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:str="http://www.saic.com/precis/2009/06/structures">
+    <str:WorkProductIdentification>
+        <base:Identifier>Incident-1c9f0d59-b61b-4960-ae8c-34c059369ccb</base:Identifier>
+        <base:Version>1</base:Version>
+        <base:Type>Incident</base:Type>
+        <base:Checksum>Thu Sep 17 09:52:34 EDT 2009:1:5:3615846589</base:Checksum>
+        <base:State>Active</base:State>
+    </str:WorkProductIdentification>
+    <inc:Incident>
+        <ns1:ActivityIdentification>
+            <ns1:IdentificationID>ABC</ns1:IdentificationID>
+        </ns1:ActivityIdentification>
+        <ns1:ActivityCategoryText>Transport</ns1:ActivityCategoryText>
+        <ns1:ActivityDescriptionText>Updated Incident used in CreateIncident Test
+        </ns1:ActivityDescriptionText>
+        <ns1:ActivityName>Katrina Flood Incident</ns1:ActivityName>
+        <ns1:ActivityName>Extra Extra Special Incident</ns1:ActivityName>
+        <ns1:IncidentLocation>
+            <ns1:LocationAddress>
+                <ns1:AddressFullText>Tyson Corner Center Mclean Va</ns1:AddressFullText>
+            </ns1:LocationAddress>
+            <ns1:LocationArea>
+                <ns1:AreaPolygonGeographicCoordinate>
+                    <ns1:GeographicCoordinateLatitude>
+                        <ns1:LatitudeDegreeValue>11</ns1:LatitudeDegreeValue>
+                        <ns1:LatitudeMinuteValue>47</ns1:LatitudeMinuteValue>
+                        <ns1:LatitudeSecondValue>59.00</ns1:LatitudeSecondValue>
+                    </ns1:GeographicCoordinateLatitude>
+                    <ns1:GeographicCoordinateLongitude>
+                        <ns1:LongitudeDegreeValue>-44</ns1:LongitudeDegreeValue>
+                        <ns1:LongitudeMinuteValue>17</ns1:LongitudeMinuteValue>
+                        <ns1:LongitudeSecondValue>59.00</ns1:LongitudeSecondValue>
+                    </ns1:GeographicCoordinateLongitude>
+                </ns1:AreaPolygonGeographicCoordinate>
+                <ns1:AreaPolygonGeographicCoordinate>
+                    <ns1:GeographicCoordinateLatitude>
+                        <ns1:LatitudeDegreeValue>11</ns1:LatitudeDegreeValue>
+                        <ns1:LatitudeMinuteValue>47</ns1:LatitudeMinuteValue>
+                        <ns1:LatitudeSecondValue>33.00</ns1:LatitudeSecondValue>
+                    </ns1:GeographicCoordinateLatitude>
+                    <ns1:GeographicCoordinateLongitude>
+                        <ns1:LongitudeDegreeValue>-44</ns1:LongitudeDegreeValue>
+                        <ns1:LongitudeMinuteValue>5</ns1:LongitudeMinuteValue>
+                        <ns1:LongitudeSecondValue>59.00</ns1:LongitudeSecondValue>
+                    </ns1:GeographicCoordinateLongitude>
+                </ns1:AreaPolygonGeographicCoordinate>
+                <ns1:AreaPolygonGeographicCoordinate>
+                    <ns1:GeographicCoordinateLatitude>
+                        <ns1:LatitudeDegreeValue>12</ns1:LatitudeDegreeValue>
+                        <ns1:LatitudeMinuteValue>0</ns1:LatitudeMinuteValue>
+                        <ns1:LatitudeSecondValue>0.005</ns1:LatitudeSecondValue>
+                    </ns1:GeographicCoordinateLatitude>
+                    <ns1:GeographicCoordinateLongitude>
+                        <ns1:LongitudeDegreeValue>-44</ns1:LongitudeDegreeValue>
+                        <ns1:LongitudeMinuteValue>5</ns1:LongitudeMinuteValue>
+                        <ns1:LongitudeSecondValue>59.00</ns1:LongitudeSecondValue>
+                    </ns1:GeographicCoordinateLongitude>
+                </ns1:AreaPolygonGeographicCoordinate>
+                <ns1:AreaPolygonGeographicCoordinate>
+                    <ns1:GeographicCoordinateLatitude>
+                        <ns1:LatitudeDegreeValue>12</ns1:LatitudeDegreeValue>
+                        <ns1:LatitudeMinuteValue>0</ns1:LatitudeMinuteValue>
+                        <ns1:LatitudeSecondValue>0.005</ns1:LatitudeSecondValue>
+                    </ns1:GeographicCoordinateLatitude>
+                    <ns1:GeographicCoordinateLongitude>
+                        <ns1:LongitudeDegreeValue>-44</ns1:LongitudeDegreeValue>
+                        <ns1:LongitudeMinuteValue>17</ns1:LongitudeMinuteValue>
+                        <ns1:LongitudeSecondValue>59.00</ns1:LongitudeSecondValue>
+                    </ns1:GeographicCoordinateLongitude>
+                </ns1:AreaPolygonGeographicCoordinate>
+                <ns1:AreaPolygonGeographicCoordinate>
+                    <ns1:GeographicCoordinateLatitude>
+                        <ns1:LatitudeDegreeValue>11</ns1:LatitudeDegreeValue>
+                        <ns1:LatitudeMinuteValue>47</ns1:LatitudeMinuteValue>
+                        <ns1:LatitudeSecondValue>59.00</ns1:LatitudeSecondValue>
+                    </ns1:GeographicCoordinateLatitude>
+                    <ns1:GeographicCoordinateLongitude>
+                        <ns1:LongitudeDegreeValue>-44</ns1:LongitudeDegreeValue>
+                        <ns1:LongitudeMinuteValue>17</ns1:LongitudeMinuteValue>
+                        <ns1:LongitudeSecondValue>59.00</ns1:LongitudeSecondValue>
+                    </ns1:GeographicCoordinateLongitude>
+                </ns1:AreaPolygonGeographicCoordinate>
+                <ns1:AreaCircularRegion>
+                    <ns1:CircularRegionCenterCoordinate>
+                        <ns1:GeographicCoordinateLatitude>
+                            <ns1:LatitudeDegreeValue>11</ns1:LatitudeDegreeValue>
+                            <ns1:LatitudeMinuteValue>17</ns1:LatitudeMinuteValue>
+                            <ns1:LatitudeSecondValue>59.00</ns1:LatitudeSecondValue>
+                        </ns1:GeographicCoordinateLatitude>
+                        <ns1:GeographicCoordinateLongitude>
+                            <ns1:LongitudeDegreeValue>-44</ns1:LongitudeDegreeValue>
+                            <ns1:LongitudeMinuteValue>17</ns1:LongitudeMinuteValue>
+                            <ns1:LongitudeSecondValue>59.00</ns1:LongitudeSecondValue>
+                        </ns1:GeographicCoordinateLongitude>
+                    </ns1:CircularRegionCenterCoordinate>
+                    <ns1:CircularRegionRadiusLengthMeasure>
+						      <ns1:MeasurePointValue>1.23</ns1:MeasurePointValue>
+						      <ns1:LengthUnitCode>SMI</ns1:LengthUnitCode>
+                    </ns1:CircularRegionRadiusLengthMeasure>
+                </ns1:AreaCircularRegion>
+            </ns1:LocationArea>
+        </ns1:IncidentLocation>
+        <ns1:IncidentJurisdictionalOrganization>
+            <ns1:OrganizationName>Organization Name</ns1:OrganizationName>
+        </ns1:IncidentJurisdictionalOrganization>
+		  <ns1:IncidentObservationText/>
+    </inc:Incident>
+</ims:UpdateIncidentRequest>

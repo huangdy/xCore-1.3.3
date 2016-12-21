@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ims:CreateIncidentRequest xmlns:as="http://uicds.org/AlertService"
+    xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:ims="http://uicds.org/IncidentManagementService"
+    xmlns:inc="http://uicds.org/incident" xmlns:nc="http://niem.gov/niem/niem-core/2.0"
+    xmlns:nga="http://niem.gov/niem/nga/2.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0"
+    xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0" xmlns:s="http://niem.gov/niem/structures/2.0"
+    xmlns:unece="http://niem.gov/niem/unece_rec20-misc/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/IncidentManagementService ../../../../oxm-xmlbeans/src/main/xsd/uicds/IMS.xsd ">
+    <nc:ActivityCategoryText>Met</nc:ActivityCategoryText>
+    <nc:ActivityDescriptionText>Coastal flooding between Shore Dr. and Inlet</nc:ActivityDescriptionText>
+    <nc:ActivityName>Coastal Flooding Four</nc:ActivityName>
+    <nc:IncidentJurisdictionalOrganization>
+        <nc:OrganizationName>VA Beach Jurisdiction</nc:OrganizationName>
+    </nc:IncidentJurisdictionalOrganization>
+    <nc:ActivityDateRepresentation xsi:type="xs:anySimpleType"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">2009-04-17T12:00:00</nc:ActivityDateRepresentation>
+    <nc:IncidentLocation>
+      <nc:LocationAddress>
+        <nc:AddressFullText>Shore Dr. to Inlet</nc:AddressFullText>
+      </nc:LocationAddress>
+      <nc:LocationArea>
+        <nc:AreaCircularRegion>
+          <nc:CircularRegionCenterCoordinate>
+            <nc:GeographicDatumCode xsi:nil="true"/>
+            <nc:GeographicCoordinateLatitude>
+              <nc:LatitudeDegreeValue>36</nc:LatitudeDegreeValue>
+              <nc:LatitudeMinuteValue>53</nc:LatitudeMinuteValue>
+              <nc:LatitudeSecondValue>8.34867599999541</nc:LatitudeSecondValue>
+            </nc:GeographicCoordinateLatitude>
+            <nc:GeographicCoordinateLongitude>
+              <nc:LongitudeDegreeValue>-76</nc:LongitudeDegreeValue>
+              <nc:LongitudeMinuteValue>9</nc:LongitudeMinuteValue>
+              <nc:LongitudeSecondValue>6.07982400002015</nc:LongitudeSecondValue>
+            </nc:GeographicCoordinateLongitude>
+          </nc:CircularRegionCenterCoordinate>
+          <nc:CircularRegionRadiusLengthMeasure>
+            <nc:LengthUnitCode>0.0</nc:LengthUnitCode>
+          </nc:CircularRegionRadiusLengthMeasure>
+        </nc:AreaCircularRegion>
+      </nc:LocationArea>
+    </nc:IncidentLocation>
+    <IncidentEvent>
+        <ActivityCategoryText>Safety</ActivityCategoryText>
+        <ActivityCategoryText>Met</ActivityCategoryText>
+        <ActivityDescriptionText>cause</ActivityDescriptionText>
+        <ActivityName>Flood</ActivityName>
+    </IncidentEvent>
+    <IncidentObservationText nc:id="91c12651-7567-4634-8473-30bdd6b05c00">Flooding at Norfolk, VA</IncidentObservationText>
+</ims:CreateIncidentRequest>

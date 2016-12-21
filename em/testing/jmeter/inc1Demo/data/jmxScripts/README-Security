@@ -1,0 +1,22 @@
+
+README - Security
+All tests run with security enabled (jetty or tomcat).
+
+If you want to run with  security disabled, here's how:
+1. In web.xml: you must comment out:
+- The <filter> stanza 
+- The <filter-mapping> stanza and 
+- The reference to applicationContext-security.xml 
+(see dist list email reference)
+2. In addition, I needed to remove/rename the applicationContext-security.xml file itself, 
+as it seemed to be used even though it was not referenced in web.xml. 
+(It seems as though that file as being appended otherwise.) 
+
+NOTE: I edited the files in this folder directly prior to deploying
+C:\workspace\core\war\src\main\webapp\WEB-INF
+
+Your mileage may vary.
+
+-Roberta
+mariettar@saic.com
+

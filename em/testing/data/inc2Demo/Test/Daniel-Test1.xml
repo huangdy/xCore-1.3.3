@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user:AddUserRequest xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:user="http://uicds.org/UserManagementService"
+    xmlns:prof="http://uicds.org/ProfileService">
+    <user:Profile>
+        <prof:ref>
+            <prof:id>daniel@uicds-test1.saic.com</prof:id>
+            <prof:name>Daniel</prof:name>
+        </prof:ref>
+        <prof:entityInfo>
+            <prof:personInfo>
+                <ns:PersonName xmlns:ns="http://niem.gov/niem/niem-core/2.0">
+                    <ns:PersonFullName>Daniel</ns:PersonFullName>
+                </ns:PersonName>
+            </prof:personInfo>
+        </prof:entityInfo>
+        <prof:interests>
+            <prof:interest>
+                <prof:TopicExpression>Incident</prof:TopicExpression>
+            </prof:interest>
+            <prof:interest>
+                <prof:TopicExpression>Alert</prof:TopicExpression>
+            </prof:interest>
+            <prof:interest>
+                <prof:TopicExpression>MapViewContext</prof:TopicExpression>
+            </prof:interest>
+            <prof:interest>
+                <prof:TopicExpression>ICS</prof:TopicExpression>
+            </prof:interest>
+            <prof:interest>
+                <prof:TopicExpression>MACS</prof:TopicExpression>
+            </prof:interest>
+            <prof:interest>
+                <prof:TopicExpression>Tasking</prof:TopicExpression>
+            </prof:interest>
+        </prof:interests>
+        <prof:roles>Rescue Team</prof:roles>
+    </user:Profile>
+</user:AddUserRequest>

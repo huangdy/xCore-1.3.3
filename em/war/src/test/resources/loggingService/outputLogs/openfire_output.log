@@ -1,0 +1,235 @@
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-13">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Wed Oct 27 12:44:04 EDT 2010]
+[Status:ERROR-ERROR]
+[Message=java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:253)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:185)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:239)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:216)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-13">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Wed Oct 27 13:23:48 EDT 2010]
+[Status:ERROR-ERROR]
+[Message=java.net.NoRouteToHostException: No route to host: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:253)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:144)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:239)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:216)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-13">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Wed Oct 27 13:23:48 EDT 2010]
+[Status:ERROR-ERROR]
+[Message=java.net.UnknownHostException: saic.com
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:253)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:185)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:239)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:216)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-13">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Wed Oct 27 15:09:15 EDT 2010]
+[Status:ERROR-ERROR]
+[Message=java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:253)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:144)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:239)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:216)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-13">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Wed Oct 27 15:59:15 EDT 2010]
+[Status:ERROR-ERROR]
+[Message=java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:253)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:144)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:239)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:216)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-13">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Wed Oct 27 17:59:15 EDT 2010]
+[Status:ERROR-ERROR]
+[Message=java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:253)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:144)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:239)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:216)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-13">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Wed Oct 27 19:59:15 EDT 2010]
+[Status:ERROR-ERROR]
+[Message=java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:253)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:144)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:239)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:216)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-13">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Thu Oct 28 01:00:15 EDT 2010]
+[Status:WARN-WARN]
+[Message=java.net.Connect: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:253)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:144)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:239)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:216)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-13">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Thu Oct 28 02:00:15 EDT 2010]
+[Status:WARN-WARN]
+[Message=java.net.Connect: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:253)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:144)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:239)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:216)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-13">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Thu Oct 28 03:00:15 EDT 2010]
+[Status:ERROR-ERROR]
+[Message=java.net.ConnectException: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:253)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:144)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:239)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:216)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-13">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Thu Oct 28 05:00:15 EDT 2010]
+[Status:WARN-WARN]
+[Message=java.net.Connect: Connection timed out: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.createOutgoingSession(LocalOutgoingServerSession.java:253)
+	at org.jivesoftware.openfire.session.LocalOutgoingServerSession.authenticateDomain(LocalOutgoingServerSession.java:144)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.sendPacket(OutgoingSessionPromise.java:239)
+	at org.jivesoftware.openfire.server.OutgoingSessionPromise$PacketsProcessor.run(OutgoingSessionPromise.java:216)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\openfire_output.log" timestamp="0" sequenceNumber="0" level="DEBUG" thread="Timer-1">
+<log4j:message><![CDATA[[Component=openfire]
+[Time=Thu Mar 24 00:40:04 EDT 2011]
+[Status:WARN-WARN]
+[Message=No Error/Warn event since 25000 milliseconds]]]></log4j:message>
+</log4j:event>
+

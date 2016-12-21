@@ -1,0 +1,7 @@
+<ics:AssociateOrganizationToICStructureRequest
+    xmlns:ics="http://uicds.org/IncidentCommandStructureService" xmlns:org="http://uicds.org/OrganizationElement"
+    xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/IncidentCommandStructureService ../../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/IncidentCommandStructure.xsd ">
+    <ics:orgID>a1e3e3d2-62b3-4840-872b-c552591ee607</ics:orgID>
+    <ics:icsID></ics:icsID>
+</ics:AssociateOrganizationToICStructureRequest>

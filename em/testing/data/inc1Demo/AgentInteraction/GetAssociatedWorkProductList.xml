@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp:GetAssociatedWorkProductListRequest xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0"
+    xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:wp="http://uicds.org/WorkProduct"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/WorkProduct ../../../../oxm-xmlbeans/src/main/xsd/uicds/WorkProduct.xsd ">52ba7836-5120-42d4-b5dc-714ec104adcb</wp:GetAssociatedWorkProductListRequest>

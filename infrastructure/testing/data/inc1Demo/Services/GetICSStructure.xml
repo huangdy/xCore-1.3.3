@@ -1,0 +1,5 @@
+<ics:GetICStructureRequest xmlns:ics="http://uicds.org/IncidentCommandStructureService" 
+xmlns:org="http://uicds.org/OrganizationElement" 
+xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://uicds.org/IncidentCommandStructureService ../../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/IncidentCommandStructure.xsd ">
+</ics:GetICStructureRequest>

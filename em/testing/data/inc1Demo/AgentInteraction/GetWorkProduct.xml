@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp:GetProductRequest xmlns:ulex="ulex:message:structure:1.0" xmlns:precisb="http://www.saic.com/precis/2009/06/base"
+    xmlns:preciss="http://www.saic.com/precis/2009/06/structures" xmlns:wp="http://uicds.org/WorkProductService">
+    <preciss:WorkProductIdentification>
+      <precisb:Identifier>MapViewContext-90762cd8-2330-488d-9bd6-146bcfdcc27a</precisb:Identifier>
+      <precisb:Version>1</precisb:Version>
+      <precisb:Type>MapViewContext</precisb:Type>
+      <precisb:Checksum>Tue Jul 28 17:12:53 EDT 2009:1:1:3895817901</precisb:Checksum>
+      <precisb:State>Active</precisb:State>
+    </preciss:WorkProductIdentification>
+</wp:GetProductRequest>

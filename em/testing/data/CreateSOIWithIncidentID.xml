@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:CreateSOIRequest xmlns:tns="http://uicds.org/SensorService" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/SensorService SensorService.xsd ">
+  <tns:incidentID>bad6cba677d-d2cd-4918-8d6e-17f799b875e0</tns:incidentID>
+  <tns:SensorObservationInfo>
+    <tns:sosURN>http://MySensorService.com/SOS</tns:sosURN>
+    <tns:SensorInfo>
+      <tns:id>SENSOR_01</tns:id>
+      <tns:name>Test Sensor 1</tns:name>
+      <tns:description>Test Sensor Number 1</tns:description>
+      <tns:latitude>15.0</tns:latitude>
+      <tns:longitude>30.0</tns:longitude>
+    </tns:SensorInfo>
+  </tns:SensorObservationInfo>
+</tns:CreateSOIRequest>
+

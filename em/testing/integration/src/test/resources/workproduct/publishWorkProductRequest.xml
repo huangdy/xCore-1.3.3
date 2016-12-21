@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:tns="http://servicemix.apache.org/samples/wsdl-first/types">
+	<env:Body>
+		<wp:PublishWorkProductRequest xmlns:wp="http://uicds.org/WorkProductService/">
+			<wp:type>Feature</wp:type>
+			<wp:product>
+			</wp:product>
+		</wp:PublishWorkProductRequest>
+	</env:Body>
+</env:Envelope>

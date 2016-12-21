@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.saic.uicds.core.infrastructure</groupId>
+        <artifactId>com.saic.uicds.core.infrastructure.testing</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>com.saic.uicds.core.infrastructure.testing.util</artifactId>
+    <packaging>jar</packaging>
+    <name>com.saic.uicds.core.infrastructure.testing.util</name>
+    <version>${infrastructure.version}</version>
+
+    <!-- define distribution management to make deploy plugin happy -->
+    <distributionManagement>
+        <snapshotRepository>
+            <id>UICDS</id>
+            <name>uicds</name>
+            <url>dav:https://svn-dctd.saic.com/repository</url>
+        </snapshotRepository>
+    </distributionManagement>
+        
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.ws</groupId>
+            <artifactId>spring-ws</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.ws</groupId>
+            <artifactId>spring-ws-support</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>${pom.groupId}</groupId>
+            <artifactId>com.saic.uicds.core.infrastructure.services</artifactId>
+            <version>${infrastructure.version}</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <resources>
+            <resource>
+                <directory>${basedir}/src/main/resources</directory>            
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.4.2</version>
+                <configuration>
+                    <!--
+						forkMode and MaxPermSize are set to overcome OutOfMemory
+						exceptions
+					-->
+                    <forkMode>once</forkMode>
+                    <argLine>-XX:MaxPermSize=128M</argLine>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jxr-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <configuration>
+                    <aggregate>true</aggregate>
+                    <excludePackageNames>com.saic.uicds.core.controller:com.saic.uicds.core.dao:com.saic.uicds.core.infrastructure:com.saic.uicds.core.interface:com.saic.uicds.core.listener:com.saic.uicds.core.service:com.saic.uicds.core.util:com.saic.uicds.core.messages:com.saic.uicds.core.processes:com.saic.uicds.ui:com.saic.uicds.xmpp</excludePackageNames>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>2.6.1</version>
+            </plugin>
+        </plugins>
+    </reporting>
+
+</project>

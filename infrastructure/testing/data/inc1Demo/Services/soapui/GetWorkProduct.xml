@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp:GetProductRequest xmlns:wp="http://uicds.org/WorkProduct"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/WorkProduct ../../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/WorkProduct.xsd ">${GetWPId#IncidentWPId}</wp:GetProductRequest>

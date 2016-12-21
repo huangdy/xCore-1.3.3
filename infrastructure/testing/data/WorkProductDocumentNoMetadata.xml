@@ -1,0 +1,34 @@
+<WorkProduct xmlns="http://www.saic.com/precis/2009/06/structures" xmlns:ulex="ulex:message:structure:1.0"
+    xmlns:ns="http://ucore.gov/ucore/2.0" xmlns:urn="urn:us:gov:ic:ism:v2" xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/"
+    xmlns:base="http://www.saic.com/precis/2009/06/base">
+    <ulex:PackageMetadata>
+        <ulex:DataItemID>dataItemId</ulex:DataItemID>
+        <ulex:DataItemReferenceID>dataItemReferenceId</ulex:DataItemReferenceID>
+        <ns:DataItemStatus ns:label="dataItemLabel" urn:classificationReason="Safe" />
+        <ulex:DataOwnerMetadata>
+            <ns:DataOwnerIdentifier>
+                <ns1:Organization>
+                    <ns1:name>Organization Two</ns1:name>
+                </ns1:Organization>
+            </ns:DataOwnerIdentifier>
+            <ns:DataOwnerContact>
+                <ns1:Organization>
+                    <ns1:name>Organization One</ns1:name>
+                </ns1:Organization>
+            </ns:DataOwnerContact>
+            <ulex:DataOwnerMetadataDomainAttribute>
+                <ulex:DomainName>Example Domain</ulex:DomainName>
+            </ulex:DataOwnerMetadataDomainAttribute>
+        </ulex:DataOwnerMetadata>
+        <ns:DisseminationCriteria />
+    </ulex:PackageMetadata>
+    <ulex:StructuredPayload>
+        <ulex:StructuredPayloadMetadata>
+            <ulex:CommunityURI>STUFF</ulex:CommunityURI>
+            <ulex:CommunityVersion>1</ulex:CommunityVersion>
+        </ulex:StructuredPayloadMetadata>
+        <Incident xmlns="http://uicds.org/incident" xmlns:ns="http://niem.gov/niem/niem-core/2.0">
+            <ns:ActivityName>Incident Name</ns:ActivityName>
+        </Incident>
+    </ulex:StructuredPayload>
+</WorkProduct>

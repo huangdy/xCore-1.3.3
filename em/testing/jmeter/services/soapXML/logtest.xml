@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://servicemix.apache.org/samples/wsdl-first/types">
+<env:Body>
+<log:LogRequest xmlns:log="http://uicds.org/LoggingMessage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/LoggingMessage ../core/oxm-xmlbeans/src/main/xsd/uicds/LoggingMessage.xsd ">
+  <log:logger>BrianClientApp</log:logger>
+  <log:timestamp>2001-12-31T12:00:00</log:timestamp>
+  <log:hostname>dev01</log:hostname>
+  <log:type>Fatal</log:type>
+  <log:message>This is the log message</log:message>
+</log:LogRequest>
+</env:Body>
+</env:Envelope>

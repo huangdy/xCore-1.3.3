@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreateAgreementRequest xmlns="http://uicds.org/AgreementService/">
+<Agreement>
+	<summary>Provides for the sharing of CBRNE incident data and mutual aid between all parties identified.</summary>
+	<Parties>
+		<entityID>CORE_ID_A</entityID>
+		<entityID>CORE_ID_B</entityID>
+	</Parties>
+	<Scope>
+		<coordinationActions>
+			<action>
+				<incidentType>urn:oasis:names:tc:emergency:cap:1.1/category:CBRNE</incidentType>
+				<actionType>uicds:shareIncident</actionType>
+			</action>
+		</coordinationActions>
+		<period>
+			<begin>2008-11-20</begin>
+			<end>2012-11-20</end>
+		</period>
+	</Scope>
+	<Contract>
+		<contractRef>http://someserver/contractAB.pdf</contractRef>
+	</Contract>
+</Agreement>
+</CreateAgreementRequest>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CloseIncidentRequest xmlns="http://uicds.org/IncidentManagementService">
+    <IncidentID>IG-688f01cc-c8a0-47ac-993d-8261e2203033</IncidentID>
+</CloseIncidentRequest>

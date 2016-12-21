@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:GetLayerRequest xmlns:m="http://uicds.org/MapService" xmlns:str="http://www.saic.com/precis/2009/06/structures"
+    xmlns:base="http://www.saic.com/precis/2009/06/base">
+    <str:WorkProductIdentification>
+        <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">LayerViewContext-c58ee4be-77bb-4c4c-b2c8-65186b74c6b7</base:Identifier>
+        <base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">1</base:Version>
+        <base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">LayerViewContext</base:Type>
+        <base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Thu Jul 29 13:17:52 EDT 2010:1:0:321756719</base:Checksum>
+        <base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State>
+    </str:WorkProductIdentification>
+</m:GetLayerRequest>

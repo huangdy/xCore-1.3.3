@@ -1,0 +1,66 @@
+<tns:CreateAlertRequest xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1"
+    xmlns:edxl-cap="http://niem.gov/niem/edxl-cap/2.0" xmlns:s="http://niem.gov/niem/structures/2.0"
+    xmlns:tns="http://uicds.org/AlertService" xmlns:tns1="http://uicds.org/StringList"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/AlertService ../../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/AlertService.xsd ">
+    <cap:alert>
+        <cap:identifier>Alert Three</cap:identifier>
+        <cap:sender>CAD@uicds-test2.saic.com</cap:sender>
+        <cap:sent>2001-12-31T12:00:00</cap:sent>
+        <cap:status>Actual</cap:status>
+        <cap:msgType>Alert</cap:msgType>
+        <cap:source>cap:source</cap:source>
+        <cap:scope>Public</cap:scope>
+        <cap:restriction>cap:restriction</cap:restriction>
+        <cap:addresses>Richmond, Virginia</cap:addresses>
+        <cap:code>cap:code</cap:code>
+        <cap:note>cap:note</cap:note>
+        <cap:references>cap:references</cap:references>
+        <cap:incidents>cap:incidents</cap:incidents>
+        <cap:info>
+            <cap:language>en-US</cap:language>
+            <cap:category>Transport</cap:category>
+            <cap:event>Event</cap:event>
+            <cap:responseType>Shelter</cap:responseType>
+            <cap:urgency>Immediate</cap:urgency>
+            <cap:severity>Extreme</cap:severity>
+            <cap:certainty>Observed</cap:certainty>
+            <cap:audience>cap:audience</cap:audience>
+            <cap:eventCode>
+                <cap:valueName>name</cap:valueName>
+                <cap:value>value</cap:value>
+            </cap:eventCode>
+            <cap:effective>2001-12-31T12:00:00</cap:effective>
+            <cap:onset>2001-12-31T12:00:00</cap:onset>
+            <cap:expires>2001-12-31T12:00:00</cap:expires>
+            <cap:senderName>Joe Smith</cap:senderName>
+            <cap:headline>Alert Three</cap:headline>
+            <cap:description>cap:description</cap:description>
+            <cap:instruction>cap:instruction</cap:instruction>
+            <cap:web>http://tempuri.org</cap:web>
+            <cap:contact>cap:contact</cap:contact>
+            <cap:parameter>
+                <cap:valueName>cap:valueName</cap:valueName>
+                <cap:value>cap:value</cap:value>
+            </cap:parameter>
+            <cap:resource>
+                <cap:resourceDesc>cap:resourceDesc</cap:resourceDesc>
+                <cap:mimeType>cap:mimeType</cap:mimeType>
+                <cap:size>0</cap:size>
+                <cap:uri>http://tempuri.org</cap:uri>
+                <cap:derefUri>cap:derefUri</cap:derefUri>
+                <cap:digest>cap:digest</cap:digest>
+            </cap:resource>
+            <cap:area>
+                <cap:areaDesc>cap:areaDesc</cap:areaDesc>
+                <cap:circle>37.32,-77.24 0</cap:circle>
+                <cap:geocode>
+                    <cap:valueName>cap:valueName</cap:valueName>
+                    <cap:value>cap:value</cap:value>
+                </cap:geocode>
+                <cap:altitude>cap:altitude</cap:altitude>
+                <cap:ceiling>cap:ceiling</cap:ceiling>
+            </cap:area>
+        </cap:info>
+    </cap:alert>
+</tns:CreateAlertRequest>

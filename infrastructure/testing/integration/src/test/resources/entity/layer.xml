@@ -1,0 +1,11 @@
+<Layer id="L-019f8c8-3cf5-46e3-b449-3a05d26c25c5" queryable="1" hidden="0" proxied="0" opacity="0.7" viewRefreshMode="never"
+    nameFormat="[LOCNAME]" xmlns="http://www.opengis.net/context"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <Server service="CSV" version="1000" title="fire_dept.csv">
+        <OnlineResource type="simple" xlink:href="file:///c:/Users/topher/workspace/us/ieoc/core/src/test/resources/fire_dept_ampersand.csv" />
+    </Server>
+    <Abstract>fire_dept.csv (fire_dept.csv)</Abstract>
+    <SRS>EPSG:4326</SRS>
+    <Name>Fire Dept.</Name>
+    <Title>Fire Dept.</Title>
+</Layer>

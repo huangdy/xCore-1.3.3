@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsn:GetMessagesRequest xmlns:wsn="http://uicds.org/NotificationService" xmlns:wsa="http://www.w3.org/2005/08/addressing" >
+   <wsn:MaximumNumber>1</wsn:MaximumNumber> 
+   <wsa:To>me@uicds-test3.saic.com</wsa:To>
+</wsn:GetMessagesRequest>

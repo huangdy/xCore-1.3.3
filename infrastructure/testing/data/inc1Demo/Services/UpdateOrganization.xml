@@ -1,0 +1,32 @@
+<ics:UpdateOrganizationRequest xmlns:ics="http://uicds.org/IncidentCommandStructureService"
+    xmlns:org="http://uicds.org/schemas/OrganizationElement" xmlns:s="http://niem.gov/niem/structures/2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/IncidentCommandStructureService ../../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/IncidentCommandStructure.xsd ">
+    <ics:organization>
+        <org:organizationName>Incident Command</org:organizationName>
+        <org:organizationType>Incident Command</org:organizationType>
+        <org:personInCharge>
+            <org:roleProfileRef>Incident Commander</org:roleProfileRef>
+            <org:personProfileRef>IncidentCommander@core1.saic.com
+            </org:personProfileRef>
+        </org:personInCharge>
+        <org:organization>
+            <org:organizationName>Operations</org:organizationName>
+            <org:organizationType>Section</org:organizationType>
+            <org:personInCharge>
+                <org:roleProfileRef>Operations Chief</org:roleProfileRef>
+                <org:personProfileRef>OpsChief@core1.saic.com
+                </org:personProfileRef>
+            </org:personInCharge>
+            <org:organization>
+                <org:organizationName>HAZMAT</org:organizationName>
+                <org:organizationType>Group</org:organizationType>
+                <org:personInCharge>
+                    <org:roleProfileRef>HAZMAT Group Supervisor</org:roleProfileRef>
+                    <org:personProfileRef>EOCHAZMAT@core1.saic.com
+                    </org:personProfileRef>
+                </org:personInCharge>
+            </org:organization>
+        </org:organization>
+    </ics:organization>
+</ics:UpdateOrganizationRequest>

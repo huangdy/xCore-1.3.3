@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:PostDetailedCFSMessageRequest xmlns:tns="http://uicds.org/LEITSCService" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/LEITSCService LEITSCService.xsd ">
+</tns:PostDetailedCFSMessageRequest>
+

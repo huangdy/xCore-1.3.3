@@ -1,0 +1,45 @@
+<Digest xmlns="http://ucore.gov/ucore/2.0" xmlns:ucoregml="http://www.opengis.net/gml/3.2" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:inc="http://uicds.org/incident" xmlns:ddms="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:geo-oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ulex="ulex:message:structure:1.0" xmlns:ns2="http://niem.gov/niem/niem-core/2.0" xmlns:base="http://www.saic.com/precis/2009/06/base">
+  <Organization id="Organization-w1aab1a">
+    <What ucore:code="Organization" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+    <Name>
+      <Value>MPD</Value>
+    </Name>
+  </Organization>
+  <Event id="Event-w1aab1a">
+    <Descriptor>SPECIAL ADDRESS COMMENT: RECEIVING HOME FOR CHILDREN PSPD WILL BE MONITORING THIS LOCATION AND ARE     			AVAILABLE FOR DISPATCH 24/7 :OFFICER DAVIS :ECHO was not selected from Case Entry. :The caller is requesting			 transport. :This is a transport of a person. :The person is cooperative. :The paperwork is ready. :Special equipment is not 		needed. :The collection point is: :^C3 LOC :The contact information at the collection point is: :^C3 OFFICER DAVIS :The 			destination is: :^C3 COURT :The contact information at the destination is: :^C3 XXX 1 MALE JUVENILE TO COURT 				Response text: Bravo DC DISTRICT OF COLUMBIA GOVERNM ** LOI search completed at 07/07/11 13:08:36 ** LOI			 search completed at 07/07/11 13:47:28 ** LOI search completed at 07/07/11 4:15:46</Descriptor>
+    <Identifier ucore:codespace="http://niem.gov/niem/niem-core/2.0" ucore:code="ActivityName" ucore:label="ID">TRANSPORT PRISONER - RECEIVING HOME FOR CHILDREN</Identifier>
+    <Identifier ucore:codespace="http://uicds.us/identifier" ucore:code="Label" ucore:label="Label">TRANSPORT PRISO...</Identifier>
+    <SimpleProperty ucore:label="Icon" ucore:code="icon" ucore:codespace="http://uicds.us/style"/>
+    <SimpleProperty ucore:label="Color" ucore:code="color" ucore:codespace="http://uicds.us/style"/>
+    <SimpleProperty ucore:label="Scalar" ucore:code="scalar" ucore:codespace="http://uicds.us/style"/>
+    <What ucore:code="TRANSPORT PRISONER" ucore:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+  </Event>
+  <Location id="Location-w1aab1a">
+    <GeoLocation>
+      <CircleByCenterPoint>
+        <ucoregml:CircleByCenterPoint numArc="1">
+          <ucoregml:pos srsName="EPSG:4326">38.91, -76.99</ucoregml:pos>
+          <ucoregml:radius uom="SMI">0.0</ucoregml:radius>
+        </ucoregml:CircleByCenterPoint>
+      </CircleByCenterPoint>
+    </GeoLocation>
+    <PhysicalAddress>
+      <ddms:postalAddress>
+        <ddms:street/>
+        <ddms:city/>
+        <ddms:state/>
+        <ddms:postalCode/>
+        <ddms:countryCode ddms:value="" ddms:qualifier="ISO 3166-1"/>
+      </ddms:postalAddress>
+    </PhysicalAddress>
+  </Location>
+  <OccursAt id="OccursAt-w1aab1a">
+    <Time>
+      <TimeInstant>
+        <Value>2011-12-23T14:11:57.25-05:00</Value>
+      </TimeInstant>
+    </Time>
+    <EventRef ref="Event-w1aab1a"/>
+    <LocationRef ref="Location-w1aab1a"/>
+  </OccursAt>
+</Digest>

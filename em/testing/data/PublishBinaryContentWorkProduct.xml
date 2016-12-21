@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp:PublishProductRequest xmlns:precisb="http://www.saic.com/precis/2009/06/base"
+    xmlns:preciss="http://www.saic.com/precis/2009/06/structures" xmlns:ulex="ulex:message:structure:1.0"
+    xmlns:ulexcodes="ulex:message:codes:1.0" xmlns:ulexlib="ulex:message:library:1.0" xmlns:wp="http://uicds.org/WorkProductService">
+    <preciss:WorkProduct>
+        <ulex:PackageMetadata>
+            <ulex:DataItemID>ulex:DataItemID</ulex:DataItemID>
+            <ulex:DataItemReferenceID>ulex:DataItemReferenceID</ulex:DataItemReferenceID>
+            <ulex:DataItemStatusAbstract />
+            <ulex:DataOwnerMetadata>
+                <ulex:DataOwnerIdentifierAbstract />
+                <ulex:DataOwnerContactAbstract />
+            </ulex:DataOwnerMetadata>
+            <ulex:DisseminationCriteriaAbstract />
+        </ulex:PackageMetadata>
+        <ulex:StructuredPayload xmlns:ulex="ulex:message:structure:1.0">
+            <ulex:StructuredPayloadMetadata>
+                <ulex:CommunityURI>application/shp</ulex:CommunityURI>
+                <ulex:CommunityVersion>1.0</ulex:CommunityVersion>
+            </ulex:StructuredPayloadMetadata>
+            <bin:BinaryContent base:mimetype="application/zip"
+                xmlns:bin="http://www.saic.com/precis/2009/06/payloads/binary" xmlns:base="http://www.saic.com/precis/2009/06/base">UEsDBB</bin:BinaryContent>
+        </ulex:StructuredPayload>
+    </preciss:WorkProduct>
+</wp:PublishProductRequest>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsc:RequestResourceReq xmlns:gml="http://www.opengis.net/gml"
+    xmlns:oasis="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0:geo-oasis" xmlns:p="urn:oasis:names:tc:emergency:EDXL:RM:1.0"
+    xmlns:p1="urn:oasis:names:tc:ciq:xpil:3" xmlns:p2="urn:oasis:names:tc:ciq:xnl:3" xmlns:p3="urn:oasis:names:tc:ciq:ct:3"
+    xmlns:p4="urn:oasis:names:tc:ciq:xal:3" xmlns:p5="urn:oasis:names:tc:emergency:EDXL:DE:1.0"
+    xmlns:rmsg="urn:oasis:names:tc:emergency:EDXL:RM:1.0:msg" xmlns:rsc="http://uicds.org/ResourceService/"
+    xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:smil20="http://www.w3.org/2001/SMIL20/"
+    xmlns:smil20lang="http://www.w3.org/2001/SMIL20/Language" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xlink1="http://www.w3.org/1999/xlink1" xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/ResourceService/ ../../../../oxm-xmlbeans/src/main/xsd/uicds/Resource.xsd ">
+    <rmsg:RequestResource>
+        <rmsg:MessageID>rmsg:MessageID</rmsg:MessageID>
+        <rmsg:SentDateTime>2001-12-31T12:00:00</rmsg:SentDateTime>
+        <rmsg:MessageContentType>rmsg:MessageContentType</rmsg:MessageContentType>
+        <rmsg:OriginatingMessageID>rmsg:OriginatingMessageID</rmsg:OriginatingMessageID>
+        <rmsg:IncidentInformation>
+            41fa7389-f063-4ad0-b935-c5262b616ca3
+        </rmsg:IncidentInformation>
+        <rmsg:ContactInformation />
+        <rmsg:ResourceInformation>
+            <rmsg:ResourceInfoElementID>rmsg:ResourceInfoElementID</rmsg:ResourceInfoElementID>
+            <rmsg:Resource />
+        </rmsg:ResourceInformation>
+    </rmsg:RequestResource>
+</rsc:RequestResourceReq>

@@ -1,0 +1,21 @@
+<log4j:event logger="C:\0Project-Dev\Project0\maven.1318439799046\core\infrastructure\testing\integration\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-24">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Tue Oct 18 08:02:38 PDT 2011]
+[Status:NORMAL-NORMAL]
+[Message=Initializing DatabaseManager]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\0Project-Dev\Project0\maven.1318439799046\core\infrastructure\testing\integration\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-24">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Tue Oct 18 08:02:47 PDT 2011]
+[Status:NORMAL-NORMAL]
+[Message=Instantiating RosterManger]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\0Project-Dev\Project0\maven.1318439799046\core\infrastructure\testing\integration\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="DEBUG" thread="Timer-19">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Tue Oct 18 07:54:53 PDT 2011]
+[Status:NORMAL-NORMAL]
+[Message=No Event since 25000 milliseconds (No rule matched the last Event)]]]></log4j:message>
+</log4j:event>
+

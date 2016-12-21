@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<m:GetMapsRequest xmlns:context="http://www.opengis.net/context" xmlns:m="http://uicds.org/MapService"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/MapService ../../xmlbeans-em/src/main/xsd/services/Map/0.1/MapService.xsd ">
+    <m:IncidentId>IG-6d56d0ee-94a7-4020-931a-e88838f1933d</m:IncidentId>
+</m:GetMapsRequest>

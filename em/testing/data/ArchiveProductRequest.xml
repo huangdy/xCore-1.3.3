@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp:ArchiveProductRequest xmlns:base="http://www.saic.com/precis/2009/06/base"
+    xmlns:str="http://www.saic.com/precis/2009/06/structures" xmlns:wp="http://uicds.org/WorkProductService">
+        <str:WorkProductIdentification>
+          <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">ICS-ab0cd906-7eb7-414b-8979-6f5e1921b361</base:Identifier>
+          <base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">1</base:Version>
+          <base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">ICS</base:Type>
+          <base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Sun Oct 11 12:28:47 EDT 2009:1:0:2176800159</base:Checksum>
+          <base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State>
+        </str:WorkProductIdentification>
+</wp:ArchiveProductRequest>

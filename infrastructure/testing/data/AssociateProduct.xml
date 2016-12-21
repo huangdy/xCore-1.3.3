@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssociateWorkProductToInterestGroupRequest xmlns="http://uicds.org/WorkProductService">
+    <WorkProductID>Alert-829487cf-acd9-495b-bdab-90f490f120c2</WorkProductID>
+    <IncidentID>IG-0799e31f-a32c-48fb-b937-be0c1fef0a4e</IncidentID>
+</AssociateWorkProductToInterestGroupRequest>

@@ -1,0 +1,34 @@
+<ics:UpdateOrganizationRequest xmlns:ics="http://uicds.org/IncidentCommandStructureService"
+    xmlns:org="http://uicds.org/OrganizationElement" xmlns:s="http://niem.gov/niem/structures/2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/IncidentCommandStructureService ../../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/IncidentCommandStructure.xsd ">
+    <ics:organization s:id="94f50aea-f03f-4804-ad54-fc17a30c7146">
+        <org:organizationName>Flood ICS</org:organizationName>
+        <org:organizationType>ICS</org:organizationType>
+        <org:personInCharge xmlns:org="http://uicds.org/OrganizationElement">
+            <org:roleProfileRef>Incident Commander</org:roleProfileRef>
+            <org:personProfileRef>
+            </org:personProfileRef>
+        </org:personInCharge>
+        <org:organization>
+            <org:organizationName>Operations</org:organizationName>
+            <org:organizationType>Section</org:organizationType>
+            <org:personInCharge>
+                <org:roleProfileRef>Operations Chief</org:roleProfileRef>
+                <org:personProfileRef>
+                </org:personProfileRef>
+            </org:personInCharge>
+            <org:staff>
+                <org:roleProfileRef>RescueBoat</org:roleProfileRef>
+                <org:personProfileRef>
+                </org:personProfileRef>
+            </org:staff>
+            <org:staff>
+                <org:roleProfileRef>Rescue Team</org:roleProfileRef>
+                <org:personProfileRef>
+                </org:personProfileRef>
+            </org:staff>
+        </org:organization>
+    </ics:organization>
+    <ics:incidentID>4c84f558-18c7-4cf7-a9aa-1701c0e5e2df</ics:incidentID>
+</ics:UpdateOrganizationRequest>

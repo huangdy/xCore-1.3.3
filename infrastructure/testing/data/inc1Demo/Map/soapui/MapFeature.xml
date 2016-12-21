@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp:PublishProductRequest xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0"
+    xmlns:s="http://niem.gov/niem/structures/2.0" 
+    xmlns:wp="http://uicds.org/WorkProduct"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:atom="http://www.w3.org/2005/Atom" 
+    xmlns:geor="http://www.georss.org/georss" 
+    xmlns:gml="http://www.opengis.net/gml">
+    <p:EDXLDistribution>
+        <p:contentObject>                
+            <p:contentKeyword>
+                <p:valueListUrn>workproduct.type</p:valueListUrn>
+                <p:value>Feature</p:value>
+            </p:contentKeyword>
+          <p:incidentID>incidentId</p:incidentID>         
+            <p:xmlContent>
+                <p:embeddedXMLContent>
+                    <atom:entry>
+                        <atom:title>title</atom:title>
+                        <atom:id>1</atom:id>
+                        <atom:author />
+                        <atom:updated>2005-07-15T12:00:00GMT</atom:updated>
+                        <atom:summary>summary</atom:summary>
+                        <atom:content src="feature.kml" type="application/vnd.google-earth.kml+xml" />
+                        <geor:where>
+                            <gml:Point>
+                                <gml:pos>55.0 77.0</gml:pos>
+                            </gml:Point>
+                        </geor:where>
+                    </atom:entry>
+                </p:embeddedXMLContent>
+            </p:xmlContent>
+        </p:contentObject>
+ 
+    </p:EDXLDistribution>
+</wp:PublishProductRequest>

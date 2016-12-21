@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ims:UpdateIncidentRequest ns:id="Incident-f6388852-e94a-4248-9386-c50a335cf8e9" xmlns:ims="http://uicds.org/IncidentManagementService" xmlns:inc="http://uicds.org/incident" xmlns:ns="http://niem.gov/niem/structures/2.0" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <nc:ActivityIdentification>
+    <nc:IdentificationID>fee60fed-0fa5-4825-b5d2-f4b4d95c3dbc</nc:IdentificationID>
+  </nc:ActivityIdentification>
+  <nc:ActivityCategoryText>CBRNE</nc:ActivityCategoryText>
+  <nc:ActivityDescriptionText>Accident involving a truck and several cars</nc:ActivityDescriptionText>
+  <nc:ActivityName>Traffic Accident</nc:ActivityName>
+  <nc:IncidentJurisdictionalOrganization>
+    <nc:OrganizationName>Name of Lead Organization</nc:OrganizationName>
+  </nc:IncidentJurisdictionalOrganization>
+  <nc:ActivityDateRepresentation xsi:type="xs:anySimpleType">2009-04-17T12:00:00</nc:ActivityDateRepresentation>
+  <nc:IncidentLocation>
+    <nc:LocationAddress>
+      <nc:AddressFullText>95 South Exit 74A</nc:AddressFullText>
+    </nc:LocationAddress>
+    <nc:LocationArea>
+      <nc:AreaCircularRegion>
+        <nc:CircularRegionCenterCoordinate>
+          <nc:LocationTwoDimensionalGeographicCoordinate>
+            <nc:GeographicCoordinateLatitude>
+              <nc:LatitudeDegreeValue>37</nc:LatitudeDegreeValue>
+              <nc:LatitudeMinuteValue>32</nc:LatitudeMinuteValue>
+              <nc:LatitudeSecondValue>0.61</nc:LatitudeSecondValue>
+            </nc:GeographicCoordinateLatitude>
+            <nc:GeographicCoordinateLongitude>
+              <nc:LongitudeDegreeValue>77</nc:LongitudeDegreeValue>
+              <nc:LongitudeMinuteValue>25</nc:LongitudeMinuteValue>
+              <nc:LongitudeSecondValue>48.45</nc:LongitudeSecondValue>
+            </nc:GeographicCoordinateLongitude>
+          </nc:LocationTwoDimensionalGeographicCoordinate>
+        </nc:CircularRegionCenterCoordinate>
+        <nc:CircularRegionRadiusLengthMeasure>
+          <nc:LengthUnitCode>0.0</nc:LengthUnitCode>
+        </nc:CircularRegionRadiusLengthMeasure>
+      </nc:AreaCircularRegion>
+    </nc:LocationArea>
+  </nc:IncidentLocation>
+  <inc:owningCore>clash</inc:owningCore>
+</ims:UpdateIncidentRequest>

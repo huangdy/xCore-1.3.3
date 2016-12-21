@@ -1,0 +1,17 @@
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+
+              xmlns:wsa="http://www.w3.org/2005/08/addressing">
+
+<env:Body>
+
+ <wsn:GetMessages xmlns:wsn="http://docs.oasis-open.org/wsn/b-2">
+
+  <wsn:MaximumNumber>1</wsn:MaximumNumber>
+
+  <wsa:To>http://localhost:8080/uicds/ws/joe@core1.saic.com</wsa:To>
+
+ </wsn:GetMessages>
+
+</env:Body>
+
+</env:Envelope>

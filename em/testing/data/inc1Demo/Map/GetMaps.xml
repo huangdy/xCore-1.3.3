@@ -1,0 +1,5 @@
+<m:GetMapsRequest xmlns:m="http://uicds.org/MapService" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://uicds.org/MapService ../../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/MapService.xsd ">
+  <m:incidentId>m:incidentId</m:incidentId>
+</m:GetMapsRequest>

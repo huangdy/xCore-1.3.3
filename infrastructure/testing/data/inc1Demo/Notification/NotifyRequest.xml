@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:NotifyRequest xmlns:ns="http://uicds.org/NotificationService"
+    xmlns:p="http://docs.oasis-open.org/wsn/b-2" xmlns:tns="http://www.w3.org/2005/08/addressing"
+    xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsrf-rl="http://docs.oasis-open.org/wsrf/rl-2"
+    xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:xml="http://www.w3.org/XML/1998/namespace"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/NotificationService ../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/NotificationService.xsd ">
+    <ns:NotificationMessage>
+        <p:Message>
+            New Notify Message
+        </p:Message>
+    </ns:NotificationMessage>
+    <tns:To>IncidentCommander@core1.saic.com</tns:To>
+</ns:NotifyRequest>

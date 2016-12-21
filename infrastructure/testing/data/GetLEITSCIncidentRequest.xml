@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:GetLEITSCIncidentRequest xmlns:tns="http://uicds.org/LEITSCService" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/LEITSCService LEITSCService.xsd ">
+  <tns:leitscIncidentID>CAD_ABC_123</tns:leitscIncidentID>
+</tns:GetLEITSCIncidentRequest>
+

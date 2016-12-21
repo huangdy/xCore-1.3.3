@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:CreateAlertRequest xmlns:as="http://uicds.org/AlertService"
+    xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0"
+    xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/AlertService ../../../../../oxm-xmlbeans/src/main/xsd/uicds/AlertService.xsd ">
+    <cap:alert>
+        <cap:identifier>UICDS-Demo HAZMAT Traffic Accident</cap:identifier>
+        <cap:sender>IncidentCommander@uicds-test3</cap:sender>
+        <cap:sent>2009-04-20T20:45:11.640-04:00</cap:sent>
+        <cap:status>Actual</cap:status>
+        <cap:msgType>Alert</cap:msgType>
+        <cap:scope>Public</cap:scope>
+        <cap:addresses>95 South Exit 74A</cap:addresses>
+        <cap:info>
+            <cap:category>CBRNE</cap:category>
+            <cap:event>Traffic accident involving a chlorine tanker truck</cap:event>
+            <cap:urgency>Expected</cap:urgency>
+            <cap:severity>Moderate</cap:severity>
+            <cap:certainty>Observed</cap:certainty>
+            <cap:senderName>Incident Commander</cap:senderName>
+            <cap:headline>Chlorine tanker truck accident</cap:headline>
+            <cap:area>
+                <cap:areaDesc>Point where truck reported unexpected stop</cap:areaDesc>
+                <cap:circle>38.9555590,-77.193577 0</cap:circle>
+            </cap:area>
+        </cap:info>
+    </cap:alert>
+</as:CreateAlertRequest>

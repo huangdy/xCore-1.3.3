@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dir:GetCoreListRequest xmlns:cc="http://uicds.org/CoreConfig" xmlns:dir="http://uicds.org/DirectoryService" xmlns:dsd="http://uicds.org/DirectoryServiceData" xmlns:edsc="http://uicds.org/ExternalDataSourceConfig" xmlns:etc="http://uicds.org/ExternalToolConfig" xmlns:ims="http://uicds.org/IncidentManagementService" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:sc="http://uicds.org/ServiceConfig" xmlns:sc1="http://uicds.org/SOSConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/DirectoryService DirectoryService.xsd ">
+</dir:GetCoreListRequest>
+

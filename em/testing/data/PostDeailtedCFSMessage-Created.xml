@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:PostDetailedCFSMessageRequest xmlns:tns="http://uicds.org/LEITSCService" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/LEITSCService LEITSCService.xsd ">
+<DetailedCFSInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://leitsc-lib/2.0/doc/DetailedCFSInformation">
+  <Payload xmlns="http://leitsc-lib/2.0">
+    <ServiceCall>
+      <ActivityIdentification xsi:nil="true" xmlns="http://niem.gov/niem/niem-core/2.0">CAD_ABC_123</ActivityIdentification>
+      <ActivityDescriptionText xmlns="http://niem.gov/niem/niem-core/2.0">This is an examplesLEIT message for a CREATED incident</ActivityDescriptionText>
+      <ActivityStatus xmlns="http://niem.gov/niem/niem-core/2.0">
+        <StatusText>CREATED</StatusText>
+      </ActivityStatus>
+      <ServiceCallMechanismText xmlns="http://niem.gov/niem/domains/jxdm/4.0">911</ServiceCallMechanismText>
+      <ServiceCallAugmentation>
+        <ServiceCallArrivedDate>
+          <DateTime xmlns="http://niem.gov/niem/niem-core/2.0">2007-08-09T18:11:05</DateTime>
+        </ServiceCallArrivedDate>
+        <CallTypeText>1050PI</CallTypeText>
+        <Comment>
+          <CommentText xmlns="http://niem.gov/niem/niem-core/2.0">COMMENTS</CommentText>
+        </Comment>
+        <InternalAgencyCFSNumber>
+          <IdentificationID xmlns="http://niem.gov/niem/niem-core/2.0">F090000128</IdentificationID>
+        </InternalAgencyCFSNumber>
+      </ServiceCallAugmentation>
+      <ServiceCallResponseLocation>
+        <LocationTwoDimensionalGeographicCoordinate xmlns="http://niem.gov/niem/niem-core/2.0">
+          <GeographicCoordinateLatitude>
+            <LatitudeDegreeValue>76.244332</LatitudeDegreeValue>
+          </GeographicCoordinateLatitude>
+          <GeographicCoordinateLongitude>
+            <LongitudeDegreeValue>36.717624</LongitudeDegreeValue>
+          </GeographicCoordinateLongitude>
+        </LocationTwoDimensionalGeographicCoordinate>
+      </ServiceCallResponseLocation>
+    </ServiceCall>
+    <ServiceCallOriginator>
+      <PersonName xmlns="http://niem.gov/niem/niem-core/2.0">
+        <PersonFullName>MICHAEL JACKSON</PersonFullName>
+      </PersonName>
+      <ServiceCallOriginatorAugmentation />
+    </ServiceCallOriginator>
+    <Location>
+      <LocationAddress xmlns="http://niem.gov/niem/niem-core/2.0">
+        <StructuredAddress>
+          <LocationCityName>SF</LocationCityName>
+        </StructuredAddress>
+        <AddressFullText>1000 JONES ST</AddressFullText>
+      </LocationAddress>
+    </Location>
+    <ServiceCallAssignedUnit>
+      <OrganizationIdentification xmlns="http://niem.gov/niem/niem-core/2.0">
+        <IdentificationID>E3</IdentificationID>
+      </OrganizationIdentification>
+      <ServiceCallAssignedUnitAugmentation>
+        <UnitNotifiedByDispatch>
+          <StatusDate xmlns="http://niem.gov/niem/niem-core/2.0">
+            <DateTime>2007-08-09T18:10:49</DateTime>
+          </StatusDate>
+        </UnitNotifiedByDispatch>
+        <UnitBackInService>
+          <StatusDate xmlns="http://niem.gov/niem/niem-core/2.0">
+            <DateTime>2007-08-09T18:10:55</DateTime>
+          </StatusDate>
+        </UnitBackInService>
+      </ServiceCallAssignedUnitAugmentation>
+    </ServiceCallAssignedUnit>
+    <DataOwnerMetadata>
+      <OrganizationIdentification xmlns="http://niem.gov/niem/niem-core/2.0">
+        <IdentificationID>FD</IdentificationID>
+        <IdentificationCategoryDescriptionText>F</IdentificationCategoryDescriptionText>
+      </OrganizationIdentification>
+    </DataOwnerMetadata>
+  </Payload>
+  <ExchangeMetadata xmlns="http://leitsc-lib/2.0/RequestForResource">
+    <TransactionMetadata>
+      <MetadataAugmentation>
+        <TerminalID>
+          <IdentificationID xmlns="http://niem.gov/niem/niem-core/2.0">gcrider</IdentificationID>
+        </TerminalID>
+        <SubmissionDateTime>
+          <DateTime xmlns="http://niem.gov/niem/niem-core/2.0">2009-10-19T12:26:21.6875-04:00</DateTime>
+        </SubmissionDateTime>
+        <MessageSequenceNumber>
+          <IdentificationID xmlns="http://niem.gov/niem/niem-core/2.0">1250698838968</IdentificationID>
+        </MessageSequenceNumber>
+      </MetadataAugmentation>
+    </TransactionMetadata>
+    <DataSubmitterMetadata>
+      <OrganizationIdentification xmlns="http://niem.gov/niem/niem-core/2.0">
+        <IdentificationID>SFCAD</IdentificationID>
+      </OrganizationIdentification>
+      <OrganizationName xmlns="http://niem.gov/niem/niem-core/2.0">San Francisco</OrganizationName>
+    </DataSubmitterMetadata>
+  </ExchangeMetadata>
+</DetailedCFSInformation>
+</tns:PostDetailedCFSMessageRequest>
+

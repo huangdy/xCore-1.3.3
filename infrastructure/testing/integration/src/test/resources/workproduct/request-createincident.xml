@@ -1,0 +1,51 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Header />
+	<soapenv:Body>
+		<ims:CreateIncidentRequest
+			xmlns:as="http://uicds.org/AlertService" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1"
+			xmlns:ims="http://uicds.org/IMS" xmlns:inc="http://uicds.org/incident"
+			xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:nga="http://niem.gov/niem/nga/2.0"
+			xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0"
+			xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:unece="http://niem.gov/niem/unece_rec20-misc/2.0"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://uicds.org/IMS ../../../../oxm-xmlbeans/src/main/xsd/uicds/IMS.xsd ">
+			<nc:ActivityCategoryText>Transport</nc:ActivityCategoryText>
+			<nc:ActivityDescriptionText>Accident involving a truck and
+				several cars</nc:ActivityDescriptionText>
+			<nc:ActivityName>Traffic Accident</nc:ActivityName>
+			<nc:IncidentJurisdictionalOrganization>
+				<nc:OrganizationName>Name of Lead Organization
+				</nc:OrganizationName>
+			</nc:IncidentJurisdictionalOrganization>
+			<nc:ActivityDateRepresentation
+				xsi:type="xs:anySimpleType" xmlns:xs="http://www.w3.org/2001/XMLSchema">2009-04-17T12:00:00
+			</nc:ActivityDateRepresentation>
+			<nc:IncidentLocation>
+				<nc:LocationAddress>
+					<nc:AddressFullText>95 South Exit 74A</nc:AddressFullText>
+				</nc:LocationAddress>
+				<nc:LocationArea>
+					<nc:AreaCircularRegion>
+						<nc:CircularRegionCenterCoordinate>
+							<nc:LocationTwoDimensionalGeographicCoordinate>
+								<nc:GeographicCoordinateLatitude>
+									<nc:LatitudeDegreeValue>37</nc:LatitudeDegreeValue>
+									<nc:LatitudeMinuteValue>32</nc:LatitudeMinuteValue>
+									<nc:LatitudeSecondValue>0.61</nc:LatitudeSecondValue>
+								</nc:GeographicCoordinateLatitude>
+								<nc:GeographicCoordinateLongitude>
+									<nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+									<nc:LongitudeMinuteValue>25</nc:LongitudeMinuteValue>
+									<nc:LongitudeSecondValue>48.45</nc:LongitudeSecondValue>
+								</nc:GeographicCoordinateLongitude>
+							</nc:LocationTwoDimensionalGeographicCoordinate>
+						</nc:CircularRegionCenterCoordinate>
+						<nc:CircularRegionRadiusLengthMeasure>
+							<nc:LengthUnitCode>0.0</nc:LengthUnitCode>
+						</nc:CircularRegionRadiusLengthMeasure>
+					</nc:AreaCircularRegion>
+				</nc:LocationArea>
+			</nc:IncidentLocation>
+		</ims:CreateIncidentRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

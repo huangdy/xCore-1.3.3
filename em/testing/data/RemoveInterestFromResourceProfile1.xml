@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rps:RemoveInterestRequest xmlns:p="http://docs.oasis-open.org/wsn/b-2" xmlns:precisb="http://www.saic.com/precis/2009/06/base" xmlns:rps="http://uicds.org/ResourceProfileService" xmlns:tns="http://www.w3.org/2005/08/addressing" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsrf-rl="http://docs.oasis-open.org/wsrf/rl-2" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/ResourceProfileService ../../../../com.saic.uicds.core.xmlbeans-infrastructure/src/main/xsd/services/ResourceProfile/0.1/ResourceProfileService.xsd ">
+  <rps:ID>planner@core1.saic.com</rps:ID>
+  <rps:Interest>
+    <rps:TopicExpression>Alert</rps:TopicExpression>
+  </rps:Interest>
+</rps:RemoveInterestRequest>

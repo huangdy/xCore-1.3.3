@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ims:CreateIncidentFromCapRequest xmlns:as="http://uicds.org/AlertService"
+    xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:ims="http://uicds.org/IncidentManagementService" xmlns:inc="http://uicds.org/incident"
+    xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:nga="http://niem.gov/niem/nga/2.0"
+    xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0"
+    xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:unece="http://niem.gov/niem/unece_rec20-misc/2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/IncidentManagementService ../../../../xmlbeans-domain/src/main/xsd/services/IncidentManagement/0.1/IMS.xsd ">
+    <cap:alert>
+        <cap:identifier>Incident From CAP One</cap:identifier>
+        <cap:sender>CAD@core1.saic.com</cap:sender>
+        <cap:sent>2001-12-31T12:00:00</cap:sent>
+        <cap:status>Actual</cap:status>
+        <cap:msgType>Alert</cap:msgType>
+        <cap:source>cap:source</cap:source>
+        <cap:scope>Public</cap:scope>
+        <cap:restriction>cap:restriction</cap:restriction>
+        <cap:addresses>Mile Marker 138</cap:addresses>
+        <cap:code>cap:code</cap:code>
+        <cap:note>cap:note</cap:note>
+        <cap:references>cap:references</cap:references>
+        <cap:incidents>cap:incidents</cap:incidents>
+        <cap:info>
+            <cap:language>en-US</cap:language>
+            <cap:category>CBRNE</cap:category>
+            <cap:event>cap:event</cap:event>
+            <cap:responseType>Shelter</cap:responseType>
+            <cap:urgency>Immediate</cap:urgency>
+            <cap:severity>Extreme</cap:severity>
+            <cap:certainty>Observed</cap:certainty>
+            <cap:audience>cap:audience</cap:audience>
+            <cap:eventCode>
+                <cap:valueName>name</cap:valueName>
+                <cap:value>value</cap:value>
+            </cap:eventCode>
+            <cap:effective>2001-12-31T12:00:00</cap:effective>
+            <cap:onset>2001-12-31T12:00:00</cap:onset>
+            <cap:expires>2001-12-31T12:00:00</cap:expires>
+            <cap:senderName>Joe Smith</cap:senderName>
+            <cap:headline>Incident From CAP One</cap:headline>
+            <cap:description>cap:description</cap:description>
+            <cap:instruction>cap:instruction</cap:instruction>
+            <cap:web>http://tempuri.org</cap:web>
+            <cap:contact>cap:contact</cap:contact>
+            <cap:parameter>
+                <cap:valueName>cap:valueName</cap:valueName>
+                <cap:value>cap:value</cap:value>
+            </cap:parameter>
+            <cap:resource>
+                <cap:resourceDesc>cap:resourceDesc</cap:resourceDesc>
+                <cap:mimeType>cap:mimeType</cap:mimeType>
+                <cap:size>0</cap:size>
+                <cap:uri>http://tempuri.org</cap:uri>
+                <cap:derefUri>cap:derefUri</cap:derefUri>
+                <cap:digest>cap:digest</cap:digest>
+            </cap:resource>
+            <cap:area>
+                <cap:areaDesc>cap:areaDesc</cap:areaDesc>
+                <cap:polygon>38.8,-77.3 38.8,-77.1 39.0,-77.1 39.0,-77.3 38.8,-77.3</cap:polygon>
+                <cap:circle>38.3,-77.3 1.23</cap:circle>
+                <cap:geocode>
+                    <cap:valueName>cap:valueName</cap:valueName>
+                    <cap:value>cap:value</cap:value>
+                </cap:geocode>
+                <cap:altitude>cap:altitude</cap:altitude>
+                <cap:ceiling>cap:ceiling</cap:ceiling>
+            </cap:area>
+        </cap:info>
+    </cap:alert>
+</ims:CreateIncidentFromCapRequest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ims:GetIncidentRequest xmlns:ims="http://uicds.org/IncidentManagementService"
+    xmlns:str="http://www.saic.com/precis/2009/06/structures" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <str:WorkProductIdentification>
+        <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-fd7e9458-65aa-439c-b356-ffe7eab61d69
+        </base:Identifier>
+        <base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">1</base:Version>
+        <base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type>
+        <base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Thu Aug 13 14:49:39 EDT 2009:1:6:1064510397
+        </base:Checksum>
+        <base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State>
+    </str:WorkProductIdentification>
+</ims:GetIncidentRequest>

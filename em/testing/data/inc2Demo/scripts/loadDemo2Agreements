@@ -1,0 +1,5 @@
+#!/bin/sh -x
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test1.saic.com/uicds/ws -f ../../../data/inc2Demo/VirginiaBeach/Agreement/agreement-VirginiaBeach.xml 
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/VDEM/Agreement/agreement-VDEM.xml 
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test3.saic.com/uicds/ws -f ../../../data/inc2Demo/Richmond/Agreement/agreement-Richmond.xml 
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp:AssociateWorkProductToIncidentRequest xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0"
+    xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:wp="http://uicds.org/WorkProduct"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/WorkProduct ../../../../oxm-xmlbeans/src/main/xsd/uicds/WorkProduct.xsd ">
+    <workProductID>Alert-0f501e77-48b2-4ef4-a901-f78a0355cf5d</workProductID>
+    <incidentID>52ba7836-5120-42d4-b5dc-714ec104adcb</incidentID>
+</wp:AssociateWorkProductToIncidentRequest>

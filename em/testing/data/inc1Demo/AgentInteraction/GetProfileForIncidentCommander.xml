@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:GetProfileRequest xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:ns1="http://uicds.org/ProfileService" xmlns:p="http://docs.oasis-open.org/wsn/b-2" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:tns="http://www.w3.org/2005/08/addressing" xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsrf-rl="http://docs.oasis-open.org/wsrf/rl-2" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/ProfileService ../../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/Profile.xsd ">
+  <ns1:entityID>IncidentCommander@core1.saic.com</ns1:entityID>
+</ns1:GetProfileRequest>

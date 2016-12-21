@@ -1,0 +1,4 @@
+<b:GetMessagesRequest xmlns:b="http://uicds.org/NotificationService">
+    <add:To xmlns:add="http://www.w3.org/2005/08/addressing">https://clash.us.saic.com/uicds/ws/cimic@uicds-test1</add:To>
+    <b:MaximumNumber>1</b:MaximumNumber>
+</b:GetMessagesRequest>

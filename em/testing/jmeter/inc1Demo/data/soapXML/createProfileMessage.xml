@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://servicemix.apache.org/samples/wsdl-first/types">
+<env:Body>
+<ns1:CreateProfileRequest xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:ns1="http://uicds.org/ProfileService/" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:tns="http://www.w3.org/2005/08/addressing" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/ProfileService/ ../../../../core/oxm-xmlbeans/src/main/xsd/uicds/Profile.xsd ">
+  <ns1:entityID>http://entityid.uicds.org</ns1:entityID>
+  <ns1:Profile>
+    <ns1:ref>
+      <ns1:id>http://uicds.org</ns1:id>
+      <ns1:name>UICDS user</ns1:name>
+    </ns1:ref>
+    <ns1:incidents>
+    </ns1:incidents>
+    <ns1:agreements>
+      <ns1:agreement>
+        <ns1:id>http://agreement.uicds.org</ns1:id>
+        <ns1:name>Agreement #1</ns1:name>
+      </ns1:agreement>
+    </ns1:agreements>
+    <ns1:entityInfo>
+      <ns1:personInfo>
+        <nc:PersonCapability s:id="Person_Capability_ID1" s:linkMetadata="alue0" s:metadata="idvalue0">
+          <nc:CapabilityGeneralCategoryText s:id="ID1" s:linkMetadata="idvalue0" s:metadata="idvalue0" xsi:type="nc:TextType">nc:CapabilityGeneralCategoryText</nc:CapabilityGeneralCategoryText>
+          <nc:CapabilityCategoryText s:id="idvalue3" s:linkMetadata="idvalue0" s:metadata="idvalue0" xsi:type="nc:TextType">nc:CapabilityCategoryText</nc:CapabilityCategoryText>
+          <nc:CapabilityDescriptionText s:id="idvalue4" s:linkMetadata="idvalue0" s:metadata="idvalue0" xsi:type="nc:TextType">nc:CapabilityDescriptionText</nc:CapabilityDescriptionText>
+          <nc:CapabilityIsLimitationIndicator s:id="idvalue5" s:linkMetadata="idvalue0" s:metadata="idvalue0">true</nc:CapabilityIsLimitationIndicator>
+        </nc:PersonCapability>
+        <nc:PersonName nc:personNameCommentText="" s:id="idvalue6" s:linkMetadata="idvalue0" s:metadata="idvalue0">
+          <nc:PersonNamePrefixText s:id="idvalue7" s:linkMetadata="idvalue0" s:metadata="idvalue0" xsi:type="nc:TextType">nc:PersonNamePrefixText</nc:PersonNamePrefixText>
+          <nc:PersonGivenName s:id="idvalue8" s:linkMetadata="idvalue0" s:metadata="idvalue0">nc:PersonGivenName</nc:PersonGivenName>
+          <nc:PersonMiddleName s:id="idvalue9" s:linkMetadata="idvalue0" s:metadata="idvalue0">nc:PersonMiddleName</nc:PersonMiddleName>
+          <nc:PersonSurName s:id="idvalue10" s:linkMetadata="idvalue0" s:metadata="idvalue0">nc:PersonSurName</nc:PersonSurName>
+          <nc:PersonNameSuffixText s:id="idvalue11" s:linkMetadata="idvalue0" s:metadata="idvalue0" xsi:type="nc:TextType">nc:PersonNameSuffixText</nc:PersonNameSuffixText>
+          <nc:PersonMaidenName s:id="idvalue12" s:linkMetadata="idvalue0" s:metadata="idvalue0">nc:PersonMaidenName</nc:PersonMaidenName>
+          <nc:PersonFullName s:id="idvalue13" s:linkMetadata="idvalue0" s:metadata="idvalue0">nc:PersonFullName</nc:PersonFullName>
+        </nc:PersonName>
+      </ns1:personInfo>
+      <ns1:contactInfo s:id="idvalue14" s:linkMetadata="idvalue0" s:metadata="idvalue0">
+        <nc:ContactRadio s:id="idvalue15" s:linkMetadata="idvalue0" s:metadata="idvalue0">
+          <nc:ContactRadioCategoryText s:id="idvalue16" s:linkMetadata="idvalue0" s:metadata="idvalue0" xsi:type="nc:TextType">nc:ContactRadioCategoryText</nc:ContactRadioCategoryText>
+          <nc:ContactRadioChannelText s:id="idvalue17" s:linkMetadata="idvalue0" s:metadata="idvalue0" xsi:type="nc:TextType">nc:ContactRadioChannelText</nc:ContactRadioChannelText>
+          <nc:ContactRadioCallSignID s:id="idvalue18" s:linkMetadata="idvalue0" s:metadata="idvalue0">nc:ContactRadioCallSignID</nc:ContactRadioCallSignID>
+        </nc:ContactRadio>
+      </ns1:contactInfo>
+    </ns1:entityInfo>
+    <ns1:interests>
+      <ns1:topic Dialect="http://tempuri.org"/>
+    </ns1:interests>
+    <ns1:interfaces>
+      <ns1:interface>
+        <tns:Address>http://tempuri.org</tns:Address>
+        <tns:ReferenceParameters/>
+        <tns:Metadata/>
+      </ns1:interface>
+    </ns1:interfaces>
+  </ns1:Profile>
+</ns1:CreateProfileRequest>
+</env:Body>
+</env:Envelope>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:p="http://www.springframework.org/schema/p"    
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd 
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+    
+    <!-- 
+        THIS FILE CONFIGURES THE ENDPOINTS FOR THE COP SUMMARY SERVICE
+     -->
+    
+    
+    <!-- controllers -->
+    <bean id="workspaceEntityController" class="com.usersmarts.sx.features.controller.WorkspaceController" 
+       p:entityService-ref="workspaceEntityService" /> 
+    <bean id="serviceEntityController" class="com.usersmarts.sx.features.controller.ServiceController" 
+       p:entityService-ref="workspaceEntityService" />       
+    <bean id="featureEntityController" class="com.usersmarts.sx.features.controller.FeatureController" 
+       p:entityService-ref="featureEntityService" p:folderService-ref="folderEntityService" />
+    <bean id="folderEntityController" class="com.usersmarts.sx.features.controller.FolderController" 
+       p:entityService-ref="folderEntityService" p:featureService-ref="featureEntityService"  
+       p:workspaceService-ref="workspaceEntityService"/>    
+    <bean id="layerEntityController" class="com.usersmarts.sx.features.controller.LayerController" 
+       p:entityService-ref="layerEntityService" p:workspaceService-ref="workspaceEntityService"/>
+    <bean id="styleEntityController" class="com.usersmarts.sx.features.controller.StyleController" 
+       p:entityService-ref="styleEntityService" />   
+    <bean id="schemaController" class="com.usersmarts.sx.features.controller.SchemaController"
+       p:service-ref="schemaEntityService" />
+    <bean id="searchEntityController" class="com.usersmarts.sx.features.controller.SearchController">
+        <property name="connectorFactory">
+            <bean class="com.usersmarts.cx.web.ConfiguredServletRequestConnectorFactory">
+                <property name="spec">
+                    <bean class="com.usersmarts.cx.util.ConnectionSpecFactoryBean"
+                        p:urn="cx:hbm:workspace::services-test" />
+                </property>
+            </bean>
+        </property>
+        <property name="queryBuilder">
+            <bean class="com.usersmarts.sx.features.controller.QueryBuilder" 
+                p:schemaService-ref="schemaEntityService" />
+        </property>
+    </bean> 
+
+    <!-- URL Mapping --> 
+    <bean id="urlMapping" class="com.usersmarts.cx.web.handler.ParameterizedUrlHandlerMapping">
+
+        <property name="interceptors">
+            <list>
+                <ref bean="connectorServiceInterceptor" />
+            </list>
+        </property>
+
+        <property name="mappings">
+            <props>
+                <prop key="/search">searchEntityController</prop>
+                <prop key="/service/">serviceEntityController</prop>
+                <prop key="/schemas/">schemaController</prop>
+                <prop key="/schemas/(*:id)">schemaController</prop>
+                <prop key="/styles/">styleEntityController</prop>
+                <prop key="/styles/(*:id)">styleEntityController</prop>
+                <prop key="/workspaces/">workspaceEntityController</prop>
+                <prop key="/workspaces/(*:id)">workspaceEntityController</prop>
+                <prop key="/(*:folderId)/features/">featureEntityController</prop>
+                <prop key="/(*:folderId)/features/(*:id)">featureEntityController</prop>
+                <prop key="/(*:workspaceId)/folders/">folderEntityController</prop>
+                <prop key="/(*:workspaceId)/folders/(*:id)">folderEntityController</prop>
+                <prop key="/(*:workspaceId)/layers/">layerEntityController</prop>
+                <prop key="/(*:workspaceId)/layers/(*:id)">layerEntityController</prop>
+            </props>
+        </property>
+    </bean>
+    
+    
+</beans>

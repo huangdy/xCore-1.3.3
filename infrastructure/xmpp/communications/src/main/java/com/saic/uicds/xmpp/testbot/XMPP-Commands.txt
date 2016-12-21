@@ -1,0 +1,67 @@
+Subscribe to testbot-responses node
+Should subscribe to all pubsub services where there is a TestBot running
+
+<iq type='set'
+    to='pubsub.clash.saic.com'
+    id='sub1'>
+  <pubsub xmlns='http://jabber.org/protocol/pubsub'>
+    <subscribe
+        node='testbot-responses'
+        jid='roger@clash.saic.com'/>
+  </pubsub>
+</iq>
+
+System Initialized message:
+<message id="6" to="testbot@clash.saic.com" >
+ <testbot-command xmlns="http://uicds.us#systemInitialized">
+ </testbot-command>
+</message>
+
+New Interest Group message:
+<message id="6" to="testbot@clash.saic.com" >
+ <testbot-command xmlns="http://uicds.us#newInterestGroupCreated">
+   <id>IG-1234</id>
+   <type>Interest</type>
+   <restore>false</restore>
+   <owner>uicds@clash.saic.com</owner>
+   <cores>danzig.saic.com</cores>
+ </testbot-command>
+</message>
+
+Publish a product:
+<message id="7" to="testbot@clash.saic.com" >
+ <testbot-command xmlns="http://uicds.us#productPublication">
+   <igId>IG-1234</igId>
+   <productId>Incident-2345</productId>
+   <type>Incident</type>
+   <product><![CDATA[<stuff>values</stuff>]]></product>
+ </testbot-command>
+</message>
+
+Add a core to the roster:
+<message id="8" to="testbot@clash.saic.com" >
+ <testbot-command xmlns="http://uicds.us#agreementRoster">
+   <core>uicds@danzig.saic.com</core>
+   <state>CREATE</state>
+ </testbot-command>
+</message>
+
+Share an interest group
+<message id="7" to="testbot@clash.saic.com" >
+ <testbot-command xmlns="http://uicds.us#shareInterestGroup">
+   <igId>IG-1234</igId>
+   <igName>IG Name</igName>
+   <igType>Incident</igType>
+   <igDesc>IG Description</igDesc>
+   <igOwner>uicds@clash.saic.com</igOwner>
+   <igDetails></igDetails>
+   <core>uicds@danzig.saic.com</core>
+   <products>Incident</products>
+ </testbot-command>
+</message>
+
+<message id="7" to="testbot@clash.saic.com" >
+ <testbot-command xmlns="http://uicds.us#shutdown">
+   <cleanup>true</cleanup>
+ </testbot-command>
+</message>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:GetAgreementRequest xmlns:as="http://uicds.org/AgreementService/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/AgreementService/ AgreementService.xsd ">
+  <as:entityID>575ef830-f3a5-4993-97a1-7e9978e90a32</as:entityID>
+</as:GetAgreementRequest>
+

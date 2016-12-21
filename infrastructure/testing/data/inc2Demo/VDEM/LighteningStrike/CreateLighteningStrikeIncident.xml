@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ims:CreateIncidentRequest xmlns:as="http://uicds.org/AlertService" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:ims="http://uicds.org/IncidentManagementService" xmlns:inc="http://uicds.org/incident" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:nga="http://niem.gov/niem/nga/2.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:unece="http://niem.gov/niem/unece_rec20-misc/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/IncidentManagementService ../../../../oxm-xmlbeans/src/main/xsd/uicds/IMS.xsd ">
+  <nc:ActivityName>Lightning Strikes</nc:ActivityName>
+  <nc:ActivityCategoryText>Met</nc:ActivityCategoryText>
+  <nc:ActivityDescriptionText>Lightning strike danger areas</nc:ActivityDescriptionText>
+  <nc:IncidentLocation>
+    <nc:LocationAddress>
+      <nc:AddressFullText>Around John Wayland Elementary School</nc:AddressFullText>
+    </nc:LocationAddress>
+    <nc:LocationArea>
+      <nc:AreaCircularRegion>
+        <nc:CircularRegionCenterCoordinate>
+          <nc:LocationTwoDimensionalGeographicCoordinate>
+            <nc:GeographicDatumCode xsi:nil="true" />
+            <nc:GeographicCoordinateLatitude>
+              <nc:LatitudeDegreeValue>38</nc:LatitudeDegreeValue>
+              <nc:LatitudeMinuteValue>23</nc:LatitudeMinuteValue>
+              <nc:LatitudeSecondValue>57.97100000004</nc:LatitudeSecondValue>
+            </nc:GeographicCoordinateLatitude>
+            <nc:GeographicCoordinateLongitude>
+              <nc:LongitudeDegreeValue>-78</nc:LongitudeDegreeValue>
+              <nc:LongitudeMinuteValue>57</nc:LongitudeMinuteValue>
+              <nc:LongitudeSecondValue>38.57000000004</nc:LongitudeSecondValue>
+            </nc:GeographicCoordinateLongitude>
+          </nc:LocationTwoDimensionalGeographicCoordinate>
+        </nc:CircularRegionCenterCoordinate>
+        <nc:CircularRegionRadiusLengthMeasure>
+          <nc:LengthUnitCode>0.0</nc:LengthUnitCode>
+        </nc:CircularRegionRadiusLengthMeasure>
+      </nc:AreaCircularRegion>
+    </nc:LocationArea>
+  </nc:IncidentLocation>
+  <nc:IncidentEvent>
+    <nc:ActivityName>Sample GC Incident 0904250103PM</nc:ActivityName>
+  </nc:IncidentEvent>
+  <nc:IncidentObservationText>Lightning Strike/Fire/Paintball attack near the elementary school!</nc:IncidentObservationText>
+</ims:CreateIncidentRequest>

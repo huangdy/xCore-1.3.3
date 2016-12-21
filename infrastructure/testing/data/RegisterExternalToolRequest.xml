@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dir:RegisterExternalToolRequest xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1"
+    xmlns:cc="http://uicds.org/CoreConfig" xmlns:dir="http://uicds.org/DirectoryService" xmlns:edsc="http://uicds.org/ExternalDataSourceConfig"
+    xmlns:etc="http://uicds.org/ExternalToolConfig" xmlns:ims="http://uicds.org/IncidentManagementService"
+    xmlns:inc="http://uicds.org/incident" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:nga="http://niem.gov/niem/nga/2.0"
+    xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:s="http://niem.gov/niem/structures/2.0"
+    xmlns:sc="http://uicds.org/ServiceConfig" xmlns:sc1="http://uicds.org/SOSConfig" xmlns:uc="http://uicds.org/UserConfig"
+    xmlns:unece="http://niem.gov/niem/unece_rec20-misc/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/DirectoryService ../../../xmlbeans-em/src/main/xsd/services/Directory/0.1/DirectoryService.xsd ">
+    <dir:ExternalTool>
+        <etc:URN>etc:URN</etc:URN>
+        <etc:toolName>etc:toolName</etc:toolName>
+        <etc:coreName>etc:coreName</etc:coreName>
+        <etc:publishedProducts />
+        <etc:subscribedProducts />
+    </dir:ExternalTool>
+</dir:RegisterExternalToolRequest>

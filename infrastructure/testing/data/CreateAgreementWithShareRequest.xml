@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:CreateAgreementRequest xmlns:as="http://uicds.org/AgreementService" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:p="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:p1="urn:us:gov:ic:ism:v2" xmlns:precisb="http://www.saic.com/precis/2009/06/base" xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ulex="ulex:message:structure:1.0" xmlns:ulexcodes="ulex:message:codes:1.0" xmlns:ulexlib="ulex:message:library:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/AgreementService services/Agreement/0.1/AgreementService.xsd ">
+  <as:Agreement>
+    <as:Principals>
+      <as:LocalCore>uicds@uicds-test2.saic.com</as:LocalCore>
+      <as:RemoteCore>uicds@uicds-test1.saic.com</as:RemoteCore>
+    </as:Principals>
+    <as:ShareRules enabled="true" xsi:nil="true"/>
+  </as:Agreement>
+</as:CreateAgreementRequest>

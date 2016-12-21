@@ -1,0 +1,55 @@
+<de:EDXLDistribution xmlns:gml="http://www.opengis.net/gml" xmlns:have="urn:oasis:names:tc:emergency:EDXL:HAVE:1.0" xmlns:xnl="urn:oasis:names:tc:ciq:xnl:3" xmlns:de="urn:oasis:names:tc:emergency:EDXL:DE:1.0" xmlns:urn="http://uicds.org/HAVEService" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <de:distributionID>DE_DISTRIBUTION_ID</de:distributionID>
+  <de:senderID>RMApplication1@core1</de:senderID>
+  <de:dateTimeSent>2010-11-11T13:42:36.890-05:00</de:dateTimeSent>
+  <de:distributionStatus>Test</de:distributionStatus>
+  <de:distributionType>Report</de:distributionType>
+  <de:combinedConfidentiality>COMBINED</de:combinedConfidentiality>
+  <de:contentObject>
+    <de:xmlContent>
+      <de:embeddedXMLContent>
+        <have:HospitalStatus>
+          <have:Hospital>
+            <have:Organization>
+              <have:OrganizationInformation>
+                <xnl:OrganisationName>
+                  <xnl:NameElement>Hospital 1</xnl:NameElement>
+                </xnl:OrganisationName>
+              </have:OrganizationInformation>
+              <have:OrganizationGeoLocation>
+                <gml:Point>
+                  <gml:pos>45.256 -71.92</gml:pos>
+                </gml:Point>
+              </have:OrganizationGeoLocation>
+            </have:Organization>
+            <have:HospitalBedCapacityStatus>
+              <have:BedCapacity>
+                <have:BedType>Burn</have:BedType>
+                <have:Capacity>
+                  <have:CapacityStatus>Vacant/Available</have:CapacityStatus>
+                  <have:AvailableCount>100</have:AvailableCount>
+                </have:Capacity>
+              </have:BedCapacity>
+            </have:HospitalBedCapacityStatus>
+            <have:LastUpdateTime>2010-11-11T14:59:12.390-05:00</have:LastUpdateTime>
+          </have:Hospital>
+          <have:Hospital>
+            <have:Organization>
+              <have:OrganizationInformation>
+                <xnl:OrganisationName>
+                  <xnl:NameElement>Hospital 2</xnl:NameElement>
+                </xnl:OrganisationName>
+              </have:OrganizationInformation>
+              <have:OrganizationGeoLocation>
+                <gml:Point>
+                  <gml:pos>45.256 -71.92</gml:pos>
+                </gml:Point>
+              </have:OrganizationGeoLocation>
+            </have:Organization>
+            <have:LastUpdateTime>2010-11-11T14:59:12.390-05:00</have:LastUpdateTime>
+          </have:Hospital>
+        </have:HospitalStatus>
+      </de:embeddedXMLContent>
+    </de:xmlContent>
+  </de:contentObject>
+</de:EDXLDistribution>

@@ -1,0 +1,53 @@
+<CreateProfileRequest xmlns="http://uicds.org/ProfileService" xmlns:prof="http://uicds.org/ProfileService">
+    <Profile xmlns="http://uicds.org/ProfileService">
+        <ref>
+            <id>IncidentCommander@huangda2.us.saic.com</id>
+            <name>Core 1 IncidentCommander</name>
+        </ref>
+        <agreements>
+            <agreement>
+                <id>http://tempuri.org</id>
+                <name>prof:name</name>
+            </agreement>
+        </agreements>
+        <interests>
+            <interest>
+                <TopicExpression>Incident</TopicExpression>
+                <prof:MessageContent>//inc:Incident[nc:ActivityCategoryText='CBRNE']</prof:MessageContent>
+                <prof:NamespaceMap>
+                    <prof:item>
+                        <prof:prefix>inc</prof:prefix>
+                        <prof:uri>http://uicds.org/incident</prof:uri>
+                    </prof:item>
+                    <prof:item>
+                        <prof:prefix>nc</prof:prefix>
+                        <prof:uri>http://niem.gov/niem/niem-core/2.0</prof:uri>
+                    </prof:item>
+                </prof:NamespaceMap>
+            </interest>
+            <interest>
+                <TopicExpression>Alert</TopicExpression>
+            </interest>
+            <interest>
+                <TopicExpression>MapViewContext</TopicExpression>
+            </interest>
+            <interest>
+                <TopicExpression>ICS</TopicExpression>
+            </interest>
+            <interest>
+                <TopicExpression>MACS</TopicExpression>
+            </interest>
+        </interests>
+        <entityInfo>
+            <personInfo>
+                <PersonName xmlns="http://niem.gov/niem/niem-core/2.0">
+                    <PersonFullName>Michael Kolb</PersonFullName>
+                </PersonName>
+            </personInfo>
+            <orgInfo>
+                <OrganizationName xmlns="http://niem.gov/niem/niem-core/2.0">Fairfax Co. FD</OrganizationName>
+            </orgInfo>
+            <contactInfo />
+        </entityInfo>
+    </Profile>
+</CreateProfileRequest>

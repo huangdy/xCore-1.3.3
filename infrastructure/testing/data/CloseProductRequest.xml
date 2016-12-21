@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CloseProductRequest xmlns="http://uicds.org/WorkProductService" xmlns:base="http://www.saic.com/precis/2009/06/base"
+    xmlns:str="http://www.saic.com/precis/2009/06/structures">
+        <str:WorkProductIdentification>
+          <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">ICS-b64d1e28-69ce-4548-8668-c26a1190096d</base:Identifier>
+          <base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">1</base:Version>
+          <base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">ICS</base:Type>
+          <base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Fri Oct 09 13:15:55 EDT 2009:1:0:4080838376</base:Checksum>
+          <base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State>
+        </str:WorkProductIdentification>
+</CloseProductRequest>

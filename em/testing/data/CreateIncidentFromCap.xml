@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ims:CreateIncidentFromCapRequest xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:ims="http://uicds.org/IncidentManagementService" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/IncidentManagementService services\IncidentManagement\0.1\IncidentManagementService.xsd">
+	<cap:alert>
+		<cap:identifier>cap:identifier</cap:identifier>
+		<cap:sender>CAD@core1.saic.com</cap:sender>
+		<cap:sent>2001-12-13T12:00:00</cap:sent>
+		<cap:status>Actual</cap:status>
+		<cap:msgType>Alert</cap:msgType>
+		<cap:source>cap:source</cap:source>
+		<cap:scope>Public</cap:scope>
+		<cap:restriction>cap:restriction</cap:restriction>
+		<cap:addresses>Mile Marker 138</cap:addresses>
+		<cap:code>cap:code</cap:code>
+		<cap:note>cap:note</cap:note>
+		<cap:references>cap:references</cap:references>
+		<cap:incidents>cap:incidents</cap:incidents>
+		<cap:info>
+			<cap:category>Transport</cap:category>
+			<cap:event>cap:event</cap:event>
+			<cap:responseType>Shelter</cap:responseType>
+			<cap:urgency>Immediate</cap:urgency>
+			<cap:severity>Extreme</cap:severity>
+			<cap:certainty>Observed</cap:certainty>
+			<cap:audience>cap:audience</cap:audience>
+			<cap:eventCode>
+				<cap:valueName>name</cap:valueName>
+				<cap:value>value</cap:value>
+			</cap:eventCode>
+			<cap:senderName>Joe Smith</cap:senderName>
+			<cap:headline>cap:headline</cap:headline>
+			<cap:description>cap:description</cap:description>
+			<cap:instruction>cap:instruction</cap:instruction>
+			<cap:web>http://tempuri.org</cap:web>
+			<cap:contact>cap:contact</cap:contact>
+			<cap:parameter>
+				<cap:valueName>cap:valueName</cap:valueName>
+				<cap:value>cap:value</cap:value>
+			</cap:parameter>
+			<cap:resource>
+				<cap:resourceDesc>cap:resourceDesc</cap:resourceDesc>
+				<cap:mimeType>cap:mimeType</cap:mimeType>
+				<cap:size>0</cap:size>
+				<cap:uri>http://tempuri.org</cap:uri>
+				<cap:derefUri>cap:derefUri</cap:derefUri>
+				<cap:digest>cap:digest</cap:digest>
+			</cap:resource>
+			<cap:area>
+				<cap:areaDesc>cap:areaDesc</cap:areaDesc>
+				<cap:polygon>38.8,-77.3 38.8,-77.1 39.0,-77.1 39.0,-77.3 38.8,-77.3</cap:polygon>
+				<cap:circle>38.8,-77.3 1.23</cap:circle>
+				<cap:geocode>
+					<cap:valueName>cap:valueName</cap:valueName>
+					<cap:value>cap:value</cap:value>
+				</cap:geocode>
+				<cap:altitude>cap:altitude</cap:altitude>
+				<cap:ceiling>cap:ceiling</cap:ceiling>
+			</cap:area>
+		</cap:info>
+	</cap:alert>
+</ims:CreateIncidentFromCapRequest>

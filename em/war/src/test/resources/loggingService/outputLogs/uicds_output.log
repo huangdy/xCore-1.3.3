@@ -1,0 +1,112 @@
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 08:02:38 EST 1970]
+[Status:NORMAL-NORMAL]
+[Message=Initializing DatabaseManager]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 08:02:47 EST 1970]
+[Status:NORMAL-NORMAL]
+[Message=Instantiating RosterManger]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 09:53:57 EST 1970]
+[Status:ERROR-ERROR]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com Exception]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 10:00:57 EST 1970]
+[Status:ERROR-ERROR]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com Exception]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 10:05:57 EST 1970]
+[Status:ERROR-ERROR]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com Exception]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 10:15:57 EST 1970]
+[Status:ERROR-ERROR]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com Exception]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 10:15:57 EST 1970]
+[Status:ERROR-ERROR]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com Exception]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="WARN" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 10:35:57 EST 1970]
+[Status:WARN-WARN]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="WARN" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 10:35:57 EST 1970]
+[Status:ERROR-ERROR]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com Exception]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="WARN" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 10:45:57 EST 1970]
+[Status:ERROR-ERROR]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com Exception]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 10:55:57 EST 1970]
+[Status:ERROR-ERROR]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com Exception]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="WARN" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 11:05:57 EST 1970]
+[Status:WARN-WARN]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="WARN" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 11:15:57 EST 1970]
+[Status:NORMAL-NORMAL]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="WARN" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 11:25:57 EST 1970]
+[Status:NORMAL-NORMAL]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com Exception]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="ERROR" thread="Timer-11">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Jan 01 11:35:57 EST 1970]
+[Status:ERROR-ERROR]
+[Message=CoreConnectionImpl.getJID: jid=uicds@uicds123.us.saic.com Exception]]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="C:\Users\santhosha\uicdsworkspace\uicds\core\em\war\src\test\resources\loggingService\outputLogs\uicds_output.log" timestamp="0" sequenceNumber="0" level="DEBUG" thread="Timer-1">
+<log4j:message><![CDATA[[Component=uicds]
+[Time=Thu Mar 24 00:40:04 EDT 2011]
+[Status:WARN-WARN]
+[Message=No Error/Warn event since 25000 milliseconds]]]></log4j:message>
+</log4j:event>
+

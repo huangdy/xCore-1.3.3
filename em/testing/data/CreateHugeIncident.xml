@@ -1,0 +1,794 @@
+<ims:CreateIncidentRequest xmlns:as="http://uicds.org/AlertService" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:ims="http://uicds.org/IncidentManagementService" xmlns:inc="http://uicds.org/incident" xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:nga="http://niem.gov/niem/nga/2.0" xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:unece="http://niem.gov/niem/unece_rec20-misc/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/IncidentManagementService services\IncidentManagement\0.1\IncidentManagementService.xsd">
+	<inc:Incident>
+		<nc:ActivityCategoryText>CBRNE</nc:ActivityCategoryText>
+		<nc:ActivityDate>
+			<nc:DateTime>2009-10-14T09:55:22</nc:DateTime>
+		</nc:ActivityDate>
+		<nc:ActivityDescriptionText>Deepwater Horizon oil spill
+From Wikipedia, the free encyclopedia
+  (Redirected from Bp oil spill)
+Changes must be reviewed before being displayed on this page.(+)
+This is the latest accepted revision, accepted on 26 July 2010.
+Jump to: navigation, search
+"2010 oil spill" and "BP oil spill" redirect here. For other oil spills in 2010, see 2010 oil spill (disambiguation). For the 2006 oil spill involving BP, see Prudhoe Bay oil spill.
+    This article may be too long to read and navigate comfortably. Please consider splitting content into sub-articles and using this article for a summary of the key points of the subject. (July 2010)
+
+`
+Deepwater Horizon oil spill
+Deepwater Horizon oil spill - May 24, 2010 - with locator.jpg
+The oil slick as seen from space by NASA's Terra satellite on May 24, 2010.
+Location    Gulf of Mexico near Mississippi River Delta
+Coordinates     28°44′12″N 88°21′58″W﻿ / ﻿28.736628°N 88.365997°W﻿ / 28.736628; -88.365997Coordinates: 28°44′12″N 88°21′58″W﻿ / ﻿28.736628°N 88.365997°W﻿ / 28.736628; -88.365997
+Date    April 20, 2010 – July 26, 2010 (98 days)
+Cause
+Cause   Wellhead blowout
+Casualties  13 dead (11 killed on Deepwater Horizon, 2 additional oil-related deaths)[1][2]
+17 injured
+Operator    Transocean under contract for BP[3]
+Spill characteristics
+Volume  up to 100,000 barrels (4,200,000 US gallons; 16,000 cubic meters) per day
+Area    2,500 to 9,100 sq mi (6,500 to 24,000 km2)[4]
+
+The Deepwater Horizon oil spill (also referred to as the BP oil spill, the Gulf of Mexico oil spill, the BP oil disaster or the Macondo blowout)[5][6][7][8] is a massive oil spill in the Gulf of Mexico that is the largest offshore spill in U.S. history.[9] By late May or early June 2010, some estimates placed it among the largest oil spills in history with hundreds of millions of gallons spilled to date. The spill stemmed from a sea-floor oil gusher that resulted from the April 20, 2010 Deepwater Horizon drilling rig explosion. The explosion killed 11 platform workers and injured 17 others.[10] On July 15, 2010, BP said the leak had been stopped by capping the gushing oil wellhead,[11] though there is a risk that a significant pressure shift could create a new leak on the sea floor.[12] The drilling of relief wells to permanently close the well is ongoing.
+
+The gusher was estimated by the quasi-official Flow Rate Technical Group to be flowing at 35,000 to 60,000 barrels of crude oil per day.[13][14][15] For comparison, this is an amount equal to the 1989 Exxon Valdez oil spill every four to seven days. The exact flow rate is uncertain due to the difficulty of installing measurement devices at that depth and is a matter of debate.[16] The resulting oil slick covers at least 2,500 square miles (6,500 km2), fluctuating daily depending on weather conditions.[17] Scientists have also reported immense underwater plumes of dissolved oil not visible at the surface.[16]
+
+The spill continues to cause extensive damage to marine and wildlife habitats[18][19] as well as the Gulf's fishing and tourism industries. There have been a variety of efforts to stem the flow at the wellhead. Crews have been working to protect hundreds of miles of beaches, wetlands and estuaries along the northern Gulf coast, using skimmer ships, floating containment booms, anchored barriers, and sand-filled barricades along shorelines. The U.S. Government has named BP as the responsible party, and officials have committed to holding the company accountable for all cleanup costs and other damage.[20][21]
+Contents
+[show]
+
+    * 1 Background
+          o 1.1 Deepwater Horizon drilling rig
+          o 1.2 Explosion
+    * 2 Volume and extent of oil spill
+          o 2.1 Spill flow rate
+                + 2.1.1 Progression of oil spill flow rate estimates
+          o 2.2 Spill area and thickness
+          o 2.3 Underwater oil plumes
+          o 2.4 Expansion predictions
+          o 2.5 Independent monitoring
+    * 3 Efforts to stem the flow of oil
+          o 3.1 Short-term efforts
+          o 3.2 Considerations of using explosives
+          o 3.3 Permanent closure
+    * 4 Protecting the coastline and marine environments
+          o 4.1 Containment
+                + 4.1.1 Barrier island plan
+          o 4.2 Dispersal
+          o 4.3 Removal
+          o 4.4 Government regulations
+    * 5 Consequences
+          o 5.1 Ecology
+          o 5.2 Fisheries and tourism
+          o 5.3 Other economic consequences
+          o 5.4 Litigation
+          o 5.5 Health consequences
+          o 5.6 U.S. and Canadian offshore drilling policy
+          o 5.7 Spill response fund
+    * 6 Reactions
+    * 7 Investigations
+    * 8 See also
+    * 9 References
+    * 10 External links
+
+[edit] Background
+[edit] Deepwater Horizon drilling rig
+Main article: Deepwater Horizon
+Deepwater Horizon prior to explosion
+Origin of oil spill
+Location of the Deepwater Horizon on 20 April 2010
+
+The Deepwater Horizon was a 9-year-old semi-submersible mobile offshore drilling unit, a massive floating, dynamically positioned drilling rig that could operate in waters up to 8,000 feet (2,400 m) deep and drill down to 30,000 feet (9,100 m).[22][23] It was owned by Transocean, operated under the Marshallese flag of convenience, and was under lease to BP from March 2008 to September 2013.[24] At the time of the explosion, it was drilling an exploratory well at a water depth of approximately 5,000 feet (1,500 m) in the Macondo Prospect, located in the Mississippi Canyon Block 252 of the Gulf of Mexico in the United States exclusive economic zone about 41 miles (66 km) off the Louisiana coast.[25][26][27][28][29] Production casing was being installed and cemented by Halliburton Energy Services. Once the cementing was complete, the well would have been tested for integrity and a cement plug set, after which no further activities would take place until the well was later activated as a subsea producer.[26][30] BP is the operator and principal developer of the Macondo Prospect with a 65% share, while 25% is owned by Anadarko Petroleum Corporation, and 10% by MOEX Offshore 2007, a unit of Mitsui.[31] BP leased the mineral rights for Macondo at the Minerals Management Service's lease sale in March 2008.[32]
+[edit] Explosion
+Main article: Deepwater Horizon explosion
+AHTS and PS vessels combat the fire on the Deepwater Horizon while the United States Coast Guard searches for missing crew
+
+During March and early April, several platform workers and supervisors expressed concerns with well control. At approximately 9:45 p.m. CDT on 20 April 2010, methane gas from the well, under high pressure, shot all the way up and out of the drill column, expanded onto the platform, and then ignited and exploded.[30][33] Fire then engulfed the platform.[34] Most of the workers were evacuated by lifeboats or were airlifted out by helicopter,[35][36] but eleven workers were never found despite a three-day Coast Guard search operation, and are presumed to have died in the explosion.[33][37] Efforts by multiple ships to douse the flames were unsuccessful. After burning for approximately 36 hours, the Deepwater Horizon sank on the morning of 22 April 2010.[38] As a result, the drilling riser running from the wellhead on the ocean floor up to the oil rig was destroyed.
+
+On the afternoon of 22 April, a large oil slick began to spread at the former rig site.[39] Two remotely operated underwater vehicles (ROVs) unsuccessfully attempted to cap the well.[40] BP announced that it was deploying a ROV to the site to assess whether oil was flowing from the well.[41] On 23 April, a ROV reportedly found no oil leaking from the sunken rig and no oil flowing from the well.[42] Coast Guard Rear Admiral Mary Landry expressed cautious optimism of zero environmental impact, stating that no oil was emanating from either the wellhead or the broken pipes and that oil spilled from the explosion and sinking was being contained.[43][44][45][46] The following day, 24 April, Landry announced that a damaged wellhead was indeed leaking oil into the Gulf and described it as "a very serious spill".[47] BP has not given a cause for the explosion.[48] According to the US Congressional investigation the rig's blowout preventer, a fail-safe device fitted at the base of the well, built by Cameron International Corporation, had a hydraulic leak and a failed battery, and therefore failed.[49]
+[edit] Volume and extent of oil spill
+Main article: Timeline of the Deepwater Horizon oil spill
+
+The Deepwater Horizon spill has surpassed in volume the 1989 Exxon Valdez oil spill as the largest ever to originate in U.S.-controlled waters; it is comparable to the 1979 Ixtoc I oil spill in total volume released (Ixtoc discharged 140 to 148 million gallons, 430 to 454 acre-feet; as of mid-July 2010, Deepwater Horizon has spilled 90 million to 180 million gallons, 276 to 552 acre-feet).[50][51]
+[edit] Spill flow rate
+
+In their permit to drill the well, BP estimated the worst case flow at 162,000 barrels (6,800,000 US gallons; 25,800 cubic metres), 21 acre-feet, per day.[52] After the explosion BP and the United States Coast Guard initially estimated that the wellhead was leaking only 1,000 barrels (42,000 US gallons; 160 cubic metres) per day .[47] Outside scientists quickly produced higher estimates, which presaged later increases in official numbers.[47][53][54][55][56] Official estimates increased from 1,000 to 5,000 barrels (42,000 to 210,000 US gallons; 160 to 790 cubic metres) per day on 29 April,[57][58] to 12,000 to 19,000 barrels (500,000 to 800,000 US gallons; 1,900 to 3,000 cubic metres) per day on 27 May,[59][60][61][62] to 25,000 to 30,000 barrels (1,100,000 to 1,300,000 US gallons; 4,000 to 4,800 cubic metres) per day on 10 June,[63][64][13] and to between 35,000 and 60,000 barrels (1,500,000 and 2,500,000 US gallons; 5,600 and 9,500 cubic metres), 4.5 to 8 acre-feet on 15 June.[65][66] Internal BP documents, released by Congress, estimate the flow could be as much as 100,000 barrels (4,200,000 US gallons; 16,000 cubic metres), 13 acre-feet per day if the blowout preventer and wellhead were removed and if restrictions were incorrectly modeled.[67][68] (the pipe casing is 21 inches in diameter, with a nine-inch diameter drill pipe inside)[69]
+[edit] Progression of oil spill flow rate estimates
+Source  Date    Barrels per day     Gallons per day     Cubic metres per day    Acre-feet per day
+BP estimate of worst case (with no BOP)     Permit  162,000     6,800,000   25,800  21
+United States Coast Guard   23 April (after sinking)    0   0   0   0
+BP  24 April    1,000   42,000  160     0.1
+Official estimates  29 April    1,000 to 5,000  42,000 to 210,000   790     0.6
+Official estimates  27 May  12,000 to 19,000    500,000 to 800,000  1,900 to 3,000  1.5 to 2.4
+Official estimates  10 June     25,000 to 30,000    1,100,000 to 1,300,000  4,000 to 4,800  3.2 to 3.8
+Latest official estimate    19 June     35,000 to 60,000    1,500,000 to 2,500,000  5,600 to 9,500  4.5 to 7.7
+Internal BP documents worse case (with no BOP), released by Congress    20 June     up to 100,000   up to 4,200,000     up to 16,000    up to 13
+
+
+Official estimates are being provided by the Flow Rate Technical Group—scientists from USCG, National Oceanic and Atmospheric Administration (NOAA), Bureau of Ocean Energy Management, Regulation and Enforcement, U.S. Department of Energy (DOE), and outside academics, led by United States Geological Survey (USGS) director Marcia McNutt.[70][71][72] The latest estimate is believed to be more accurate because it was no longer necessary to measure multiple leaks, and because detailed pressure measurements and high-resolution video had become available.[73] According to BP, estimating the oil flow is very difficult as there is no underwater metering at the wellhead and because of the natural gas in the outflow.[57] The company initially refused to allow scientists to perform more accurate, independent measurements, saying that it was not relevant to the response and that such efforts might distract from efforts to stem the flow.[16] Former Administrator of the Environmental Protection Agency Carol Browner and Congressman Ed Markey (D-MA) both accused BP of having a vested financial interest in downplaying the size of the leak in part due to the fine they will have to pay based on the amount of leaked oil.[74]
+[edit] Spill area and thickness
+Oil slicks surround the Chandeleur Islands, Louisiana, in this aerial photo.
+
+The oil's spread was initially increased by strong southerly winds caused by an impending cold front. By 25 April, the oil spill covered 580 square miles (1,500 km2) and was only 31 miles (50 km) from the ecologically sensitive Chandeleur Islands.[75] An 30 April estimate placed the total spread of the oil at 3,850 square miles (10,000 km2).[76] The spill quickly approached the Delta National Wildlife Refuge and Breton National Wildlife Refuge.[77][78][79] On 14 May, the Automated Data Inquiry for Oil Spills model indicated that about 35 percent of a hypothetical 114,000 barrels (4,800,000 US gal; 18,100 m3) spill of light Louisiana crude oil released in conditions similar to those found in the Gulf would evaporate, that between 50 and 60 percent of the oil would remain in or on the water, and the rest would be dispersed in the ocean. In the same report, Ed Overton says he thinks most of the oil is floating within 1 foot (30 cm) of the surface.[80] The New York Times is tracking the size of the spill over time using data from National Oceanic and Atmospheric Administration, the US Coast Guard and Skytruth.[81] The Deepwater Horizon oil spill was reported as possibly getting caught in the Gulf of Mexico's Loop Current on 19 May.[82] Oil began washing up on the beaches of Gulf Islands National Seashore on 1 June.[83] By 4 June, the oil spill had landed on 125 miles (201 km) of Louisiana's coast, had washed up along Mississippi and Alabama barrier islands, and was found for the first time on a Florida barrier island at Pensacola Beach.[84][85][86] On 9 June, oil sludge began entering the Intracoastal Waterway through Perdido Pass after floating booms across the opening of the pass failed to stop the oil.[87] On 23 June, oil appeared on Pensacola Beach and in Gulf Islands National Seashore, and officials warned against swimming for 33 miles (53 km) east of the Alabama line.[88][89] On 27 June, tar balls and small areas of oil reached Gulf Park Estates, the first appearance of oil in Mississippi.[90] Early in July, tar balls reached Grand Isle but 800 volunteers were cleaning them up.[91] On 3 and 4 July, tar balls and other isolated oil residue began washing ashore in Texas. Tar balls were collected from beaches in Bolivar and Galveston islands in Galveston County, though it was believed a ship transported them there, and no further oil was found 5 July. With the state of Texas, the contamination area included all Gulf states.[92][93][94][95] On 5 July, strings of oil were found in the Rigolets in Louisiana,[94] and the next day tar balls reached the shore of Lake Pontchartrain.[96]
+
+Assuming a spill rate of 40,000 barrels per day for 86 days and that none of it was evaporated, degraded, landed, burned or recovered, the 2,500 square miles of oil slick would have an average thickness of 0.06 mm, 1/400 inches (A sheet of paper is 0.10 mm).
+[edit] Underwater oil plumes
+
+On 15 May, researchers from the National Institute for Undersea Science and Technology,[97] aboard the research vessel RV Pelican, identified oil plumes in the deep waters of the Gulf of Mexico,[98] including one as large as 10 miles (16 km) long, 3 miles (4.8 km) wide and 300 feet (91 m) thick in spots. The shallowest oil plume the group detected was at about 2,300 feet (700 m), while the deepest was near the seafloor at about 4,593 feet (1,400 m).[99] Other researchers from the University of Georgia have found that the oil may occupy multiple layers.[100] By 27 May, marine scientists from the University of South Florida had discovered a second oil plume, stretching 22 miles (35 km) from the leaking wellhead toward Mobile Bay, Alabama. The oil has dissolved into the water and is no longer visible. Undersea plumes may be the result of the use of wellhead chemical dispersants.[101] The National Oceanic and Atmospheric Administration conducted an independent analysis of the water samples provided from the 22–28 May research mission of the University of South Florida's Weatherbird II vessel. The samples from all undersea plumes were in very low concentrations, less than 0.5 parts per million. The National Oceanic and Atmospheric Administration also indicated that one of the plumes was unrelated to the BP oil spill, while the other plume samples were in concentrations too low or too highly fractionated to determine their origin.[102] BP challenged the validity of the multiple reports from scientists that vast plumes of oil from the spill were spreading underwater, stating its sampling showed no evidence that oil was massing and spreading in the gulf water column.[103] However on 23 July, University of South Florida researchers and NOAA, after using a chemical fingerprinting process, released two separate studies confirming the subsea plumes of oil were the result of the Deepwater Horizon well. According to the new studies, even at low concentrations, the oil "might be biologically meaningful" due to the length of time fish and other organisms would be exposed to it.[104]
+[edit] Expansion predictions
+
+On 19 May both NOAA and other scientists monitoring the spill with the European Space Agency Envisat radar satellite stated that oil had reached the Loop Current, which flows clockwise around the Gulf of Mexico towards Florida and becomes the Gulf Stream.[105] They warn that because the Loop Current is a very intense deep ocean current, it will accelerate the mixing of the oil and water which may remove the oil film on the surface and prevent tracking it with satellites, but the pollution is likely to affect the coral reef marine ecosystem. As of 29 June NOAA had determined that the oil slick is no longer a threat to the loop current and stopped tracking offshore oil predictions that include the loop currents region. The omission is noted prominently on the ongoing nearshore surface oil forecasts that are posted daily on the NOAA site.[106] Current Trajectory Maps [105][107] Changes in weather as well as the Loop Current itself could affect the outcome, but the maximum possible speed is 100 miles (160 km) per day.[108] The main stream would likely stay 50 to 60 miles (80 to 100 km) offshore, but pockets could reach the coast.[108] Whether oil comes ashore farther north depends on local winds, but the Gulf Stream moves away from the coast at the Charleston Bump, southeast of Charleston, South Carolina.[109] Few tar balls would be likely to reach the Carolinas, and dilution would make significant environmental damage very unlikely.[110]
+
+James H. Cowan, a biological oceanographer at Louisiana State University, said a hurricane could push oil inland, possibly affecting rice and sugar cane crops.[111] A hurricane could also delay attempts to close the well and could spread/dilute the oil further or deeper in the ocean.[111] Jeff Masters, founder of Weather Underground, pointed out the possibility of more widespread damage to coastal areas, airborne oil droplets immersed in hurricane winds, and a chance that the oil spill could cause explosive deepening of hurricanes in the Gulf.[112] NOAA's position is that the oil spill would have a "minimal" effect on a hurricane's behavior, as long as the spill is small in comparison to the storm. Also, the high winds and rough seas would aid in the weathering process of the oil slick, and the agency discarded the possibility of petroleum being embedded in the hurricane's precipitation. However, NOAA stressed that the direction of any spreading of oil due to the passage of a tropical cyclone depends on the exact track of the storm, and cautioned that the hurricane's storm surge may carry oil inland.[113]
+[edit] Independent monitoring
+
+Wildlife and environmental groups have accused BP of holding back information about the extent and impact of the growing slick, and urged the White House to order a more direct federal government role in the spill response. In prepared testimony for a congressional committee, National Wildlife Federation President Larry Schweiger said BP had failed to disclose results from its tests of chemical dispersants used on the spill, and that BP had tried to withhold video showing the true magnitude of the leak.[114] On 19 May BP established a live feed of the oil spill after hearings in Congress accused the company of withholding data from the ocean floor and blocking efforts by independent scientists to come up with estimates for the amount of crude flowing into the Gulf each day.[115][116] On 20 May United States Secretary of the Interior Ken Salazar indicated that the U.S. government would verify how much oil has leaked into the Gulf of Mexico.[117] Environmental Protection Agency Administrator Lisa Jackson and United States Secretary of Homeland Security Janet Napolitano asked for the results of tests looking for traces of oil and dispersant chemicals in the waters of the gulf.[118]
+
+Journalists attempting to document the impact of the oil spill have been repeatedly refused access to public areas. Photojournalists have been prevented from flying over areas of the gulf to document the scope of the disaster. These accusations have been leveled at BP, its contractors, local law enforcement, USCG and other government officials.[119][120] Scientists have also complained about prevention of access to information controlled by BP and government sources.[119] BP states that its policy is to allow the media and other parties as much access as possible.[119] On 30 June, the Coast Guard put new restrictions in place across the Gulf Coast that prevent the public, including news photographers and reporters, from coming within 65 feet of any response teams on the beaches or vessels or booms on the water. In a press briefing, Coast Guard Admiral Thad Allen said the new regulation was related to safety issues.[121] On CNN's 360, host Anderson Cooper rejected the motivation for the restrictions outright.[122]
+[edit] Efforts to stem the flow of oil
+Main article: Efforts to stem the Deepwater Horizon oil spill
+See also: Offshore oil spill prevention
+[edit] Short-term efforts
+Oil containment dome under construction in Port Fourchon, Louisiana, at Wild Well Control on 26 April
+
+The first attempts to stop the oil spill were to use remotely operated underwater vehicles to close the blowout preventer valves on the well head; however, all these attempts failed.[75][123] The second technique, placing a 125-tonne (280,000 lb) containment dome (which had worked on leaks in shallower water) over the largest leak and piping the oil to a storage vessel on the surface, failed when gas leaking from the pipe combined with cold water formed methane hydrate crystals that blocked the opening at the top of the dome.[124] Attempts to close the well by pumping heavy drilling fluids into the blowout preventer to restrict the flow of oil before sealing it permanently with cement ("top kill") also failed.[125][126]
+
+More successful was the process of positioning a riser insertion tube into the wide burst pipe. There was a stopper-like washer around the tube that plugs the end of the riser and diverts the flow into the insertion tube.[127] The collected gas was flared and oil stored on the board of drillship Discoverer Enterprise.[128] 924,000 US gallons (22,000 barrels) of oil was collected before removal of the tube.[129] By 3 June, BP removed the damaged riser from the top of the blowout preventer and covered the pipe by the cap which connected it to a riser.[130] CEO of BP Tony Hayward stated that as a result of this process the amount captured was "probably the vast majority of the oil."[131] However, the FRTG member Ira Leifer said that more oil was escaping than before the riser was cut and the cap containment system was placed.[132]
+The Q4000 and the Discoverer Enterprise during the failed top kill procedure
+
+On 16 June, a second containment system connected directly to the blowout preventer became operational carrying oil and gas to the Q4000 service vessel where it was burned in a clean-burning system.[133] To increase the processing capacity, the drillship Discoverer Clear Leader and the floating production, storage and offloading (FPSO) vessel Helix Producer 1 were added, offloading oil with tankers Evi Knutsen, and Juanita.[134][135] Each tanker has capacity of 750,000 barrels (32,000,000 US gallons; 119,000 cubic metres).[133] In addition, FPSO Seillean, and well testing vessel Toisa Pisces would process oil. They are offloaded by shuttle tanker Loch Rannoch.[133]
+
+On 5 July, BP announced that its one-day oil recovery effort accounted for about 25,000 barrels of oil, and the flaring off of 57.1 million cubic feet of natural gas. The total oil collection to date for the spill was estimated at 660,000 barrels.[136] The government's estimates suggested the cap and other equipment were capturing less than half of the oil leaking from the sea floor as of late June.[88]
+
+On 10 July, the containment cap was removed to replace it with a better-fitting cap consisting of a Flange Transition Spool and a 3 Ram Stack ("Top Hat Number 10").[137][138] On 15 July BP tested the well integrity by shutting off pipes that were funneling some of the oil to ships on the surface, so the full force of the gusher from the wellhead went up into the cap.[139][140] That same day, BP said that the leak had been stopped after all the blowout preventer valves had been closed on the newly-fitted cap.[12] A test of the well's integrity would last up to 48 hours.[141] However, because of the high pressures of the well (6,800 PSI and rising[142]), as well as the extreme depth, the cap is not a permanent fix and relief well work is continuing, as a significant shift in pressure could create new leaks on the sea floor.[12] According to Allen, it is not likely that BP will shut in the well permanently using a cap system and shutting in the well using the cap "was never the ultimate goal" of the testing operation.[140]
+
+Adm. Thad Allen ordered ships out of the Gulf on 22 July when it appeared Tropical Storm Bonnie would be a threat. On 24 July ships made preparations for returning, though no order was given, since Bonnie ended up much less powerful than feared. Drilling could resume 26 July.[143]
+[edit] Considerations of using explosives
+
+In mid-April, United States Secretary of Energy Steven Chu assembled a team of nuclear physicists, including hydrogen bomb designer Richard Garwin and Sandia National Laboratories director Tom Hunter.[144] On 24 May BP ruled out conventional explosives, saying that if blasts failed to clog the well, "We would have denied ourselves all other options."[145]
+[edit] Permanent closure
+
+Transocean's Development Driller III started drilling a first relief well on May 2 and was at 13,978 feet (4,260 m) out of 18,000 feet (5,500 m) as of June 14. GSF Development Driller II started drilling a second relief on May 16 and was halted at 8,576 feet (2,614 m) out of 18,000 feet (5,500 m) as of June 14 while BP engineers verified the operational status of the second relief well's BOP.[146][147][148][149][150][151] The relief wells are expected to begin operations to kill the rogue well in August[152]. Each relief well is expected to cost about $100 million.[153][154]
+
+Despite delays caused by Tropical Storm Bonnie, the first phase of stopping the leak may happen 30 July. Steel casing must be added to the relief shaft, with work possibly resuming 28 July. Drilling the relief tunnel could take a week but would be necessary if the first phase did not work.[143]
+[edit] Protecting the coastline and marine environments
+Men in hard hats standing near water next to large pile of bundled large yellow deflated rubber tubing
+United States Environmental Services workers prepare oil containment booms for deployment
+
+The three fundamental strategies for addressing spilled oil are to contain it on the surface away from the most sensitive areas, to dilute and disperse it in less sensitive areas, and to remove it from the water. The Deepwater response employed all three strategies, using a variety of techniques.
+
+While most of the oil drilled off Louisiana is a lighter crude, Horizon's oil is a heavier blend which contains asphalt-like substances. According to Ed Overton, who heads a federal chemical hazard assessment team for oil spills, this type of oil emulsifies well, making a "major sticky mess". Once it becomes that kind of mix, it no longer evaporates as quickly as regular oil, does not rinse off as easily, cannot be eaten by microbes as easily, and does not burn as well. "That type of mixture essentially removes all the best oil clean-up weapons", Overton said.[155]
+
+On May 6, BP began documenting the daily response efforts on its web site.[156] While these efforts began using only BP's resources, on 28 April Doug Suttles, chief operating officer, welcomed the US military as it joined the cleanup operation.[57]
+
+The response increased in scale as the spill volume grew. Initially BP employed remotely operated underwater vehicles, 700 workers, four airplanes and 32 vessels.[47] By 29 April, 69 vessels including skimmers, tugs, barges and recovery vessels were active in cleanup activities. As of 30 April, approximately 2,000 people and 79 vessels were involved.[76] On 4 May the US Coast Guard estimated that 170 vessels, and nearly 7,500 personnel were participating, with an additional 2,000 volunteers assisting.[157] On 26 May all 125 commercial fishing boats helping in the clean up were ordered ashore after some workers began experiencing health problems.[158]
+
+On 31 May, BP set up a call line to take cleanup suggestions and by 27 June, they had been inundated with more than 110,000 ideas from citizens of many countries. By late of June, BP had reviewed 92,000 and categorized 320 as "promising".[159]
+[edit] Containment
+
+The response included deploying many miles of containment boom, whose purpose is to either corral the oil, or to block it from a marsh, mangrove, shrimp/crab/oyster ranch or other sensitive area. Booms extend 18–48 inches (0.46–1.2 m) above and below the water surface and are effective only in relatively calm and slow-moving waters.
+
+More than 100,000 feet (30 km) of containment booms were initially deployed to protect the coast and the Mississippi River Delta.[154] By the next day, this nearly doubled to 180,000 feet (55 km), with an additional 300,000 feet (91 km) staged or being deployed.[160][161] On 2 May high winds and rough waves rendered booms largely ineffective.[162]
+[edit] Barrier island plan
+Main article: Louisiana barrier island plan
+
+On 21 May Plaquemines Parish president Billy Nungesser publicly complained about the federal government's hindrance of local mitigation efforts. State and local officials had proposed building sand berms off the coast to catch the oil before it reached the wetlands, but the emergency permit request had not been answered for over two weeks. The following day Nungesser complained that the plan had been vetoed, while Army Corps of Engineers officials said that the request was still under review.[163] Gulf Coast Government officials released water via Mississippi River diversions in an effort to create an outflow of water that would keep the oil off the coast. The water from these diversions comes from the entire Mississippi watershed. Even with this approach, on 23 May NOAA predicted a "massive" landfall to the west of the Mississippi River at Port Fourchon.[164]
+
+On 23 May Louisiana Attorney General Buddy Caldwell wrote to Lieutenant General Robert L. Van Antwerp of the US Army Corps of Engineers,[165] stating that Louisiana had the right to dredge sand to build barrier islands to keep the oil spill from its wetlands without the Corps' approval, as the 10th Amendment to the U.S. Constitution prevents the federal government from denying a state the right to act in an emergency.[166][167] He also wrote that if the Corps "persists in its illegal and ill-advised efforts" to prevent the state from building the barriers that he would advise Louisiana Governor Bobby Jindal to build the berms and challenge the Corps in court.[168]
+
+On 3 June BP said barrier projects ordered by Adm. Thad Allen would cost $360 million.[85]
+
+On 16 June Great Lakes Dredge and Dock Company under the Shaw Environmental and Infrastructure Group began constructing sand berms off the Louisiana coast.[169]
+[edit] Dispersal
+
+Spilled oil naturally disperses via storms, currents, and osmosis with the passage of time. If the oil density reaches a low enough level, other natural processes can consume it. Chemical dispersants accelerate the dispersal process, although they may have significant side-effects. Corexit EC9500A and the earlier product Corexit EC9527A, have been the main dispersants being used.[170] These contain propylene glycol, 2-Butoxyethanol and dioctyl sodium sulfosuccinate.[171][172] 2-butoxyethanol was identified as a causal agent in the health problems experienced by cleanup workers after the 1989 Exxon Valdez oil spill.[172] Corexit manufacturer Nalco states, "[COREXIT 9500] is a simple blend of six well-established, safe ingredients that biodegrade, do not bioaccumulate and are commonly found in popular household products....COREXIT products do not contain carcinogens or reproductive toxins. All the ingredients have been extensively studied for many years and have been determined safe and effective by the EPA".[173]
+
+However, Corexit EC9500A and EC9527A are neither the least toxic, nor the most effective, among EPA-approved dispersants,[174] and they are banned from use on oil spills in the United Kingdom.[175] Twelve other products received better toxicity and effectiveness ratings,[176] but BP says it chose to use Corexit because it was available the week of the rig explosion.[174] Critics contend that the major oil companies stockpile Corexit because of their close business relationship with its manufacturer Nalco.[174][177]
+
+The Environmental Protection Agency (EPA) approved the injection of dispersants directly at the leak site, to break up the oil before it reaches the surface, after three underwater tests.[178]
+
+On 1 May two military C-130 Hercules aircraft were employed to spray oil dispersant.[179]
+
+On 7 May Secretary Alan Levine of the Louisiana Department of Health and Hospitals, Louisiana Department of Environmental Quality Secretary Peggy Hatch, and Louisiana Department of Wildlife and Fisheries Secretary Robert Barham sent a letter to BP outlining their concerns related to potential dispersant impact on Louisiana's wildlife and fisheries, environment, aquatic life, and public health. Officials requested that BP release information on their dispersant effects.[180]
+A large four propeller airplane spraying liquid over oil-sheen water
+A C-130 Hercules drops an oil-dispersing chemical into the Gulf of Mexico
+
+By 20 May, BP had applied 600,000 US gallons (2,300,000 l) of Corexit on the surface and 55,000 US gallons (210,000 l) underwater.[181]
+
+Independent scientists suggest that underwater injection of Corexit into the leak might be responsible for the oil plumes discovered below the surface.[176] However, NOAA administrator Jane Lubchenco said that there was no information supporting this conclusion, and indicated further testing would be needed to ascertain the cause of the undersea oil clouds.[176]
+
+On 19 May EPA gave BP 24 hours to choose less toxic alternatives to Corexit from the list of dispersants on the National Contingency Plan Product Schedule, and begin to apply the new dispersant(s) within 72 hours of EPA approval, or provide a "detailed description of the alternatives investigated, and the reason those products did not meet the required standards."[182][183] On 20 May US Polychemical Corporation reportedly received an order from BP for its Dispersit SPC 1000 dispersant. US Polychemical said it could produce 20,000 US gallons (76,000 l) a day in the first few days, increasing up to 60,000 US gallons (230,000 L) a day thereafter.[184] Also on 20 May, BP spokesman Scott Dean said that BP had determined that "none of the alternative products on the ... list meets all three criteria specified in yesterday's directive for availability, toxicity and effectiveness."[185] As of 23 May, BP had said that providing a "detailed description of the alternatives investigated and the reason they believe those products did not meet the required standards" on a public Web site would compromise its confidential business information.[186][187] On 24 May, EPA administrator Jackson said the 700,000 US gallons (2,600,000 l) of dispersants already used was "approaching a world record" and that "dissatisfied with BP's response" she was ordering EPA to conduct its own evaluation of alternatives, and ordering BP to scale back dispersant use.[188][189][190]
+[edit] Removal
+Clouds of smoke billow up from controlled burns taking place in the Gulf of Mexico
+
+Three basic approaches to removing the oil from the water have been employed which are: burning, filtering off-shore, and collecting for later processing. Issues surrounding removal include air pollution, scale, and legal and regulatory compliance.
+
+On 28 April, the US Coast Guard announced plans to corral and burn off up to 1000 barrels of oil each day. It tested how much environmental damage a small, controlled burn of 100 barrels did to surrounding wetlands, but could not proceed with an open ocean burn due to poor conditions.[160][191]
+
+BP stated that more than 215,000 barrels of oil-water mix had been recovered by 25 May.[76] As of 28 June, BP said it had successfully removed 890,000 barrels of oily liquid and burned about 314,000 barrels of oil.[192]
+
+BP ordered 32 machines that separate oil and water from Ocean Therapy Solutions. Each machine can extract up to 2000 barrels per day,[193][194] although the machines work better on newly released oil.[195] BP agreed to use the technology after testing machines for one week.[196]
+
+In early July, the Taiwanese supertanker A Whale, recently retrofitted as a skimmer, was tested and failed to collect oil, perhaps due to the dispersion of oil in the Gulf.[197]
+
+Much of the oil is so far down that only nature, including microbes, will be able to remove it. Terry Hazen of the Department of Energy's Lawrence Berkeley National Laboratory said the process could take months or years, but after six weeks of research, he said microbes could work quickly in 84-degree water. Robert Bea of The University of California, who worked on the Ixtoc spill and the 1969 Santa Barbara oil spill, said the old methods would be the best ones. Dispersants, he said, did not work except in keeping beaches clean, and they hurt the environment.
+
+The Coast Guard said 33 million gallons of tainted water had been recovered, with 5 million gallons of that consisting of oil. An estimated 11 million gallons of oil were burned. BP said 826,000 barrels had been recovered or flared.
+
+NOAA estimated a third of the oil had been removed from the Gulf.[198]
+[edit] Government regulations
+
+The Environmental Protection Agency prohibits the use of skimmers that leave more than 15 parts per million of oil in the water. Many large-scale skimmers are therefore unable to be used in the cleanup because they exceed this limit.[199] During the first two weeks after the spill, 13 foreign governments offered their assistance in cleanup.
+
+An urban myth grew that the U.S. government declined the offers because of the requirements of the Jones Act.[200] This proved untrue and many foreign assets deployed to aid in cleanup efforts.[201]
+
+In mid-June, the Coast Guard ordered 16 barges, which had been cleaning up oil, to stop cleanup for more than 24 hours, because it had to confirm that they had fire extinguishers and life vests on board per safety regulations.[202]
+[edit] Consequences
+See also: Global industry and economic impact of the Deepwater Horizon disaster
+[edit] Ecology
+Heavily oiled Brown Pelicans wait to be cleaned of Gulf spill crude
+
+The spill threatens environmental disaster due to factors such as petroleum toxicity and oxygen depletion.[203] Eight U.S. national parks are threatened.[204] More than 400 species live in the Gulf islands and marshlands at risk, including the endangered Kemp's Ridley turtle. In the national refuges most at risk, about 34,000 birds have been counted, including gulls, pelicans, roseate spoonbills, egrets, terns, and blue herons.[76] A comprehensive 2009 inventory of offshore Gulf species counted 15,700. The area of the oil spill includes 8,332, including more than 1,200 fish, 200 birds, 1,400 mollusks, 1,500 crustaceans, 4 sea turtles, and 29 marine mammals.[205][206]
+
+As of 16 July, 2,624 dead animals had been collected, including 2,095 birds, 467 sea turtles, 61 dolphins and other mammals, and 1 reptile.[207] According to the U.S. Fish and Wildlife Service, cause of death had not been determined as of late June. Also, dolphins have been seen which are lacking food, and "acting drunk" apparently due to the spill.[208] A reporter kayaking in the area of Grand Isle reported seeing about 60 dolphins blowing oil through their blow holes as they swam through oil-slick waters.[209]
+
+Duke University marine biologist Larry Crowder said threatened loggerhead turtles on Carolina beaches could swim out into contaminated waters. Ninety percent of North Carolina's commercially valuable sea life spawn off the coast and could be contaminated if oil reaches the area. Douglas Rader, a scientist for the Environmental Defense Fund, said prey could be negatively affected as well. Steve Ross of UNC-Wilmington said coral reefs could be smothered.[210]
+
+In early June Harry Roberts, a professor of Coastal Studies at Louisiana State University, stated that 4 million barrels (170,000,000 US gallons; 640,000 cubic metres) of oil would be enough to "wipe out marine life deep at sea near the leak and elsewhere in the Gulf" as well as "along hundreds of miles of coastline." Mak Saito, an Associate Scientist at Woods Hole Oceanographic Institution in Massachusetts indicated that such an amount of oil "may alter the chemistry of the sea, with unforeseeable results."[211] Samantha Joye of the University of Georgia indicated that the oil could harm fish directly, and microbes used to consume the oil would also reduce oxygen levels in the water.[212] According to Joye, the ecosystem could require years or even decades to recover, as previous spills have done.[213] Oceanographer John Kessler estimates that the crude gushing from the well contains approximately 40% methane, compared to about 5% found in typical oil deposits.[214] Methane could potentially suffocate marine life and create dead zones where oxygen is depleted.[214] Also oceanographer Dr. Ian MacDonald at Florida State University believes that the natural gas dissolving below the surface has the potential to reduce the Gulf oxygen levels and emit benzene and other toxic compounds.[73][215] Damage to the ocean floor is as yet unknown.[198]
+
+In early July, researchers discovered two new previously unidentified species of bottom-dwelling pancake batfish of the Halieutichthys genus, in the area affected by the oil spill.[216]
+[edit] Fisheries and tourism
+21 June 2010 NOAA map of the Gulf of Mexico showing the areas closed to fishing.
+As of 21 June 2010, the area closed to fishing encompassed 86,985 square miles (225,290 km2), or about 36% of Gulf of Mexico federal waters.
+
+In BP's Initial Exploration Plan, dated 10 March 2009, they said that "it is unlikely that an accidental spill would occur" and "no adverse activities are anticipated" to fisheries or fish habitat.[52] On 29 April 2010, Louisiana Governor Bobby Jindal declared a state of emergency in the state after weather forecasts predicted the oil slick would reach the Louisiana coast.[217] An emergency shrimping season was opened on 29 April so that a catch could be brought in before the oil advanced too far.[218] By 30 April the Coast Guard received reports that oil had begun washing up to wildlife refuges and seafood grounds on the Louisiana Gulf Coast.[219] On 22 May The Louisiana Seafood Promotion and Marketing Board stated said 60 to 70 percent of oyster and blue crab harvesting areas and 70 to 80 percent of fin-fisheries remained open.[220] The Louisiana Department of Health and Hospitals closed an additional ten oyster beds on 23 May, just south of Lafayette, Louisiana, citing confirmed reports of oil along the state's western coast.[221]
+
+On 2 May the National Oceanic and Atmospheric Administration closed commercial and recreational fishing in affected federal waters between the mouth of the Mississippi River and Pensacola Bay. The closure initially incorporated 6,814 square miles (17,650 km2).[222][223] By 21 June NOAA had increased the area under closure over a dozen times, encompassing by that date 86,985 square miles (225,290 km2), or approximately 36% of Federal waters in the Gulf of Mexico, and extending along the coast from Atchafalaya Bay, Louisiana to Panama City, Florida.[224][225] On 24 May the federal government declared a fisheries disaster for the states of Alabama, Mississippi and Louisiana.[226] Initial cost estimates to the fishing industry were $2.5 billion.[219]
+
+On 23 June, NOAA ended its fishing ban in 8,000 square miles (21,000 km2) square miles, leaving 78,597 square miles (203,570 km2) with no fishing allowed,[227] or about one-third of the Gulf. The continued fishing ban helps assure the safety of seafood, and NOAA inspectors have determined that as of 9 July, Kevin Griffis of the Commerce Department said, only one seafood sample out of 400 tested did not pass, though even that one did not include "concerning levels of contaminants".[228]
+
+Although many people cancelled their vacations at first, hotels close to the coasts of Louisiana, Mississippi and Alabama reported dramatic increases in business from 2009 during the first half of May 2010. On 25 May BP gave Florida $25 million to promote its beaches, which the oil had not reached, and the company planned $15 million each for Alabama, Louisiana and Mississippi. The Bay Area Tourist Development Council bought digital billboards showing recent photos from the gulf coast beaches as far north as Nashville, Tennessee and Atlanta. Along with these and other assurances that the beaches are so far unaffected, hotels have cut rates and offered deals such as free golf. Also, cancellation policies have changed, and refunds have been promised to those where oil arrives. However, 2009 was a slow year, and those working to deal with the spill have rented rooms in the area. Revenues remain below 2009 levels due to the special deals.[229] By June many people were cancelling vacations while they could do so, fearing the arrival of oil on the beaches.[108]
+
+By the end of June tourism was off in Mississippi even though beaches were open with no oil until 27 June.[230][90]
+
+University of Central Florida economist Abraham Pizam said the oil slick may become "the worst disaster in the history of Florida tourism."[231] Initial cost estimates were that the impact on tourism along Florida's Paradise Coast could be $3 billion.[219]
+[edit] Other economic consequences
+Main article: Economic and political consequences of the Deepwater Horizon disaster
+
+On 5 July BP reported that its own expenditures on the oil spill had reached $3.12 billion, including the cost of the spill response, containment, relief well drilling, grants to the Gulf states, claims paid, and federal costs.[232][233] The United States Oil Pollution Act of 1990 limits BP's liability for non-cleanup costs to $75 million unless gross negligence is proven.[234] BP has said it would pay for all cleanup and remediation regardless of the statutory liability cap. Nevertheless, some Democratic lawmakers are seeking to pass legislation that would increase the liability limit to $10 billion.[235][236] Analysts for Swiss Re have estimated that the total insured losses from the accident could reach $3.5 billion. According to UBS, final losses could be $12 billion.[237] According to Willis Group Holdings, total losses could amount to $30 billion, of which estimated total claims to the market from the disaster, including control of well, re-drilling, third-party liability and seepage and pollution costs, could exceed $1.2 billion.[238] On 25 June BP's market value reached a 52-week low. The company's total value lost since 20 April was $105 billion. Investors saw their holdings in BP shrink to $27.02, a nearly 54 percent loss of value in 2010.[239] BP has announced that it is setting up a new unit to oversee management of the oil spill and its aftermath, which will be headed by former TNK-BP chief executive Robert Dudley.[134]
+
+Local officials in Louisiana have expressed concern that the offshore drilling moratorium imposed in response to the spill will further harm the economies of coastal communities.[240] The oil industry employs about 58,000 Louisiana residents and has created another 260,000 oil-related jobs, accounting for about 17 percent of all Louisiana jobs.[240] BP has agreed to allocate $100 million for payments to offshore oil workers who are unemployed due to the six-month moratorium on drilling in the deep-water Gulf of Mexico.[133]
+
+The real estate prices and a number of transactions in the Gulf of Mexico area have decreased significantly since beginning of the oil spill. As a result, area officials want the state legislature to allow property tax to be paid based on current market value, which according to State Rep. Dave Murzin could mean millions of dollars in losses for each county affected.[241]
+
+The Organization for International Investment, a Washington-based advocate for overseas investment into the U.S., warned in early July that the political rhetoric surrounding the disaster is potentially damaging the reputation of all British companies with operations in the U.S.[242] and sparked a wave of U.S. protectionism that has restricted British firms from winning government contracts, making political donations and lobbying.[243]
+[edit] Litigation
+Main article: Deepwater Horizon litigation
+See also: Hornbeck Offshore Services LLC v. Salazar
+
+By 26 May over 130 lawsuits relating to the spill had been filed[237] against one or more of BP, Transocean, Cameron International Corporation, and Halliburton Energy Services,[244] although it is considered likely by observers that these will be combined into one court as a multidistrict litigation.[244] By 17 June over 220 lawsuits were filed against BP alone.[245] Because the spill has been largely lingering offshore, the plaintiffs who can claim damages so far are mostly out-of-work fishermen and tourist resorts that are receiving cancellations.[246] The oil company says 23,000 individual claims have already been filed, of which 9,000 have so far been settled.[237] BP and Transocean want the cases to be heard in Houston, seen as friendly to the oil business. Plaintiffs have variously requested the case be heard in Louisiana, Mississippi or Florida.[246] Five New Orleans judges have recused themselves from hearing oil spill cases because of stock ownership in companies involved or other conflicts of interest.[247] BP has retained law firm Kirkland &amp; Ellis to defend most of the lawsuits arising from the oil spill.[248]
+[edit] Health consequences
+
+As of 29 May, ten oil spill clean-up workers had been admitted to West Jefferson Medical Center in Marrero, Louisiana. All but two had been hospitalized suffering from symptoms emergency room doctors diagnosed as dehydration. At a press briefing about the 26 May medical evacuation of seven crewmembers from Vessels of Opportunity working in the Breton Sound area, Coast Guard Captain Meredith Austin, Unified Command Deputy Incident Commander in Houma, LA, said that air monitoring done in advance of beginning work showed no volatile organic compounds above limits of concern. No respiratory protection was issued, said Austin "because air ratings were taken and there were no values found to be at an unsafe level, prior to us sending them in there."[249] Crude oil contains a mixture of volatile hydrocarbon compounds, which include polycyclic aromatic hydrocarbons (PAHs), benzene, toluene, ethylbenzene, and xylenes, which are known carcinogens. PAHs have caused tumors in laboratory animals when they breathed these substances. Symptoms of exposure to these petroleum compounds include dizziness, headaches, nausea, and rapid heart beat, which are all shared symptoms of dehydration. Kerosene (a component of the dispersants being used in the Gulf) exposure causes similar symptoms.[250]
+
+On 15 June, Marylee Orr, Executive Director for Louisiana Environmental Action Network (LEAN),[251] said on MSNBC's Countdown with Keith Olbermann that people along the Gulf Coast are getting very sick, with symptoms of dizziness, vomiting, nausea, headaches, and chest pains, not only from the first responders to the crisis, but residents living along the coast as well. LEAN's director reported that BP has threatened to fire their workers if they use respirators distributed by LEAN, though health and safety officials have not required their use, as they may exacerbate risks of heat exhaustion.[252][253] By 21 June 143 oil spill exposure-related cases had been reported to the Louisiana Department of Health and Hospitals (DHH) since the crisis began; 108 of those cases involved workers in the oil spill clean-up efforts, while thirty-five were reported by the general public.[254]
+
+The Institute of Medicine of the U. S. National Academies held a workshop 22 and 23 June to assess known health effects of this and previous oil spills and to coordinate epidemiological monitoring and ongoing medical research. Louisiana state health officer Jimmy Guidry stated that need as: “This is more than a spill. This is ongoing leakage of a chemical, and adding chemicals to stop the chemicals. We're feeling like we're in a research lab."[255][256] On the second day of the meeting the suicide of William Allen Kruse, a charter boat captain working as a BP clean-up worker,[257] intensified previous expert commentary on the current and likely long-term mental health effects of the ongoing crisis. David Abramson, director of research for Columbia's National Center for Disaster Preparedness, noted the increased risk of mental disorders and stress-related health problems.[258][259]
+[edit] U.S. and Canadian offshore drilling policy
+Main articles: United States offshore drilling debate and 2010 U.S. Deepwater Drilling Moratorium
+See also: Hornbeck Offshore Services LLC v. Salazar
+
+After the Deepwater Horizon explosion a six-month offshore drilling (below 500 feet (150 m) of water) moratorium was enforced by the United States Department of the Interior.[260] Secretary of the Interior Ken Salazar ordered immediate inspections of all deep-water operations in the Gulf of Mexico. An Outer Continental Shelf safety review board within the Department of the Interior is to provide recommendations for conducting drilling activities in the Gulf.[153] The moratorium suspended work on 33 rigs.[260] It was challenged by several drilling and oil services companies. On 22 June, a United States federal judge on the United States District Court for the Eastern District of Louisiana Martin Leach-Cross Feldman when ruling in the case Hornbeck Offshore Services LLC v. Salazar, lifted the moratorium finding it too broad, arbitrary and not adequately justified.[260] The Department of Justice appealed to the 5th Circuit Court of Appeals, which granted the request for an expedited hearing. A three judge panel is scheduled to hear oral arguments on 8 July.[261][262]
+
+On 30 June, Salazar said that "he is working very hard to finalize a new offshore drilling moratorium".[263] Michael Bromwich, the head of the newly created Bureau of Ocean Energy Management, Regulation and Enforcement, said that a record of "bad performance, deadly performance" by an oil company should be considered "a relevant factor" for the government when it decides if that company should be awarded future drilling leases.[263] Representative George Miller plans to introduce to the energy reform bill under consideration in the United States House of Representatives that a company's safety record should factor into leasing decisions. By this amendment he wants to ban BP from leasing any additional offshore acreage for seven years because of "extensive record of serious worker safety and environmental violations".[264]
+
+On 28 April the National Energy Board of Canada, which regulates offshore drilling in the Canadian Arctic and along the British Columbia Coast, issued a letter to oil companies asking them to explain their argument against safety rules which require same-season relief wells.[265] Five days later, the Canadian Minister of the Environment Jim Prentice said the government would not approve a decision to relax safety or environment regulations for large energy projects.[266] On 3 May California Governor Arnold Schwarzenegger withdrew his support for a proposed plan to allow expanded offshore drilling projects in California.[267][268] On July 8 Florida Governor Charlie Crist called for a special session of the state legislature to draft an amendment to the state constitution banning offshore drilling in state waters, which the legislature rejected on July 20.[269][270]
+
+According to the U.S. Energy Information Administration (EIA), offshore drilling in the Gulf of Mexico accounts for 23.5% of U.S. oil production.[271] The chief argument in the U.S. offshore drilling debate has been to make the United States less dependent on imported oil.[272][273] American dependence on imports grew from 24% in 1970[274] to 66% in 2008.[275]
+[edit] Spill response fund
+
+BP initially promised to compensate all those affected. CEO Tony Hayward, BP stated, "We are taking full responsibility for the spill and we will clean it up and where people can present legitimate claims for damages we will honour them. We are going to be very, very aggressive in all of that."[276]
+
+On 16 June, after meeting with President Obama, BP executives agreed to create a $20 billion spill response fund.[133][277][278] BP has said it will pay $3 billion in third quarter of 2010 and $2 billion in fourth quarter into the fund followed by a payment of $1.25 billion per quarter until it reaches $20 billion. In the interim, BP posts its US assets worth $20 billion as bond. The amount of this fund is not a cap on BP's liabilities. For the fund's payments, BP will cut its capital spending budget, sell $10 billion in assets, and drop its dividend.[133][279] The fund will be administered by Kenneth Feinberg.[133][277][278] One aim of the fund will be to minimize lawsuits against the company.[280] According to BP's officials the fund can be used for natural resource damages, state and local response costs and individual compensation but cannot be used for fines or penalties.[133]
+[edit] Reactions
+Main article: Reactions to the Deepwater Horizon oil spill
+
+Reactions to the oil spill, from various officials and interested parties, ranged from blame and outrage at the damage caused by the spill, to calls for greater accountability on the part of the U.S. government and BP, including new legislation dealing with preventative security and cleanup improvements.
+[edit] Investigations
+
+On 22 April the United States Coast Guard and the Minerals Management Service launched an investigation of the possible causes of the explosion.[30] On 11 May the Obama administration requested the National Academy of Engineering conduct an independent technical investigation to determine the root causes of the disaster so that corrective steps could be taken to address the mechanical failures underlying the accident.[281] On 22 May President Obama announced that he had issued Executive Order 13543 establishing the bipartisan National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling, with former Florida Governor and Senator Bob Graham and former Environmental Protection Agency Administrator William K. Reilly serving as co-chairs. The purpose of the commission is to "consider the root causes of the disaster and offer options on safety and environmental precautions."[282][283] On 1 June U.S. Attorney General Eric Holder announced that he has opened an investigation of the oil spill.[284] According to Holder, the Justice Department is interviewing witnesses as part of a criminal and civil investigation. Besides BP, the investigation could apply to other companies involved in the drilling of the damaged well.[285]
+
+The United States House Committee on Energy and Commerce has conducted a number of hearings. On 17 June, CEO of BP Tony Hayward testified before the Committee.[286] The heads of Anadarko and Mitsui's exploration unit will testify before the Committee 22 July.[287] On 30 April, the Committee asked Halliburton to brief it as well as provide any documents it might have related to its work on the Macondo well.[153] Attention has focused on the cementing procedure and the blowout preventer, which failed to fully engage.[288] A number of significant problems have been identified with the blowout preventer: There was a leak in the hydraulic system that provides power to the shear rams. The underwater control panel had been disconnected from the pipe ram, and instead connected to a test ram. The blowout preventer schematic drawings, provided by Transocean to BP, do not correspond to the structure that is on the ocean bottom. The shear rams are not designed to function on the joints where the drill pipes are screwed together or on tools that are passed through the blowout preventer during well construction. The explosion may have severed the communication line between the rig and the sub-surface blowout preventer control unit such that the blowout preventer would have never received the instruction to engage. Before the backup dead man's switch could engage, communications, power and hydraulic lines must all be severed, but it is possible hydraulic lines were intact after the explosion. Of the two control pods for the deadman switch, the one that has been inspected so far had a dead battery.[289] Employee Tyrone Benton told the BBC on 21 June that a leak was spotted on a crucial piece of equipment in the oil rig's blowout preventer weeks before the accident, and that Transocean and BP were emailed about it.[290]
+
+According to the testimony of Doug Brown, the chief mechanic on the Deepwater Horizon, on 26 May at the joint U.S. Coast Guard and Minerals Management Service hearing, a BP representative overruled Transocean employees and insisted on displacing protective drilling mud with seawater just hours before the explosion.[291] One of the BP representatives on the board responsible for making the final decision, Robert Kaluza, refused to testify on the Fifth Amendment grounds that he might incriminate himself; Donald Vidrine, another BP representative, cited medical reasons for his inability to testify, as did James Mansfield, Transocean's assistant marine engineer on board.[292][293][294]
+
+The House Energy and Commerce Committee is investigating the incident. In a statement made in June they noted that in a number of cases leading up to the explosion, BP appears to have chosen riskier procedures to save time or money, sometimes against the advice of its staff or contractors.[295]
+
+In a 18 June statement, Jim Hackett, the CEO of Anadarko Petroleum Corporation, said research "indicates BP operated unsafely and failed to monitor and react to several critical warning signs during the drilling. ... BP's behavior and actions likely represent gross negligence or willful misconduct."[48] BP responded by strongly disagreeing with the Anadarko statement and said that, despite being contractually liable for sharing clean-up costs, Anadarko is "refusing to accept responsibility for oil spill removal costs and damages".[296] BP has sent Anadarko a bill for $272.2 million; Anadarko is "assessing our contractual remedies".[94]
+[edit] See also
+    United States portal
+    Environment portal
+
+    * Timeline of the Deepwater Horizon oil spill
+    * List of industrial disasters
+    * List of oil spills
+    * Largest oil spills
+    * Prudhoe Bay oil spill
+    * Exxon Valdez oil spill (1989)
+    * Ixtoc I oil spill (1979)
+    * Piper Alpha (1988)
+    * Offshore oil and gas in the US Gulf of Mexico
+    * Oil Pollution Act of 1990
+    * Unified Command (Deepwater Horizon oil spill)
+    * National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling
+    * Firecane
+    * BP
+
+[edit] References
+
+   1. ^ Whitney, Michael (2010-06-23). Two Workers Dead in BP Oil Disaster Recovery Effort FireDogLake.com. Retrieved 2010-07-03.
+   2. ^ June 23, 2010  (2010-06-23). "Gulf oil spill: Boat captain, despondent over spill, commits suicide | Greenspace | Los Angeles Times". Latimesblogs.latimes.com. http://latimesblogs.latimes.com/greenspace/2010/06/gulf-oil-spill-boat-captain-despondent-over-spill-commits-suicide.html. Retrieved 2010-07-14. 
+   3. ^ Power, Stephen; Gold, Russell; King, Neil Jr. (2010-06-08). "Staffing Levels on Deepwater Horizon Are Questioned". The Wall Street Journal (Dow Jones &amp; Company). http://online.wsj.com/article/SB10001424052748703302604575294670738866384.html. Retrieved 2010-06-08. : BP had contracted the rig from Transocean, which both owned and operated the rig.
+   4. ^ Burdeau, Cain; Holbrook, Mohr (2010-05-01). "Expert: Surface area of Gulf oil spill has tripled". Edmonton Sun. Associated Press. http://www.edmontonsun.com/news/world/2010/05/01/13793726.html. Retrieved 2010-05-13. 
+   5. ^ "The Ongoing Administration-Wide Response to the Deepwater BP Oil Spill". Whitehouse.gov. 2010-05-05. http://www.whitehouse.gov/blog/2010/05/05/ongoing-administration-wide-response-deepwater-bp-oil-spill. Retrieved 2010-05-08. 
+   6. ^ White (2010-05-03). "BP's oil slickers; Bosses who earn millions claimed they could handle rig explosions". Daily Mirror: p. 14. http://www.mirror.co.uk/news/top-stories/2010/05/03/bp-under-fire-for-louisiana-oil-slick-as-obama-demands-they-pay-up-115875-22229895/. Retrieved 2010-05-13. 
+   7. ^ Loe, Vicki. "Interpreting NOAA's Trajectory Prediction Maps for the Deepwater Horizon Oil Spill" (PDF). Office of Response &amp; Restoration. NOAA. http://response.restoration.noaa.gov/book_shelf/2056_NOAATrajectoryMaps.pdf. Retrieved 2010-05-24. 
+   8. ^ Guegel, A.; Wright, A.P.B.; Brenner, N. (2010-05-10). "BP 'army' battles Macondo flow". Upstream Online (NHST Media Group). http://www.upstreamonline.com/live/article214684.ece. Retrieved 2010-05-21. 
+   9. ^ Staff (2010-05-27). "Obama, in Gulf, pledges to push on stopping leak". USA Today. Wire services. http://www.usatoday.com/news/nation/2010-05-27-oil-spill-news_N.htm?csp=34news. Retrieved 2010-05-27. 
+  10. ^ Welch, William; Joyner, Chris (2010-05-25). "Memorial Services Honors 11 Dead Oil Rig Workers". USA Today. http://www.usatoday.com/news/nation/2010-05-25-oil-spill-victims-memorial_N.htm. Retrieved 2010-05-26. 
+  11. ^ "BP: No oil leaking into Gulf from busted well". Yahoo! News. 2010-07-15. http://cbs11tv.com/local/bp.OIL.LEAK.2.1806934.html. Retrieved 2010-07-15. 
+  12. ^ a b c "BP begins pressure test on well cap". Yahoo! 7 News. 2010-07-15. http://au.news.yahoo.com/a/-/australian-news/7592100/bp-begins-pressure-test-on-well-cap/. Retrieved 2010-07-15. 
+  13. ^ a b CNN Wire Staff (2010-06-15). "Oil estimate raised to 35,000–60,000 barrels a day". CNN. http://edition.cnn.com/2010/US/06/15/oil.spill.disaster/index.html. Retrieved 2010-06-15. 
+  14. ^ Anonymous (2010-06-16). How much oil's been spilled?. Howmanygallonsspilled.com. Retrieved 2010-06-17.[unreliable source?]
+  15. ^ Macdonald, Ian; Amos, John; Crone, Timothy; Wereley, Steve (2010-05-21). "The Measure of an Oil Disaster". The New York Times (The New York Times Company). http://www.nytimes.com/2010/05/22/opinion/22macdonald.html. Retrieved 2010-06-01. 
+  16. ^ a b c Gillis, Justin (2010-05-18). "Giant Plumes of Oil Forming Under the Gulf". The New York Times (The New York Times Company). http://www.nytimes.com/2010/05/16/us/16oil.html. Retrieved 2010-05-18. 
+  17. ^ Bigg, Matthew (2010-05-03). "Progress toward Gulf oil well cap". Reuters. http://www.reuters.com/article/idUSTRE6424KO20100503. Retrieved 2010-05-13. 
+  18. ^ Tangley, Laura (2010-04-30). "Bird Habitats Threatened by Oil Spill". National Wildlife (National Wildlife Federation). http://www.nwf.org/News-and-Magazines/National-Wildlife/Birds/Archives/2010/Oil-Spill-Birds.aspx. Retrieved 2010-05-03. 
+  19. ^ Gulf Oil Slick Endangering Ecology. [Flash streaming]. CBS Broadcasting. 2010-04-30. http://wcco.com/video/?id=78277. Retrieved 2010-05-01. 
+  20. ^ Staff (2010-05-02). "Salazar: Oil spill 'massive' and a potential catastrophe". This Just In (blog) (CNN). http://news.blogs.cnn.com/2010/05/02/salazar-oil-spill-massive-and-a-potential-catastrophe/. Retrieved 2010-05-01. 
+  21. ^ Staff (2010-05-01). "Guard mobilized, BP will foot bill". Politico Blog (Capitol News Company LLC). http://www.politico.com/politico44/perm/0410/cabinetlevel_oil_spill_meet_bcb87e48-b21e-4b72-8716-3d3a87ac7ffa.html. Retrieved 2010-05-01. 
+  22. ^ Transocean (2010-04-26). "Transocean Ltd. Provides Deepwater Horizon Update". Press release. http://www.marketwatch.com/story/transocean-ltd-provides-deepwater-horizon-update-2010-04-26. Retrieved 2010-06-30. 
+  23. ^ "Transocean Deepwater Horizon specifications". Transocean. http://www.deepwater.com/fw/main/Deepwater-Horizon-56C15.html. Retrieved 2010-04-22. 
+  24. ^ Reddall, Braden (2010-04-22). "Transocean rig loss's financial impact mulled". Reuters. http://www.reuters.com/article/idUSN2211325420100422. Retrieved 2010-05-01. 
+  25. ^ Jervis, Rick (2010-04-21). "At least 11 workers missing after La. oil rig explosion". USA Today. Associated Press. http://www.usatoday.com/news/nation/2010-04-21-louisiana-oil-rig_N.htm?loc=interstitialskip. Retrieved 2010-04-21. 
+  26. ^ a b "Macondo Prospect, Gulf of Mexico, USA". offshore-technology.com. 2005-10-20. http://www.offshore-technology.com/projects/macondoprospect/. Retrieved 9 May 2010. 
+  27. ^ BP (21 April 2010). "BP confirms that Transocean Ltd issued the following statement today". Press release. http://www.bp.com/genericarticle.do?categoryId=2012968&amp;contentId=7061443. Retrieved 21 April 2010. 
+  28. ^ "Deepwater Horizon Still on Fire in GOM". Rigzone. 2010-04-21. http://www.rigzone.com/news/article.asp?a_id=91349. Retrieved 2010-04-21. 
+  29. ^ "Gibbs: Deepwater Horizon Aftermath Could Affect Next Lease Sale". Rigzone. 2010-04-30. http://www.rigzone.com/news/article.asp?a_id=92025. Retrieved 2010-05-18. 
+  30. ^ a b c Brenner, Noah; Guegel, Anthony; Hwee Hwee, Tan; Pitt, Anthea (2010-04-22). "Coast Guard confirms Horizon sinks". Upstream Online (NHST Media Group). http://www.upstreamonline.com/live/article212769.ece. Retrieved 2010-04-22. 
+  31. ^ "Offshore Field Development Projects: Macondo". Subsea.Org. http://www.subseaiq.com/Data/Project.aspx?project_Id=562. Retrieved 2010-05-18. 
+  32. ^ "Central Gulf of Mexico Planning Area Lease Sale 206 Information". US Minerals Management Service. 2008-08-08. http://www.gomr.mms.gov/homepg/lsesale/206/cgom206.html. Retrieved 2010-06-06. 
+  33. ^ a b Schwartz, Naoki; Weber, Harry R. (2010-05-01). "Bubble of methane triggered rig blast". Associated Press. Southern California Public Radio. http://www.scpr.org/news/2010/05/08/bubble-methane-triggered-rig-blast/. Retrieved 2010-06-29. 
+  34. ^ "Rig fire at Deepwater Horizon April 21, 2010". iReport (CNN). 2010-04-22. http://www.ireport.com/docs/DOC-435316. Retrieved 2010-05-05. 
+  35. ^ "At least 11 missing after blast on oil rig in Gulf". CNN. 2010-04-21. http://edition.cnn.com/2010/US/04/21/oil.rig.explosion/index.html. Retrieved 2010-04-21. 
+  36. ^ Kirkham, Chris (2010-04-22). "Rescued oil rig explosion workers arrive to meet families at Kenner hotel". New Orleans Metro Real-Time News. http://www.nola.com/news/index.ssf/2010/04/rescued_oil_rig_workers_arrive.html. Retrieved 2010-04-22. 
+  37. ^ Kaufman, Leslie (2010-04-24). "Search Ends for Missing Oil Rig Workers". The New York Times (The New York Times Company): p. A8. http://www.nytimes.com/2010/04/24/us/24spill.html?hpw. Retrieved 2010-04-24. 
+  38. ^ Resnick-Ault, Jessica; Klimasinska, Katarzyna (2010-04-22). "Transocean Oil-Drilling Rig Sinks in Gulf of Mexico as Coast Guard Looks for Survivors". Bloomberg L.P.. http://www.bloomberg.com/news/2010-04-22/transocean-rig-sinks-in-gulf-of-mexico-following-blaze-coast-guard-says.html. Retrieved 2010-04-22. 
+  39. ^ "Coast Guard: Oil rig that exploded has sunk". CNN. 2010-04-22. http://news.blogs.cnn.com/2010/04/22/coast-guard-oil-rig-that-exploded-has-sunk/. Retrieved 2010-04-30. 
+  40. ^ "Oil slick spreads from sunken rig (interview)" (Video). CNN. 2010-04-22. http://edition.cnn.com/2010/US/04/22/oil.rig.explosion/index.html. Retrieved 2010-05-02. 
+  41. ^ Nichols, Bruce; Driver, Anna (2010-04-22). "Rig sinks in Gulf of Mexico, oil spill risk looms". Reuters. http://www.alertnet.org/thenews/newsdesk/N22187394.htm. Retrieved 2010-04-30. 
+  42. ^ Nichols, Bruce (2010-04-23). "Oil spill not growing, search for 11 continues". Reuters. http://www.reuters.com/article/idUSN2317771020100423. Retrieved 2010-04-30. 
+  43. ^ Jervis, Rick (2010-04-23). "Coast Guard: No oil leaking from sunken rig". USA Today. http://www.usatoday.com/news/nation/2010-04-23-deepwater-horizon_N.htm. Retrieved 2010-04-30. 
+  44. ^ McGill, Kevin; Schwartz, Noaki (2010-04-23). "Oil drilling accidents prompting new safety rules". USA Today. Associated Press. http://www.usatoday.com/news/nation/2010-04-23-louisiana-oil-rig-explosion_N.htm. Retrieved 2010-06-29. 
+  45. ^ (Flash video) Coast Guard: Oil Not Leaking from Sunken Rig. CBS. 2010-04-23. http://www.cbsnews.com/video/watch/?id=6424647n. Retrieved 2010-04-30. 
+  46. ^ (Flash video) RAW: Interview with Rear Adm. Mary Landry. WDSU NBC. 2010-04-23. http://www.clipsyndicate.com/video/playlist/1805/1420648?title=broadcast_local. Retrieved 2010-04-30. 
+  47. ^ a b c d "Oil rig wreck leaks into Gulf of Mexico". Associated Press. CBC News. 2010-04-25. http://www.cbc.ca/world/story/2010/05/02/www.cbc.ca/m/rich/world/story/2010/05/07/www.cbc.ca/m/rich/world/story/2010/04/24/deepwater-horizon-oil-rig-leaking.html. Retrieved 2010-04-25. 
+  48. ^ a b Connelly, Eileen (2010-06-18). "Anadarko points finger at BP on Gulf oil spill". The Sun News. Associated Press. http://www.marketwatch.com/story/anadarko-points-finger-at-bp-for-gulf-oil-spill-2010-06-18. Retrieved 2010-06-19. 
+  49. ^ "Deepwater Horizon blowout preventer 'faulty' – Congress". BBC News. 2010-05-13. http://news.bbc.co.uk/2/hi/americas/8679090.stm. Retrieved 2010-06-21. 
+  50. ^ "BP oil disaster: How much oil is left?". Christian Science Monitor. Associated Press. 2010-06-17. http://www.csmonitor.com/From-the-news-wires/2010/0617/BP-oil-disaster-How-much-oil-is-left. Retrieved 2010-06-28. 
+  51. ^ Breen, Tom; Weber, Harry R. (2010-07-14). "BP delays work on stopgap and permanent well fix". The Sun News. Associated Press. http://www.thesunnews.com/2010/07/13/1584527/new-bp-cap-set-for-slow-tests.html. Retrieved 2010-07-14. 
+  52. ^ a b Griffitt, Michelle. "Initial Exploration Plan Mississippi Canyon Block 252 OCS-G 32306" (PDF). BP Exploration and Production (New Orleans, Louisiana: Minerals Management Service). http://www.gomr.mms.gov/PI/PDFImages/PLANS/29/29977.pdf. 
+  53. ^ Cart, Julie (2010-05-01). "Tiny group has big impact on spill estimates". Los Angeles Times. http://articles.latimes.com/2010/may/01/nation/la-na-oil-spill-measure-20100502. Retrieved 2010-05-02. 
+  54. ^ Allen-Mills, Tony; Guillot, Craig (2010-05-02). "BP takes desperate measures as oil slick reaches US coast". The Sunday Times (Times Newspapers Ltd). http://www.timesonline.co.uk/tol/news/world/us_and_americas/article7113943.ece. Retrieved 2010-05-02. 
+  55. ^ Gertz, Emily (2010-04-29). "Gulf oil spill far worse than officials, BP admit, says independent analyst". OnEarth (Natural Resources Defense Council). http://www.onearth.org/node/2084. Retrieved 2010-05-12. 
+  56. ^ Talley, Ian (2010-04-30). "Oil may be leaking at rate of 25,000 barrels a day in Gulf". The Wall Street Journal (Dow Jones &amp; Company). (subscription required). http://online.wsj.com/article/SB10001424052748703871904575216382160623498.html. Retrieved 2010-05-13. 
+  57. ^ a b c "US military joins Gulf of Mexico oil spill effort". BBC News. 2010-04-29. http://news.bbc.co.uk/2/hi/americas/8651624.stm. Retrieved 2010-04-29. 
+  58. ^ Krauss, Clifford; Broder, John; Calmes, Jackie (2010-05-30). "White House Struggles as Criticism on Leak Mounts". The New York Times (The New York Times Company). http://www.nytimes.com/2010/05/31/us/31spill.html. Retrieved 2010-06-01. 
+  59. ^ Deepwater Horizon Incident – Joint Information Center (2010-05-27). "Flow Rate Group Provides Preliminary Best Estimate Of Oil Flowing from BP Oil Well". Press release. http://www.deepwaterhorizonresponse.com/go/doc/2931/569235. Retrieved 2010-05-29. 
+  60. ^ U.S. Department of the Interior (2010-05-27). "Flow Rate Group Provides Preliminary Best Estimate Of Oil Flowing from BP Oil Well". Press release. http://www.doi.gov/news/pressreleases/Flow-Rate-Group-Provides-Preliminary-Best-Estimate-Of-Oil-Flowing-from-BP-Oil-Well.cfm. Retrieved 2010-05-30. 
+  61. ^ Weisman, Jonathan; Chazan, Guy; Power, Stephen (2010-05-27). "Spill Tops Valdez Disaster". The Wall Street Journal (Dow Jones &amp; Company). http://online.wsj.com/article/SB10001424052748704269204575270081524288118.html. Retrieved 2010-06-01. 
+  62. ^ Bluestein, Greg; Nuckols, Ben (2010-05-27). "Gulf leak eclipses Exxon Valdez as worst US spill". Associated Press. Southern California Public Radio. http://www.scpr.org/news/2010/05/27/gulf-leak-eclipses-exxon-valdez-worst-us-spill/. Retrieved 2010-06-20. 
+  63. ^ "New Estimates Double Rate of Oil That Flowed Into Gulf". The New York Times (The New York Times Company). 2010-06-10. http://www.nytimes.com/2010/06/11/us/11spill.html. 
+  64. ^ "Admiral Allen, Dr. McNutt Provide Updates on Progress of Scientific Teams Analyzing Flow Rates from BP's Well". Press release. 2010-06-10. http://www.doi.gov/news/pressreleases/Admiral-Allen-Dr-McNutt-Provide-Updates-on-Progress-of-Scientific-Teams-Analyzing-Flow-Rates-from-BPs-Well.cfm. Retrieved 2010-06-11. 
+  65. ^ Staff (2010-06-15). "Oil estimate raised to 35,000–60,000 barrels a day". CNN. CNN Wire. http://edition.cnn.com/2010/US/06/15/oil.spill.disaster/index.html. Retrieved 2010-06-15. 
+  66. ^ Henry, Ray (2010-06-15). "Scientists up estimate of leaking Gulf oil". Associated Press. MSNBC. http://www.msnbc.msn.com/id/37717335/#slice-2. Retrieved 2010-06-15. 
+  67. ^ "Document Shows BP Estimates Spill up to 100,000 Bpd". Reuters. ABC News. 2010-06-20. http://abcnews.go.com/US/wireStory?id=10964694. Retrieved 2010-06-20. 
+  68. ^ BP (2010-05-24). "(Internal BP document of spill estimates)" (PDF). http://globalwarming.house.gov/files/WEB/flowrateBP.pdf. Retrieved 2010-06-20. 
+  69. ^ ["Gulf Oil Spill May Far Exceed Government, BP Estimates". [http://www.npr.org/templates/story/story.php?storyId=126809525. Retrieved 2010-07-16. 
+  70. ^ Tapper, Jake (2010-05-24). "Today's Qs for O's WH – May 24, '10". ABC News. http://blogs.abcnews.com/politicalpunch/2010/05/todays-qs-for-os-wh-52410.html. Retrieved 2010-05-25. 
+  71. ^ Craig, Tiffany (2010-05-24). "Is U.S. interior secretary confident BP knows what it's doing? 'No, not completely'". KENS 5-TV (Belo Corp.). http://www.kens5.com/news/national/Is-US-interior-secretary-confident-BP-knows-what-its-doing-No-not-completely-94733119.html. Retrieved 25 May 2010. 
+  72. ^ Robertson, Campbell (2010-05-27). "Estimates Suggest Spill Is Biggest in U.S. History". The New York Times (The New York Times Company). http://www.nytimes.com/2010/05/28/us/28flow.html. Retrieved 2010-05-27. 
+  73. ^ a b Polson, Jim (2010-06-16). "BP Gulf Well Gushing as Much as 60,000 Barrels a Day". Bloomberg Businessweek. Bloomberg. http://www.businessweek.com/news/2010-06-16/bp-gulf-well-gushing-as-much-as-60-000-barrels-a-day-update3-.html. Retrieved 2010-06-20. 
+  74. ^ Staff (2010-05-30). "Government, BP spar over size of oil leak". CNN Wire. CNN. http://edition.cnn.com/2010/US/05/30/oil.spill.bp.government/. Retrieved 2010-06-01. 
+  75. ^ a b Staff writer (2010-04-25). "Robot subs trying to stop Gulf oil leak". CBC News. http://www.cbc.ca/world/story/2010/04/25/oil-rig-leak.html. Retrieved 2010-04-25. 
+  76. ^ a b c d "Gulf Oil Spill, by the Numbers". CBS News (CBS). 2010-04-30. http://www.cbsnews.com/stories/2010/04/30/national/main6447428.shtml. Retrieved 2010-04-30. 
+  77. ^ "Gulf oil leak presents 'grave scenario'". CBC News (CBC). 2010-05-02. http://www.cbc.ca/world/story/2010/05/02/gulf-oil-spill.html. Retrieved 2010-05-02. 
+  78. ^ McGreal, Chris; Macalister, Terry; Gabbatt, Adam (2010-04-29). "Deepwater Horizon oil slick to hit US coast within hours". The Guardian. http://www.guardian.co.uk/environment/2010/apr/29/deepwater-horizon-oil-slick-us-coast. Retrieved 2010-04-30. 
+  79. ^ "Oil from massive Gulf spill reaching La. coast". MSNBC. Associated Press. 2010-04-30. http://www.msnbc.msn.com/id/36800673/ns/us_news-environment. Retrieved 2010-04-30. 
+  80. ^ Burdeau, Cain (2010-04-14). "Where's the oil? Much has evaporated". Fox 10. Associated Press. http://www.fox10tv.com/dpp/news/gulf_oil_spill/wheres-the-oil-much-has-evaporated-underwater-jgr1273846357749. Retrieved 2010-06-01. 
+  81. ^ "Tracking the Oil Spill – An Interactive Map". The New York Times (The New York Times Company). 2010-05-01. http://www.nytimes.com/interactive/2010/05/01/us/20100501-oil-spill-tracker.html. Retrieved 2010-05-20. 
+  82. ^ Biello, David. "Where Will the Deepwater Horizon Oil End Up?". Scientific American. http://www.scientificamerican.com/article.cfm?id=where-will-the-deepwater-horizon-oil-end-up. Retrieved 2010-07-14. 
+  83. ^ National Park Service (2010-06-04). "Response To Oil On Gulf Island Beaches Continues". Press release. http://www.nps.gov/applications/digest/headline.cfm?type=Incidents&amp;id=5117. Retrieved 2010-06-13. 
+  84. ^ Bluestein, Greg (2010-06-03). "BP has another setback as oil slick threatens Florida". Yahoo! News. Associated Press. http://www.nbc-2.com/global/story.asp?s=12579191. Retrieved 2010-06-03. 
+  85. ^ a b Bluestein, Greg (2010-06-03). "BP cuts pipe, plans to lower cap over Gulf spill". The Washington Times. Associated Press. http://www.washingtontimes.com/news/2010/jun/3/bp-cuts-pipe-plans-lower-cap-over-gulf-spill/. Retrieved 2010-06-29. 
+  86. ^ "Florida coast suffers first impact from oil spill". Reuters. 2010-06-04. http://www.reuters.com/article/idUSTRE6533S820100604?type=domesticNews. 
+  87. ^ Page, Jamie. PNJ-28 "Coast Guard authorizes closure of Perdido Pass". Pensacola News Journal date=2010-06-09. http://www.pnj.com/article/20100609/NEWS01/100609028/Coast-Guard-authorizes-closure-of-Perdido-Pass PNJ-28. 
+  88. ^ a b Kunzelman, Michael (2010-06-24). "Oil spewing once again in the Gulf". The Sun News. Associated Press. http://www.thesunnews.com/2010/06/24/1550150/oil-spewing-once-again-in-the.html. Retrieved 2010-06-24. 
+  89. ^ Kunzelman, Michael (2010-06-25). "BP gaffes kill hope". The Sun News. Associated Press. http://www.thesunnews.com/2010/06/25/1552511/bp-gaffes-kill-hope.html. Retrieved 2010-06-25. 
+  90. ^ a b McConnaughey, Janet; Stacy, Mitch (2010-06-27). "Admiral back on the Gulf Coast for spill". The Sun News. Associated Press. http://oilspilldisasters.com/admiral-gulf-coast-spill-976407a. Retrieved 2010-07-01. 
+  91. ^ Breen, Tom (2010-07-04). "BP costs for oil spill response pass $3 billion". The Sun News. Associated Press. http://www.washingtontimes.com/news/2010/jul/5/bp-costs-oil-spill-response-pass-3-billion/. Retrieved 2010-07-05. 
+  92. ^ Tarballs wash up on Texas coast. BayNews9. Retrieved 6 July 2010.
+  93. ^ Tarballs from Deepwater Horizon found on Bolivar and Galveston Island. The Orange Leader. Retrieved 6 July 2010.
+  94. ^ a b c Lozano, Juan A. (2010-07-06). "BP spill spreads to Texas". The Sun News. Associated Press. http://www.thesunnews.com/2010/07/06/1571890/bp-spill-spreads-to-texas.html. Retrieved 2010-07-06. 
+  95. ^ "Officials: Galveston tar balls are from Gulf oil spill". KTRK. 2010-07-06. http://abclocal.go.com/ktrk/story?section=news/local&amp;id=7537521. Retrieved 2010-07-08. 
+  96. ^ Mui, Ylan Q.; Fahrenthold, David A. (2010-07-07). "Oil in Lake Pontchartrain stokes worries in New Orleans". Washington Post. http://www.washingtonpost.com/wp-dyn/content/article/2010/07/06/AR2010070605045.html?hpid=topnews. Retrieved 2010-07-08. 
+  97. ^ "NOAA Ocean Science Mission Changes Course to Collect Seafloor and Water Column Oil Spill Data". 2010-05-06. http://www.noaanews.noaa.gov/stories2010/20100506_spillsampling.html. 
+  98. ^ "Giant Plumes of Oil Forming Under the Gulf". 2010-05-15. http://www.nytimes.com/2010/05/16/us/16oil.html. 
+  99. ^ Matthew Bigg (2010-06-25). "Interview: Scientists to study deepwater Gulf "oil plume"". Reuters. Thomson Reuters Foundation. http://www.alertnet.org/thenews/newsdesk/N25115351.htm. 
+ 100. ^ "Giant Plumes of Oil Forming Under the Gulf". The New York Times. 2010-05-15. http://www.nytimes.com/2010/05/16/us/16oil.html. 
+ 101. ^ Brown, Matthew; Dearen, Jason (2010-05-27). "Gulf Oil Spill: Scientists Discover Massive New Sea Oil Plume". Huffington Post. http://www.huffingtonpost.com/2010/05/27/gulf-oil-spill-new-plumes_n_591994.html. 
+ 102. ^ "NOAA Completes Initial Analysis of Weatherbird II Water Samples". NOAA News. 2010-06-08. http://www.noaanews.noaa.gov/stories2010/20100608_weatherbird.html. Retrieved 2008-06-25. 
+ 103. ^ Roosevelt, Margot; Susman, Tina (2010-05-31). "BP's new plan risks worsening oil spill". Los Angeles Times. http://www.latimes.com/news/nationworld/nation/la-na-oil-spill-20100531,0,907235.story. Retrieved 2010-06-29. 
+ 104. ^ http://www.mcclatchydc.com/2010/07/23/98088/researchers-confirm-subsea-gulf.html
+ 105. ^ a b "Gulf of Mexico Oil Spill in the Loop Current". ScienceDaily. 2010-05-19. http://www.sciencedaily.com/releases/2010/05/100519112721.htm. 
+ 106. ^ The offshore forecast has been temporarily stopped due to small amounts of oil offshore, the absence of recent observations confirming significant amounts of oil in offshore areas, and the large separation between the loop current complex and the oil slick. Forecasts will resume if the threat returns.
+ 107. ^ "NOAA Observations Indicate a Small Portion of Light Oil Sheen Has Entered the Loop Current". Deepwater Horizon Incident Joint Information Center. 2010-05-19. http://www.deepwaterhorizonresponse.com/go/doc/2931/555703/. Retrieved 2010-05-20. 
+ 108. ^ a b c Anderson, Lorena (2010-06-04). "Oil could hit Myrtle Beach area by July". The Sun News. http://www.thesunnews.com/2010/06/04/1511778/oil-could-hit-strand-by-july.html. Retrieved 2020-06-04. 
+ 109. ^ Henderson, Bruce; Price, Jay (2010-05-06). "Could oil leak reach N.C.? Unlikely, yet possible". The Charlotte Observer. http://www.charlotteobserver.com/2010/05/06/1418540/oil-leak-reaching-nc-unlikely.html. Retrieved 2010-05-06. 
+ 110. ^ Baker, Mike; Bynum, Russ (2010-06-05). "Oil spill threat to Carolinas is minimal". The Sun News. Associated Press. http://www.thesunnews.com/2010/06/05/1513760/oil-spill-threat-to-carolinas.html. Retrieved 2010-06-05. 
+ 111. ^ a b Schoof, Renee; Adams, Chris (2010-05-31). "Gulf's future looks grim". The Sun News (McClatchy Newspapers). http://www.thesunnews.com/2010/05/31/1505058/gulfs-future-looks-grim.html. Retrieved 2010-05-31. 
+ 112. ^ Masters, Jeff (2010-05-26). "What would a hurricane do to the Deepwater Horizon oil spill?". Weather Underground. http://www.wunderground.com/blog/JeffMasters/comment.html?entrynum=1492. Retrieved 2010-06-08. 
+ 113. ^ "Hurricanes and the Oil Spill" (PDF). National Oceanic and Atmospheric Administration. 2010. http://www.nhc.noaa.gov/pdf/hurricanes_oil_factsheet.pdf. Retrieved 2010-07-09. 
+ 114. ^ "BP accused of cover-up". Reuters. 2010-05-19. http://www.reuters.com/article/idUSTRE6430AR20100520. 
+ 115. ^ Goldenberg, Suzanne (2010-05-21). "BP switches on live video from oil leak". The Guardian (Guardian Media Group). http://www.guardian.co.uk/environment/2010/may/20/deepwater-horizon-oil-spill-live-web-footage. Retrieved 2010-06-12. 
+ 116. ^ The House Select Committee on Energy Independence and Global Warming (2010-05-19). "Markey to Get Live Feed of BP Oil Spill on Website". Press release. http://globalwarming.house.gov/mediacenter/pressreleases_2008?id=0245. Retrieved 2010-06-12. 
+ 117. ^ "U.S. to check BP spill size, heavy oil comes ashore". Reuters. 210-05-20. http://www.reuters.com/article/idUSTRE6430AR20100520?type=domesticNews&amp;feedType=RSS&amp;feedName=domesticNews. 
+ 118. ^ Mufson, Steven; Fahrenthold, David (2010-05-21). "Estimated rate of oil spill no longer holds up". Washington Post. http://www.washingtonpost.com/wp-dyn/content/article/2010/05/20/AR2010052005083.html. 
+ 119. ^ a b c "Efforts to Limit the Flow of Spill News". The New York Times (The New York Times Company). 2010-06-09. http://www.nytimes.com/2010/06/10/us/10access.html?ref=global-home. 
+ 120. ^ Kelly Cobiella. Coast Guard Under 'BP's Rules'. CBS News. http://www.cbsnews.com/video/watch/?id=6496749n. 
+ 121. ^ Kirkham, Chris (July 01, 2010) Media, boaters could face criminal penalties by entering oil cleanup 'safety zone'. Times-Picayune.
+ 122. ^ "The Spill and Transparency; Dispersant Reductions Misleading; Al Gore Investigation Reopened"(transcript). Anderson Cooper 360 Degrees. CNN. July 1, 2010. "If we can't show what is happening, warts and all, no one will see what's happening. And that makes it very easy to hide failure and hide incompetence and makes it very hard to highlight the hard work of cleanup crews and the Coast Guard."
+ 123. ^ "US oil spill 'threatens way of life', governor warns". BBC News. 2 May 2010. http://news.bbc.co.uk/2/hi/americas/8656627.stm. Retrieved 2 May 2010. 
+ 124. ^ Bolstad, Erika; Clark, Lesley; Chang, Daniel (2010-05-14). "Engineers work to place siphon tube at oil spill site". Toronto Star (McClatchy Newspapers). http://www.thestar.com/news/world/article/809477--the-6-techniques-that-have-tried-out-on-the-gulf-oil-leak?bn=1. Retrieved 2010-05-14. 
+ 125. ^ "'Top kill' BP operation to half US oil leak fails". BBC News. 29 May 2010. http://news.bbc.co.uk/2/hi/world/us_and_canada/10191622.stm. Retrieved 29 May 2010. 
+ 126. ^ "Top kill fails". Upstream Online (NHST Media Group). 2010-05-28. http://www.upstreamonline.com/live/article216214.ece. Retrieved 2010-06-01. 
+ 127. ^ Brenner, Noah; Guegel, Anthony; Pitt, Anthea (2010-05-15). "BP misses on first tube try". Upstream Online (NHST Media Group). http://www.upstreamonline.com/live/article215093.ece. Retrieved 2010-06-30. 
+ 128. ^ BP (2010-05-24). "Update on Gulf of Mexico Oil Spill Response – 24 May". Press release. http://www.bp.com/genericarticle.do?categoryId=2012968&amp;contentId=7062283. Retrieved 2010-05-24. 
+ 129. ^ Nuckols, Ben; Bluestein, Greg (2010-05-27). "Gulf awaits word on latest bid to plug oil leak". Knoxville News. Associated Press. http://www.knoxnews.com/news/2010/may/27/gulf-awaits-word-latest-bid-plug-oil-leak/. Retrieved 2010-06-29. 
+ 130. ^ Nelson, Melissa; Mohr, Holbrook (2010-06-05). "Oil stains beaches and tourists as slick spreads". Associated Press. CNBC. http://www.cnbc.com/id/37527612/Oil_Stains_Beaches_and_Tourists_as_Slick_Spreads. Retrieved 2010-06-29. 
+ 131. ^ Shirbon, Estelle (2010-06=06). "BP chief hopes cap will capture most of Gulf oil". Reuters. http://uk.reuters.com/article/idUKLDE65503H20100606. Retrieved 2010-06-08. 
+ 132. ^ Gillis, Justin; Fountain, Henry (2010-06-07). "Rate of Oil Leak, Still Not Clear, Puts Doubt on BP". The New York Times (The New York Times Company). http://www.nytimes.com/2010/06/08/us/08flow.html?pagewanted=1. Retrieved 2010-06-08. 
+ 133. ^ a b c d e f g h Brenner, Noah (2010-06-17). "Hayward says spill 'never should have happened'". Upstream Online (NHST Media Group). http://www.upstreamonline.com/live/article218091.ece. Retrieved 2010-06-17. 
+ 134. ^ a b Brenner, Noah; Pitt, Anthea (2010-06-08). "BP calls in FPSO for Macondo". Upstream Online (NHST Media Group). http://www.upstreamonline.com/live/article217033.ece. Retrieved 2010-06-08. 
+ 135. ^ Brenner, Noah; Pitt, Anthea; Lewis, Josh (2010-06-10). "Clear Leader, Helix Producer tapped for Macondo". Upstream Online (NHST Media Group). http://www.upstreamonline.com/live/article217477.ece. Retrieved 2010-06-10. 
+ 136. ^ Gonzalez, Angel (2010-07-06). "BP: About 24,980 Barrels Of Total Oil Recovered 5 July". The Wall Street Journal (Dow Jones Newswires). http://online.wsj.com/article/BT-CO-20100706-707010.html. Retrieved 2010-07-06. 
+ 137. ^ Breen, Tom (2010-07-09). "Robots begin work to remove cap from gushing well". The Sun News. Associated Press. http://www.thesunnews.com/2010/07/09/1578563/new-cap-ships-could-contain-gulf.html. Retrieved 2010-07-10. 
+ 138. ^ Wells, Kent. "Sealing Cap Installation Animation". BP. http://bp.concerts.com/gom/sealingcapinstallationanimationwithkentwells070910.htm. Retrieved 18 July 2010. 
+ 139. ^ "BP turns to next attempt after top kill fails". Associated Press. 14 July 2010. 
+ 140. ^ a b "Spill boss says Macondo shut-in 'unlikely'". Upstream Online (NHST Media Group). 2010-07-15. http://www.upstreamonline.com/live/article221875.ece. Retrieved 2010-07-16. 
+ 141. ^ "Well Integrity Test Commences on MC252". Press release. http://www.bp.com/genericarticle.do?categoryId=2012968&amp;contentId=7063770. Retrieved 2010-07-15. 
+ 142. ^ "Deepwater Horizon ROV Status update". http://www.bp.com/liveassets/bp_internet/globalbp/globalbp_uk_english/incident_response/STAGING/local_assets/html/Oly_ROV2.html. 
+ 143. ^ a b Dishneau, David; Weber, Harry R. (2010-07-24). "Ships prepare to return to spill as storm weakens". The Sun News. Associated Press. http://www.thesunnews.com/2010/07/23/1600905/storm-could-take-away-sights-and.html. Retrieved 2010-07-24. 
+ 144. ^ Quinn, James (2010-05-14). "Barack Obama sends nuclear experts to tackle BP's Gulf of Mexico oil leak". The Daily Telegraph (Telegraph Media Group Limited). http://www.telegraph.co.uk/finance/newsbysector/energy/oilandgas/7726142/Barack-Obama-sends-nuclear-experts-to-tackle-BPs-Gulf-of-Mexico-oil-leak.html. Retrieved 2010-06-30. 
+ 145. ^ Revkin, Andrew C. (2010-06-03). "No Surprise: U.S. Rejects Nuclear Option for Gulf Oil Gusher". The New York Times Blogs. http://dotearth.blogs.nytimes.com/2010/06/03/no-surprise-u-s-rejects-nuclear-option-for-gulf-oil-gusher/. Retrieved 2010-06-30. 
+ 146. ^ "Relief wells and Subsea containment illustration". BP. http://www.bp.com/liveassets/bp_internet/globalbp/globalbp_uk_english/incident_response/STAGING/local_assets/images/relief_well_diagram.jpg. 
+ 147. ^ Daly, et. al. (26 May 2010). "Heat on White House to do more about Gulf spill". Associated Press. Washington Examiner. http://www.washingtonexaminer.com/breaking/feds-reject-notion-of-removing-bp-from-gulf-oil-spill-response-say-government-lacks-resources-94801074.html. Retrieved 2010-05-26. 
+ 148. ^ "Second Macondo relief well under way". Upstream Online (NHST Media Group). 2010-05-17. http://www.upstreamonline.com/live/article215111.ece. Retrieved 2010-05-25. 
+ 149. ^ "Update on Gulf of Mexico Oil Spill – 1 June". BP. 2010-06-01. http://www.bp.com/genericarticle.do?categoryId=2012968&amp;contentId=7062526. Retrieved 2010-06-01. 
+ 150. ^ "Update on Gulf of Mexico Oil Spill – 29 May". BP. 2010-05-30. http://www.bp.com/genericarticle.do?categoryId=2012968&amp;contentId=7062487. Retrieved 2010-05-30. 
+ 151. ^ "Relief wells aim at pipe 18,000 feet deep". USA Today. 2010-06-14. http://www.usatoday.com/news/nation/2010-06-14-oil-relief-well_N.htm. Retrieved 2010-06-15. 
+ 152. ^ Nuckols, Ben (30 May 2010). "BP turns to next attempt after top kill fails". Associated Press. http://seattletimes.nwsource.com/html/businesstechnology/2011982529_apusgulfoilspill.html. Retrieved 30 May 2010. 
+ 153. ^ a b c Brenner, Noah; Guegel, Anthony; Hwee Hwee, Tan; Pitt, Anthea (2010-04-30). "Congress calls Halliburton on Macondo". Upstream Online (NHST Media Group). http://www.upstreamonline.com/live/article213912.ece. Retrieved 2010-05-01. 
+ 154. ^ a b BP (2010-04-29). "BP MC252 Gulf Of Mexico Response Continues To Escalate On And Below Surface". Press release. http://www.bp.com/genericarticle.do?categoryId=2012968&amp;contentId=7061663. Retrieved 2010-04-29. 
+ 155. ^ Borenstein, Seth (2010-04-30). "Oil spill is the 'bad one' experts feared". MSNBC. http://www.msnbc.msn.com/id/36878803/ns/technology_and_science-science/. 
+ 156. ^ Eric Ward (2010-05-06). "Gulf Oil Spill Daily Response Activity Now at BP Web Site". URLwire. http://www.urlwire.com/news/050610.html. Retrieved 2010-05-06. 
+ 157. ^ "BP Hopes to Contain Main Oil Leak in Gulf Soon". Voice of America. 2010-05-04. http://www1.voanews.com/english/news/usa/BP-Hopes-to-Contain-Main-Oil-Leak-in-Gulf-Soon-92807244.html. Retrieved 2010-05-04. 
+ 158. ^ "Four oil-cleanup workers fall ill; Breton Sound fleet ordered back to dock". NOLA.com. 2010-05-26. http://www.nola.com/news/gulf-oil-spill/index.ssf/2010/05/four_oil-cleanup_workers_fall.html. 
+ 159. ^ "BP inundated with home-grown cleanup solutions". MSNBC. 2010-06-27. http://www.msnbc.msn.com/id/21134540/vp/37960176#37960176. Retrieved 2010-06-27. 
+ 160. ^ a b Mufson, Steven (2010-05-04). "Today's spills, yesterday's tools". The Washington Post: pp. A1, A8. http://www.washingtonpost.com/wp-dyn/content/article/2010/05/03/AR2010050302781.html. Retrieved 2010-05-19. 
+ 161. ^ BP (2010-04-30). "BP Steps Up Shoreline Protection Plans on US Gulf Coast". Press release. http://www.bp.com/genericarticle.do?categoryId=2012968&amp;contentId=7061565. Retrieved 2010-04-30. 
+ 162. ^ Borenstein, Seth; Breed, Allen G. (2010-05-02). "Oil spill grows, with little success stopping flow". Associated Press. http://www.suntimes.com/news/nation/2225922,oil-spill-gulf-coast-grows-050210.article. Retrieved 2010-05-03. 
+ 163. ^ Schleifstein, Mark (2010-05-22). "Plaquemines Parish President Nungesser claims berm oil capture plan killed.". The Times Picayune. http://www.nola.com/news/gulf-oil-spill/index.ssf/2010/05/plaquemines_parish_president_n.html. 
+ 164. ^ Achenbach, Joel (23 May 2010). "Gulf coast oil slick headed for Grand Isle, Louisiana". WashingtonPost. http://www.washingtonpost.com/wp-dyn/content/article/2010/05/22/AR2010052203042.html. 
+ 165. ^ James D. "Buddy" Caldwell (2010-05-23). "Letter to Lt. General Robert L. Van Antwerp, US Army Corps of Engineers". Louisiana Attorney General's Office. http://online.wsj.com/public/resources/documents/052310caldwellletter.pdf. Retrieved 2010-05-25. 
+ 166. ^ Bill Sasser (2010-05-24). "BP oil spill pushes Louisiana to desperate, massive 'berm' plan". Christian Science Monitor. http://www.csmonitor.com/USA/2010/0524/BP-oil-spill-pushes-Louisiana-to-desperate-massive-berm-plan. Retrieved 2010-05-25. 
+ 167. ^ Staff (2010-05-24). "Attorney General Buddy Caldwell tells Corps of Engineers state has emergency powers to build barrier islands". Times-Picayune. http://www.nola.com/news/gulf-oil-spill/index.ssf/2010/05/attorney_general_buddy_caldwel.html. Retrieved 2010-05-25. 
+ 168. ^ Ashby Jones (2010-05-25). "Will the Gulf Cleanup Effort Yield a Constitutional Smackdown?". Wall Stret Journal. http://blogs.wsj.com/law/2010/05/25/will-the-gulf-cleanup-effort-yield-a-constitutional-smackdown?. Retrieved 2010-05-25. 
+ 169. ^ Great Lakes Dredge &amp; Dock Corporation Begins Work on First Sand Berm off the Louisiana Coast
+ 170. ^ "What are oil dispersants?"]. CNN. 2010-05-15. http://edition.cnn.com/2010/US/studentnews/05/15/oil.spill.dispersants/. Retrieved 2010-07-02. 
+ 171. ^ Renner, Rebecca (2010-05-07). "US oil spill testing ground for dispersants". Royal Society of Chemistry. http://www.rsc.org/chemistryworld/News/2010/May/07051001.asp. Retrieved 2010-07-02. 
+ 172. ^ a b Schor, Elana (2010-06-09). "Ingredients of Controversial Dispersants Used on Gulf Spill Are Secrets No More". The New York Times (The New York Times Company). http://www.nytimes.com/gwire/2010/06/09/09greenwire-ingredients-of-controversial-dispersants-used-42891.html. Retrieved 2010-07-02. 
+ 173. ^ Nalco Holding Company (2010-05-27). "Nalco Releases Additional Technical Information About COREXIT". Press release. http://www.nalco.com/news-and-events/4279.htm. Retrieved 2010-06-16. 
+ 174. ^ a b c Mark Guarino (2010-05-15). "In Gulf oil spill, how helpful – or damaging – are dispersants?". Christian Science Monitor. http://www.csmonitor.com/USA/2010/0515/In-Gulf-oil-spill-how-helpful-or-damaging-are-dispersants. 
+ 175. ^ Wang, Marian (2010-05-16). "In Gulf Spill, BP Using Dispersants Banned in U.K.". ProPublica. http://www.propublica.org/ion/blog/item/In-Gulf-Spill-BP-Using-Dispersants-Banned-in-UK. 
+ 176. ^ a b c Mark Guarino (2010-05-17). "Gulf oil spill: Has BP 'turned corner' with siphon success?". Christian Science Monitor. http://www.csmonitor.com/USA/2010/0517/Gulf-oil-spill-Has-BP-turned-corner-with-siphon-success. 
+ 177. ^ Geoff Mohan (2010-05-19). "Gulf oil spill: BP grilled over choice of dispersant". Los Angeles Times. http://latimesblogs.latimes.com/greenspace/2010/05/gulf-oil-spill-bp-grilled-over-choice-of-dispersant.html. Retrieved 2010-05-21. 
+ 178. ^ "Some oil spill events from Friday, 14 May 2010". ABC News. Associated Press. 2010-05-14. http://abcnews.go.com/Business/wireStory?id=10649335. Retrieved 2010-06-29. 
+ 179. ^ "US oil production, shipping unaffected by spill so far". Agence France-Presse. 2010-05-01. http://www.google.com/hostednews/afp/article/ALeqM5hew_8EkXXu79vuYRZ96WrFWDzQOw. Retrieved 2010-05-04. 
+ 180. ^ "Louisiana Officials, Attorney Want More Information From BP Concerning Spill". BayouBuzz. 08-05-2010. http://216.87.191.15/News/Louisiana/Government/Louisiana_Officials_Attorney_Want_More_Information_From_BP_Concerning__Spill__10804.asp. 
+ 181. ^ Juliet Eilperin (2010-05-20). "Post Carbon: EPA demands less-toxic dispersant". Washington Post. http://views.washingtonpost.com/climate-change/post-carbon/2010/05/epa_demands_less_toxic_dispersant.html. Retrieved 2010-05-20. 
+ 182. ^ "National Contingency Plan Product Schedule". Environmental Protection Agency. 2010-05-13. http://www.epa.gov/emergencies/content/ncp/product_schedule.htm. Retrieved 2010-05-21. 
+ 183. ^ "Dispersant Monitoring and Assessment Directive – Addendum" (PDF). Environmental Protection Agency. 2010-05-20. http://www.epa.gov/bpspill/dispersants/directive-addendum2.pdf. Retrieved 210-05-20. 
+ 184. ^ Campbell Robertson and Elisabeth Rosenthal (2010-05-20). "Agency Orders Use of a Less Toxic Chemical in Gulf". The New York Times (The New York Times Company). http://www.nytimes.com/2010/05/21/science/earth/21disperse.html?ref=us. Retrieved 2010-05-21. 
+ 185. ^ Jonathan Tilove (2010-05-21). "BP is sticking with its dispersant choice". Times-Picayune. http://www.nola.com/news/gulf-oil-spill/index.ssf/2010/05/bp_is_sticking_with_its_disper.html. Retrieved 2010-05-22. 
+ 186. ^ Janet Napolitano and Lisa P. Jackson (2010-05-20). "Letter From Secretary Napolitano and EPA Administrator Jackson to BP CEO Tony Hayward" (PDF). http://www.epa.gov/bpspill/bp-hayward-dhs-epa.pdf. Retrieved 210-05-23. 
+ 187. ^ Margot Roosevelt and Carolyn Cole (2010-05-23). "BP refuses EPA order to switch to less-toxic oil dispersant". Los Angeles Times. http://www.latimes.com/news/nationworld/nation/la-na-oil-spill-20100523,0,907236.story. Retrieved 2010-05-23. 
+ 188. ^ Elisabeth Rosenthal (2010-05-24). "In Standoff With Environmental Officials, BP Stays With an Oil Spill Dispersant". The New York Times (The New York Times Company). http://www.nytimes.com/2010/05/25/science/earth/25disperse.html?hpw. Retrieved 2010-05-25. 
+ 189. ^ Douglas J. Suttles (2010-05-20). "EPA Release of BP's Response to Directive on Dispersants" (PDF). BP. http://www.epa.gov/bpspill/dispersants/5-21bp-response.pdf. Retrieved 2010-05-25. 
+ 190. ^ Jackson, Lisa P. (2010-05-24). "Statement by EPA Administrator Lisa P. Jackson from Press Conference on Dispersant Use in the Gulf of Mexico with U.S. Coast Guard Rear Admiral Landry" (PDF). Environmental Protection Agency. http://www.epa.gov/bpspill/dispersants/statement-dispersant-use-may24.pdf. Retrieved 2010-05-25. 
+ 191. ^ Dittrick, Paula (2010-04-30). "Federal officials visit oil spill area, talk with BP". Oil &amp; Gas Journal (PennWell Corporation). (subscription required). http://www.ogj.com/index/article-display/3601449328/articles/oil-gas-journal/general-interest-2/hse/2010/04/federal-officials.html. Retrieved 2010-05-01. 
+ 192. ^ "Gulf of Mexico Oil Spill Response: Current Operations as of 28 June". Deep Water Horizon Unified Command Agency. 2010-06-28. http://www.deepwaterhorizonresponse.com/go/doc/2931/716951/. Retrieved 2010-06-28. 
+ 193. ^ Gabbatt, Adam (2010-06-16). BP oil spill: Kevin Costner's oil-water separation machines help with clean-up. The Guardian.
+ 194. ^ Flatley, Joseph L. (2010-06-10). Kevin Costner sells 32 oil-water separators to BP, testifies before congress. Engadget.
+ 195. ^ Fountain, Henry (2010-06-24). "Advances in Oil Spill Cleanup Lag Since Valdez". New York Times. http://www.nytimes.com/2010/06/25/us/25clean.html. Retrieved 2010-07-05. 
+ 196. ^ Clarke, Sanchez, Bonfiles, Escobedo (June 15, 2010). "BP 'Excited' Over Kevin Costner's Oil Cleanup Machine, Purchases 32". ABC News Good Morning America.
+ 197. ^ "Giant 'super skimmer' no help with Gulf oil spill". Reuters. 17 July 2010. http://af.reuters.com/article/energyOilNews/idAFN1614683620100716. Retrieved 16 July 2010. 
+ 198. ^ a b Schoof, Renee (2010-07-17). "Mother Nature left to mop up oily mess". The Sun News. http://www.thesunnews.com/2010/07/17/1590417/mother-nature-left-to-mop-up-oily.html. Retrieved 2010-07-17. 
+ 199. ^ Why Is the Gulf Cleanup So Slow?, Wall St. Journal, 2 July 2010
+ 200. ^ The President Does a Jones Act, Wall St. Journal, 19 June 2010
+ 201. ^ Douglas, Will (2010-06-30). "BP False Talking Point: Jones Act blocks Gulf help". McClatchy Newspapers (Washington). http://www.mcclatchydc.com/2010/06/30/96831/gops-false-talking-point-jones.html. 
+ 202. ^ BP Oil Spill: Against Gov. Jindal's Wishes, Crude-Sucking Barges Stopped by Coast Guard, ABC News, 18 June 2010
+ 203. ^ "Ocean may soon be more corrosive than when the dinosaurs died" (PDF). Balanced Seas Initiative. 2006-02-21. http://planetviews.com/evolution/media/manual/balanced_seas_flyer.pdf. Retrieved 2010-06-17. 
+ 204. ^ "Gulf Oil Spill Response". National Parks Conservation Association. http://www.npca.org/oilspill/. Retrieved 2010-06-13. 
+ 205. ^ Biello, David (2010-06-09). "The BP Spill's Growing Toll On the Sea Life of the Gulf". Yale Environment 360. Yale School of Forestry &amp; Environmental Studies. http://www.e360.yale.edu/content/feature.msp?id=2284. Retrieved 2010-06-14. 
+ 206. ^ Harte Research Institute for Gulf of Mexico Studies, Texas A&amp;M University (2010). "Biodiversity of the Gulf of Mexico: Applications to the Deep Horizon oil spill" (PDF). Press release. http://www.harteresearchinstitute.org/images/press_releases/biodiversity.pdf. Retrieved 2010-06-14. 
+ 207. ^ Collection Report(PDF). U.S. Fish and Wildlife Service. 5 July 2010.
+ 208. ^ "US oil spill in Gulf 'making dolphins act drunk'". BBC News. 2010-06-18. http://news.bbc.co.uk/2/hi/science_and_environment/10346092.stm. Retrieved 2010-07-01. 
+ 209. ^ Advertise on MotherJones.com. ""We Don't Need This on Camera": BP's Crappy Cleanup Job". Mother Jones. http://motherjones.com/rights-stuff/2010/06/grande-terre-dolphin-towels-bp-cleanup. Retrieved 2010-07-14. 
+ 210. ^ Henderson, Bruce (2010-05-22). "Oil may harm sea life in N.C.". The Charlotte Observer. http://www.newsobserver.com/2010/05/22/494596/oil-may-harm-sea-life-in-nc.html. Retrieved 2010-05-22. 
+ 211. ^ Resnick-Ault, Jessica; Wethe, David. "BP Oil Leak May Last Until Christmas in Worst Case Scenario". Bloomberg. http://www.bloomberg.com/news/2010-06-02/bp-gulf-of-mexico-oil-leak-may-last-until-christmas-in-worst-case-scenario.html. Retrieved 2010-06-29. 
+ 212. ^ Collins, Jeffrey; Dearen, Jason (2010-05-16). "BP: Mile-long tube sucking oil away from Gulf well". The Washington Times. Associated Press. http://www.washingtontimes.com/news/2010/may/16/huge-underwater-oil-plumes-found-gulf-mexico/. Retrieved 2010-06-29. 
+ 213. ^ "US says BP move to curb oil leak 'no solution'". BBC News. 2010-05-17. http://news.bbc.co.uk/2/hi/americas/8685969.stm. Retrieved 2010-07-01. 
+ 214. ^ a b "Oil spill full of methane, adding new concerns". msnbc. 2010-06-18. http://www.msnbc.msn.com/id/37778190/ns/disaster_in_the_gulf/. Retrieved 2010-06-20. 
+ 215. ^ Biello, David (July 2010). "Lasting Menace: Gulf oil-spill disaster likely to exert environmental harm for decades". Scientific American 303 (1): 16, 18. http://www.scientificamerican.com/article.cfm?id=lasting-menace. Retrieved 2010-06-22. 
+ 216. ^ Reuters, Yahoo! (July 8, 2010). "New batfish species found under Gulf oil spill". Yahoo! News. http://news.yahoo.com/s/nm/20100708/sc_nm/us_oil_spill_fish. Retrieved 9 July 2010. 
+ 217. ^ "State of emergency declared as oil spill nears Louisiana coast". CNN. 2010-04-29. http://edition.cnn.com/2010/US/04/29/louisiana.oil.rig/. Retrieved 2010-04-29. 
+ 218. ^ "Oil 'reaches' US Gulf Coast from spill". BBC News. 2010-04-30. http://news.bbc.co.uk/2/hi/americas/8653162.stm. Retrieved 2010-04-30. 
+ 219. ^ a b c "Bryan Walsh. (2010-05-01). Gulf of Mexico Oil Spill: No End in Sight for Eco-Disaster. Time. Retrieved 2010-05-01". News.yahoo.com. http://www.time.com/time/health/article/0,8599,1986323,00.html. Retrieved 2010-05-03. 
+ 220. ^ Jones, Steve (2010-05-22). "Wholesale seafood prices rising as oil spill grows". The Sun News. http://www.thesunnews.com/2010/05/22/1488631/wholesale-seafood-prices-rising.html. Retrieved 2010-05-22. 
+ 221. ^ "In Precautionary Move, DHH Closes Additional Oyster Harvesting Areas West of the Mississippi Due to Oil Spill". State of Louisiana Department of Health and Hospitals. 2010-05-23. http://www.dhh.louisiana.gov/news.asp?Detail=1630. Retrieved 2010-05-24. 
+ 222. ^ "NOAA Closes Commercial and Recreational Fishing in Oil-Affected Portion of Gulf of Mexico". Deepwater Horizon Incident Joint Information Center. 2 May 2010. http://www.noaanews.noaa.gov/stories2010/20100502_fisheries.html. Retrieved 2 May 2010. 
+ 223. ^ "FB10-029: Deepwater Horizon Oil Spill: Emergency Area Closure in the Gulf of Mexico" (PDF). NOAA, National Marine Fisheries Service, Southeast Regional Office, Southeast Fishery Bulletin. 3 May 2010. http://sero.nmfs.noaa.gov/bulletins/pdfs/2010/FB10-050_BP_Oil_Spill_Closure_060210.pdf. Retrieved 3 June 2010. 
+ 224. ^ "FB10-055: BP Oil Spill: NOAA Modifies Commercial and Recreational Fishing Closure in the Oil-Affected Portions of the Gulf of Mexico" (PDF). NOAA, National Marine Fisheries Service, Southeast Regional Office, Southeast Fishery Bulletin. 21 June 2010. http://sero.nmfs.noaa.gov/bulletins/pdfs/2010/FB10-055_BP_Oil_Spill_Closure_062110.pdf. Retrieved 2010-06-22. 
+ 225. ^ "Deepwater Horizon/BP Oil Spill: Size and Percent Coverage of Fishing Area Closures Due to BP Oil Spill". NOAA, National Marine Fisheries Service, Southeast Regional Office. 2010-06-21. http://sero.nmfs.noaa.gov/ClosureSizeandPercentCoverage.htm. Retrieved 2010-06-22.  Table.
+ 226. ^ Bruce Alpert (2010-05-25). "The feds declare fisheries disaster in La., Miss., Ala.". Times-Picayune. http://www.nola.com/news/t-p/capital/index.ssf?/base/news-8/1274769077181360.xml&amp;coll=1. Retrieved 2010-05-25. 
+ 227. ^ Elswick, Ryan (2010-06-27). "Fishing charters see new boost". The Sun News. http://www.thesunnews.com/2010/06/27/1553571/fishing-charters-see-new-boost.html. Retrieved 2010-07-02. 
+ 228. ^ Skoloff, Brian (2010-07-10). "NOAA: Gulf seafood tested so far is safe to eat". The Sun News. Associated Press. http://www.thesunnews.com/2010/07/10/1579520/noaa-gulf-seafood-tested-so-far.html. Retrieved 2010-07-10. 
+ 229. ^ Reed, Travis (2010-05-27). "Spill hasn't yet emptied hotels on Gulf Coast". The Sun News. Associated Press. http://www.thesunnews.com/2010/05/27/1497705/spill-hasnt-yet-emptied-hotels.html. Retrieved 2010-05-27. 
+ 230. ^ Clark, Lesley (2010-06-27). "Spill colors fabric of Gulf coastal life". The Sun News. http://www.thesunnews.com/2010/06/27/1555968/spill-colors-fabric-of-gulf-coastal.html. Retrieved 2010-07-01. 
+ 231. ^ Anderson, Zac (2010-06-05). "First oil hits florida shores". Sarasota Herald-Tribune (The Herald-Tribune Media Group). http://www.heraldtribune.com/article/20100605/ARTICLE/6051061/-1/RSS02?p=1&amp;tc=pg. Retrieved 2010-06-29. 
+ 232. ^ Breen, Tom (2010-07-05). "BP costs for oil spill response pass $3 billion". Associated Press (Yahoo News). http://www.washingtontimes.com/news/2010/jul/5/bp-costs-oil-spill-response-pass-3-billion/. Retrieved 2010-07-05. 
+ 233. ^ Peterson, Kristina (2010-06-25). "US Stocks Futures Lose Gains After GDP Estimate Revised Down". The Wall Street Journal (Dow Jones &amp; Company). http://online.wsj.com/article/BT-CO-20100625-704980.html. Retrieved 2010-06-27. 
+ 234. ^ Werner, Erica (2010-05-03). "Federal law may limit BP liability in oil spill". ABC News. Associated Press. http://abcnews.go.com/Business/wireStory?id=10543231. Retrieved 2010-06-29. 
+ 235. ^ "Spill triggers effort to up liability cap". http://www.businessinsurance.com/article/20100523/ISSUE01/305239978. 
+ 236. ^ Doggett, Tom (May 25, 2010). Congress can stick BP with bigger liability cap Reuters.
+ 237. ^ a b c Pagnamenta, Robin (2010-05-26). "Lloyd's syndicates launch legal action over BP insurance claim". The Times (UK). http://business.timesonline.co.uk/tol/business/industry_sectors/banking_and_finance/article7136623.ece. Retrieved 2010-05-26. 
+ 238. ^ "Macondo slugs insurance rates". Upstream Online (NHST Media Group). 2010-06-04. http://www.upstreamonline.com/live/article216745.ece. Retrieved 2010-06-04. 
+ 239. ^ "Stormy weather: BP's stock hits new low". New York Post. 2010-06-25. http://www.nypost.com/p/news/business/stormy_weather_bp_stock_hits_new_R9j0pMVMYMpgrQodvaymOP. Retrieved 2010-06-27. 
+ 240. ^ a b Sasser, Bill (2010-05-24). "Despite BP oil spill, Louisiana still loves Big Oil". Christian Science Monitor. http://www.csmonitor.com/USA/2010/0524/Despite-BP-oil-spill-Louisiana-still-loves-Big-Oil. 
+ 241. ^ Farrington (2010-06-23). "Gulf property sales slide further on oil fears". The Sun News. Associated Press. http://abcnews.go.com/Business/wireStory?id=10988208. Retrieved 2010-06-23. 
+ 242. ^ David Teather. "British companies' reputation in the US is under threat, warns Washington overseas investment group". Guardian. http://www.guardian.co.uk/business/2010/jul/14/british-companies-reputation-threat-us. Retrieved 2010-07-19. 
+ 243. ^ Rowena Mason. "UK firms suffer after BP oil spill". Daily Telegraph. http://www.telegraph.co.uk/finance/newsbysector/energy/oilandgas/7883303/UK-firms-suffer-after-BP-oil-spill.html. Retrieved 2010-07-19. 
+ 244. ^ a b "BP, Transocean Lawsuits Surge as Oil Spill Spreads in Gulf". Bloomberg. 2010-05-01. http://www.bloomberg.com/news/2010-04-30/bp-transocean-face-at-least-23-lawsuits-over-gulf-rig-blast-crude-spill.html. Retrieved 2010-05-01. 
+ 245. ^ "BP Suits Should Be Sent to New Orleans, U.S. Says". Bloomberg Businessweek. Bloomberg. 2010-06-17. http://www.businessweek.com/news/2010-06-17/bp-suits-should-be-sent-to-new-orleans-u-s-says-update2-.html. Retrieved 2010-06-18. 
+ 246. ^ a b Mufson, Steven; Eilperin, Juliet (2010-05-17). "Lawyers lining up for class-action suits over oil spill". The Washington Post (The Washington Post Company): p. A1. http://www.washingtonpost.com/wp-dyn/content/article/2010/05/16/AR2010051603254.html?sub=AR. Retrieved 2010-05-25. 
+ 247. ^ Calkins, Laurel; Feeley, Jef (2010-06-02). "Judges Quit BP Gulf Oil-Spill Lawsuits Over Conflicts". Bloomberg Businessweek. Bloomberg. http://www.businessweek.com/news/2010-06-02/judges-quit-bp-gulf-oil-spill-suits-over-conflicts-of-interest.html. Retrieved 2010-06-19. 
+ 248. ^ Sachdev, Ameet (2010-05-18). "Tide of oil spill lawsuits begins to rise". Chicago Tribune. http://articles.chicagotribune.com/2010-05-18/business/ct-biz-0518-chicago-law--20100518_1_bp-plc-spill-lawsuits-oil-spill. Retrieved 2010-05-26. 
+ 249. ^ Elizabeth Grossman (2010-06-01). "BP Lies about Air Toxicity as Gulf Workers Are Hospitalized". The Faster Times. http://thefastertimes.com/earthmatters/2010/06/01/bp-lies-about-air-toxicity-as-gulf-workers-are-increasingly-hospitalized/. Retrieved 2010-06-16. 
+ 250. ^ Osu Charles .I, Asuoha, Adaku N. (2010-02-17). "Polycyclic Aromatic Hydrocarbons (PAHs) and Benzene, Toluene, Ethylbenzene, and Xylene (BTEX) Contamination of Soils in Automobile Mechanic Workshops in Port-Harcourt Metropolis, Rivers State, Nigeria." (PDF). Journal of American Science 6 (9). http://www.americanscience.org/journals/am-sci/am0609/28_2398_am0609_242_246.pdf. Retrieved 2010-06-16. 
+ 251. ^ "Louisiana Environmental Action Network (LEAN)". http://www.leanweb.org/. Retrieved 2010-06-16. 
+ 252. ^ "Countdown with Keith Olbermann" (video). MSNBC. 2010-06-15. http://www.msnbc.msn.com/id/3036677/vp/37720173#37720173. Retrieved 2010-06-16. 
+ 253. ^ Taylor, Marissa (2010-06-23). "Doctors call for help protecting Gulf oil spill workers". Miami Herald. Archived from the original on 2010-07-20. http://www.webcitation.org/5rMxfdCbN#ixzz0s4QWJjUa. Retrieved 2010-06-27. 
+ 254. ^ "Louisiana DHH Releases Oil Spill-Related Exposure Information". Louisiana Department of Health &amp; Hospitals(DHH). 2010-06-14. http://www.dhh.louisiana.gov/offices/news.asp?ID=378&amp;Detail=1644. Retrieved 2010-06-16. 
+ 255. ^ Mascarelli, Amanda (2010-06-24). "Oil-spill health risks under scrutiny". Nature. http://www.nature.com/news/2010/100624/full/news.2010.316.html. Retrieved 2010-06-24. 
+ 256. ^ "Assessing the Human Health Effects of the Gulf of Mexico Oil Spill: An Institute of Medicine Workshop". Institute of Medicine. http://www.iom.edu/Activities/PublicHealth/OilSpillHealth/2010-JUN-22.aspx. Retrieved 2010-06-24.  Presentations online
+ 257. ^ Hedgpeth, Dana and Fahrenthold, David A. (24 June 2010). "Apparent Suicide May Add to Oil Spill's Toll". Washington Post. See also video: "Fisherman Loses Business, Commits Suicide". CBS Evening News
+ 258. ^ Pouliot, Karlie (2010-06-24). "Mental Health Fallout From Oil Spill Just Beginning". Fox News. http://www.foxnews.com/story/0,2933,595202,00.html. Retrieved 2010-06-24. 
+ 259. ^ Siegel, Marc (2010-06-17). "The Psychological Toll of the Oil Spill". Salon. http://www.slate.com/id/2257082/pagenum/all/#p2. Retrieved 2010-06-24. 
+ 260. ^ a b c "Judge denies stay in moratorium ruling". Upstream Online (NHST Media Group). 2010-06-24. http://www.upstreamonline.com/live/article218708.ece. Retrieved 2010-06-30. 
+ 261. ^ Fisk, M. C.; Calkins, L. (2010-06-29). "Court grants speedy hearing for U.S. on drill ban". Business Week. Bloomberg. http://www.businessweek.com/news/2010-06-29/court-grants-speedy-hearing-for-u-s-on-drill-ban.html. Retrieved 2010-07-04. 
+ 262. ^ Tracy, Tennille (2010-06-29). Court To Hear Arguments In Drilling Moratorium Case 8 July. NASDAQ. Dow Jones Newswires. Retrieved 2010-07-04.
+ 263. ^ a b "Salazar prepping new deep-water drill ban". Upstream Online (NHST Media Group). 2010-06-30. http://www.upstreamonline.com/live/article219114.ece. Retrieved 2010-06-30. 
+ 264. ^ "Lawmaker wants 7-year BP lease ban". Upstream Online (NHST Media Group). 2010-06-30. http://www.upstreamonline.com/live/article219150.ece. Retrieved 2010-06-30. 
+ 265. ^ VanderKlippe, Nathan (2010-04-30). "Arctic drilling faces tougher scrutiny". The Globe and Mail: pp. B1, B8. http://www.theglobeandmail.com/report-on-business/industry-news/energy-and-resources/arctic-drilling-faces-tougher-scrutiny/article1551603/. Retrieved 2010-05-02. 
+ 266. ^ Robertson, Grant; Galloway, Gloria (2010-05-05). "Ottawa talks tough on offshore drilling". The Globe and Mail: pp. A1, A13. http://www.theglobeandmail.com/news/politics/ottawa-will-take-tough-stand-on-offshore-drilling/article1557095/. Retrieved 2010-05-05. 
+ 267. ^ Wood, Daniel B. (2010-05-04). "Citing BP oil spill, Schwarzenegger drops offshore drilling plan". Christian Science Monitor. http://www.csmonitor.com/USA/Politics/2010/0504/Citing-BP-oil-spill-Schwarzenegger-drops-offshore-drilling-plan. Retrieved 2010-05-06. 
+ 268. ^ Mirchandani, Rajesh (2010-05-03). "California's Schwarzenegger turns against oil drilling". BBC News. http://news.bbc.co.uk/2/hi/americas/8658825.stm. Retrieved 2010-05-06. 
+ 269. ^ Associated Press (2010-07-08). "Fla. governor calls special oil drilling session". Miami Herald. Archived from the original on 2010-07-20. http://www.webcitation.org/5rMxfdCbN. Retrieved 2010-07-08. 
+ 270. ^ Bosquet, Steve (2010-07-20). "Party-line vote ends Florida's oil drilling ban special session". Miami Herald. http://www.miamiherald.com/2010/07/20/1738869/party-line-vote-ends-floridas.html. Retrieved 2010-07-20. 
+ 271. ^ "Q&amp;A: Deep-water drilling restrictions". BBC News. 2010-09-27. http://news.bbc.co.uk/2/hi/world/us_and_canada/10177716.stm. Retrieved 2010-06-30. 
+ 272. ^ "Can Offshore Drilling Really Make the U.S. Oil Independent?". Scientific American. September 12, 2008.
+ 273. ^ "Barreling Toward Peak Oil". BusinessWeek. May 27, 2010.
+ 274. ^ "Pickens: Let's drop dependence on foreign oil". Denver Business Journal. July 10, 2008.
+ 275. ^ "Frequently Asked Questions – Crude Oil". U.S. Energy Information Administration (EIA).
+ 276. ^ Tom Bergin (2010-04-30). "BP CEO says will pay oil spill claims". Reuters. http://www.reuters.com/article/idINIndia-48135020100430?. Retrieved 2010-04-30. 
+ 277. ^ a b "White House: BP Will Pay $20B Into Gulf Spill Fund". NPR. 2010-06-16. http://www.npr.org/templates/story/story.php?storyId=127879786. 
+ 278. ^ a b Weisman, Jonathan; Chazan, Guy (2010-06-16). "BP Halts Dividend, Agrees to $20 Billion Fund for Victims". The Wall Street Journal (Dow Jones &amp; Company). http://online.wsj.com/article/SB10001424052748704198004575310571698602094.html. Retrieved 2010-06-16. 
+ 279. ^ "BP to fund $20bn Gulf of Mexico oil spill payout". BBC News. 2010-06-16. http://news.bbc.co.uk/2/hi/world/us_and_canada/10335114.stm. Retrieved 2010-06-16. 
+ 280. ^ King, Neil Jr. (2010-06-21). "Feinberg Ramps Up $20 Billion Compensation Fund". The Wall Street Journal (Dow Jones &amp; Company). http://online.wsj.com/article/SB10001424052748704256304575321072301455004.html. Retrieved 2010-06-30. 
+ 281. ^ US department of Interior (11 May 2010). "Salazar Launches Safety and Environmental Protection Reforms to Toughen Oversight of Offshore Oil and Gas Operations". Press release. http://www.doi.gov/news/pressreleases/Salazar-Launches-Safety-and-Environmental-Protection-Reforms-to-Toughen-Oversight-of-Offshore-Oil-and-Gas-Operations.cfm. Retrieved 2010-05-13. 
+ 282. ^ Whitehouse.gov (2010-05-22). "Weekly Address: President Obama Establishes Bipartisan National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling". Press release. http://www.whitehouse.gov/the-press-office/weekly-address-president-obama-establishes-bipartisan-national-commission-bp-deepwa. Retrieved 2010-06-01. 
+ 283. ^ "Executive Order- National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling (White House, 22 May 2010)". Whitehouse.gov. 2010-05-22. http://www.whitehouse.gov/the-press-office/executive-order-national-commission-bp-deepwater-horizon-oil-spill-and-offshore-dri. Retrieved 2010-06-01. 
+ 284. ^ Attorney General Eric Holder on Gulf Oil Spill. U.S. Dept. of Justice. 1 June 2010.
+ 285. ^ "BP makes progress on new oil capture system". Upstream Online (NHST Media Group). 2010-07-12. http://www.upstreamonline.com/live/article221283.ece. Retrieved 2010-07-12. 
+ 286. ^ Brenner, Noah; Guegel, Anthony (2010-06-17). "Congress hammers Hayward". Upstream Online (NHST Media Group). http://www.upstreamonline.com/live/article218091.ece. Retrieved 2010-07-10. 
+ 287. ^ "Anadarko and Mitsui executives set to testify". Upstream Online (NHST Media Group). 2010-07-09. http://www.upstreamonline.com/live/article221198.ece. Retrieved 2010-07-10. 
+ 288. ^ Gillis, Justin; Broder, John (2010-05-10). "Nitrogen-Cement Mix Is Focus of Gulf Inquiry". The New York Times (The New York Times Company). http://www.nytimes.com/2010/05/11/us/11hearings.html?sq=halliburton&amp;st=cse&amp;scp=2&amp;pagewanted=all 
+ 289. ^ Bart Stupak, Chairman (2010-05-12) (PDF). Opening Statement, "Inquiry into the Deepwater Horizon Gulf Coast Oil Spill". U.S. House Committee on Commerce and Energy, Subcommittee on Oversight and Investigations. http://energycommerce.house.gov/Press_111/20100512/Stupak.Opening.05.12.2010.pdf. Retrieved 2010-05-12. 
+ 290. ^ Andersson, Hilary (2010-06-21). "BP was told of oil safety fault 'weeks before blast'". BBC News. http://news.bbc.co.uk/2/hi/world/us_and_canada/10362139.stm. Retrieved 2010-06-25. 
+ 291. ^ David Hammer (2010-05-26). "Hearings: BP representative overruled drillers, insisted on displacing mud with seawater". Times-Picayune. http://www.nola.com/news/gulf-oil-spill/index.ssf/2010/05/hearings_bp_representative_ove.html. Retrieved 2010-05-26. 
+ 292. ^ David Hammer (2010-05-26). "Oil spill hearings: BP man on Deepwater Horizon rig refuses to testify, says he will take the Fifth". Times-Picayune. http://www.nola.com/news/gulf-oil-spill/index.ssf/2010/05/oil_spill_hearings_bp_man_on_d.html. Retrieved 2010-05-27. 
+ 293. ^ Erika Bolstad, Joseph Goodman and Marisa Taylor (2010-05-26). "BP worker takes 5th, making prosecution a possibility". http://www.mcclatchydc.com/2010/05/26/94884/bp-could-be-held-criminally-liable.html#storylink=omni_popular#ixzz0p81cchtN. Retrieved 2010-05-27. 
+ 294. ^ David Hammer (2010-05-27). "Joint hearings resume in Kenner with a reduced witness list". Times-Picayune. http://www.nola.com/news/gulf-oil-spill/index.ssf/2010/05/joint_hearings_resume_in_kenne.html. Retrieved 2010-05-27. 
+ 295. ^ "BP engineer called doomed rig a 'nightmare well'". CBS News. Associated Press. 2010-06-14. http://www.cbsnews.com/stories/2010/06/14/national/main6581586.shtml. Retrieved 2010-06-30. 
+ 296. ^ "BP rejects oil drill partner's 'negligence' claim". BBC News. 19 June 2010. http://news.bbc.co.uk/2/hi/world/us_and_canada/10356365.stm. Retrieved 2010-06-30. 
+
+[edit] External links
+Find more about Deepwater Horizon oil spill on Wikipedia's sister projects:
+    Images and media from Commons
+    News stories from Wikinews
+
+    * RestoreTheGulf.gov official U.S. Government Web site, taking over content and functions from Deepwater Horizon Response site
+    * Deepwater Horizon Response from the Deepwater Horizon Unified Command (U.S. Government/BP/Transocean)
+    * Deepwater BP Oil Spill at Whitehouse.gov
+    * Deepwater Horizon Incident, Gulf of Mexico from the National Oceanic and Atmospheric Administration (NOAA)
+    * Deepwater Horizon Joint Investigation by the U.S. Coast Guard and Mineral Management Service
+    * Gulf of Mexico response from BP, including live video feed of riser
+    * Transocean Response Site – Transocean
+    * Smithsonian's Ocean Portal
+    * Compared Magnitudes of major Oil Spills – Exxon Valdez, Deepwater Horizon, Niger Delta from lelaissezfaire
+    * Oil Spill Site Tweets, Videos and Information
+
+Lead state agency websites
+
+    * Alabama Governor's Office
+    * Florida Department of Environmental Protection (DEP)
+    * Emergency.Louisiana.gov
+    * Mississippi DEQ
+    * Texas Oil Spill Prevention and Response Program
+
+Directories
+
+    * Deepwater Horizon oil spill at the Open Directory Project
+    * Oil Spill in the Gulf of Mexico online resources from The Gulf of Mexico Sea Grant Programs
+    * Deepwater Horizon Oil Spill links to government documents and resources from the University of South Alabama
+    * Gulf of Mexico Oil Spill at Google Crisis Response
+
+News media
+
+    * Full coverage on BBC News
+    * Full coverage on C-SPAN video library
+    * Full coverage on CNN
+    * Full coverage on The Guardian
+    * Full coverage from the Houston Chronicle
+    * Full coverage from the Los Angeles Times Greenspace
+    * Full coverage from The Miami Herald
+    * Full coverage on The New York Times
+    * Full coverage from The Times-Picayune (New Orleans)
+    * Full coverage from the Press-Register (Mobile, Alabama)
+    * Full coverage from The Wall Street Journal
+    * Full coverage from GRITtv
+    * Full coverage from WBBH-TV
+    * Full coverage from The News-Press (Ft. Myers, FL)
+
+Interactive Maps
+
+    * Mapping the Response to BP Oil Spill in the Gulf of Mexico (GeoPlatform.gov)
+    * Gulf Oil Spill Tracker interactive map and form for citizen reporting (SkyTruth.org)
+    * Map and Estimates of the Oil Spilled (The New York Times)
+    * Where Oil Has Made Landfall (The New York Times)
+
+Images
+
+    * Live Video live feeds from remotely operated vehicles (Sitelab Internet Engineering) WARNING: OPENS MULTIPLE VIDEO FEEDS, MAY CRASH YOUR BROWSER
+    * Gulf Oil Spill 2010 Projected Trajectory from Louisiana Earth
+    * Rig fire at Deepwater Horizon April 21, '10 video at CNN iReport
+    * GOES-13 satellite images on the CIMSS Satellite Blog
+
+Animations of the disaster and sealing efforts
+
+    * BBC News - interactive animation to the disaster and blocking efforts
+</nc:ActivityDescriptionText>
+		<nc:ActivityName>Flood Incident</nc:ActivityName>
+		<nc:IncidentLocation>
+			<nc:LocationAddress>
+				<nc:AddressFullText>4001 North Fairfax Drive, Arlington, VA 22203
+                </nc:AddressFullText>
+			</nc:LocationAddress>
+			<nc:LocationArea>
+				<nc:AreaPolygonGeographicCoordinate>
+					<nc:GeographicCoordinateLatitude>
+						<nc:LatitudeDegreeValue>38</nc:LatitudeDegreeValue>
+						<nc:LatitudeMinuteValue>47</nc:LatitudeMinuteValue>
+						<nc:LatitudeSecondValue>59.95</nc:LatitudeSecondValue>
+					</nc:GeographicCoordinateLatitude>
+					<nc:GeographicCoordinateLongitude>
+						<nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+						<nc:LongitudeMinuteValue>17</nc:LongitudeMinuteValue>
+						<nc:LongitudeSecondValue>50.00</nc:LongitudeSecondValue>
+					</nc:GeographicCoordinateLongitude>
+				</nc:AreaPolygonGeographicCoordinate>
+				<nc:AreaPolygonGeographicCoordinate>
+					<nc:GeographicCoordinateLatitude>
+						<nc:LatitudeDegreeValue>38</nc:LatitudeDegreeValue>
+						<nc:LatitudeMinuteValue>47</nc:LatitudeMinuteValue>
+						<nc:LatitudeSecondValue>50.00</nc:LatitudeSecondValue>
+					</nc:GeographicCoordinateLatitude>
+					<nc:GeographicCoordinateLongitude>
+						<nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+						<nc:LongitudeMinuteValue>5</nc:LongitudeMinuteValue>
+						<nc:LongitudeSecondValue>50.00</nc:LongitudeSecondValue>
+					</nc:GeographicCoordinateLongitude>
+				</nc:AreaPolygonGeographicCoordinate>
+				<nc:AreaPolygonGeographicCoordinate>
+					<nc:GeographicCoordinateLatitude>
+						<nc:LatitudeDegreeValue>39</nc:LatitudeDegreeValue>
+						<nc:LatitudeMinuteValue>0</nc:LatitudeMinuteValue>
+						<nc:LatitudeSecondValue>0.005</nc:LatitudeSecondValue>
+					</nc:GeographicCoordinateLatitude>
+					<nc:GeographicCoordinateLongitude>
+						<nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+						<nc:LongitudeMinuteValue>5</nc:LongitudeMinuteValue>
+						<nc:LongitudeSecondValue>50.00</nc:LongitudeSecondValue>
+					</nc:GeographicCoordinateLongitude>
+				</nc:AreaPolygonGeographicCoordinate>
+				<nc:AreaPolygonGeographicCoordinate>
+					<nc:GeographicCoordinateLatitude>
+						<nc:LatitudeDegreeValue>39</nc:LatitudeDegreeValue>
+						<nc:LatitudeMinuteValue>0</nc:LatitudeMinuteValue>
+						<nc:LatitudeSecondValue>0.005</nc:LatitudeSecondValue>
+					</nc:GeographicCoordinateLatitude>
+					<nc:GeographicCoordinateLongitude>
+						<nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+						<nc:LongitudeMinuteValue>17</nc:LongitudeMinuteValue>
+						<nc:LongitudeSecondValue>50.00</nc:LongitudeSecondValue>
+					</nc:GeographicCoordinateLongitude>
+				</nc:AreaPolygonGeographicCoordinate>
+				<nc:AreaPolygonGeographicCoordinate>
+					<nc:GeographicCoordinateLatitude>
+						<nc:LatitudeDegreeValue>38</nc:LatitudeDegreeValue>
+						<nc:LatitudeMinuteValue>47</nc:LatitudeMinuteValue>
+						<nc:LatitudeSecondValue>50.00</nc:LatitudeSecondValue>
+					</nc:GeographicCoordinateLatitude>
+					<nc:GeographicCoordinateLongitude>
+						<nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+						<nc:LongitudeMinuteValue>17</nc:LongitudeMinuteValue>
+						<nc:LongitudeSecondValue>50.00</nc:LongitudeSecondValue>
+					</nc:GeographicCoordinateLongitude>
+				</nc:AreaPolygonGeographicCoordinate>
+				<nc:AreaPolygonGeographicCoordinate>
+					<nc:GeographicCoordinateLatitude>
+						<nc:LatitudeDegreeValue>38</nc:LatitudeDegreeValue>
+						<nc:LatitudeMinuteValue>47</nc:LatitudeMinuteValue>
+						<nc:LatitudeSecondValue>59.95</nc:LatitudeSecondValue>
+					</nc:GeographicCoordinateLatitude>
+					<nc:GeographicCoordinateLongitude>
+						<nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+						<nc:LongitudeMinuteValue>17</nc:LongitudeMinuteValue>
+						<nc:LongitudeSecondValue>50.00</nc:LongitudeSecondValue>
+					</nc:GeographicCoordinateLongitude>
+				</nc:AreaPolygonGeographicCoordinate>
+				<nc:AreaCircularRegion>
+					<nc:CircularRegionCenterCoordinate>
+						<nc:GeographicCoordinateLatitude>
+							<nc:LatitudeDegreeValue>38</nc:LatitudeDegreeValue>
+							<nc:LatitudeMinuteValue>17</nc:LatitudeMinuteValue>
+							<nc:LatitudeSecondValue>50.00</nc:LatitudeSecondValue>
+						</nc:GeographicCoordinateLatitude>
+						<nc:GeographicCoordinateLongitude>
+							<nc:LongitudeDegreeValue>-77</nc:LongitudeDegreeValue>
+							<nc:LongitudeMinuteValue>17</nc:LongitudeMinuteValue>
+							<nc:LongitudeSecondValue>50.00</nc:LongitudeSecondValue>
+						</nc:GeographicCoordinateLongitude>
+					</nc:CircularRegionCenterCoordinate>
+					<nc:CircularRegionRadiusLengthMeasure>
+						<nc:MeasurePointValue>4.5</nc:MeasurePointValue>
+						<nc:LengthUnitCode>SMI</nc:LengthUnitCode>
+					</nc:CircularRegionRadiusLengthMeasure>
+				</nc:AreaCircularRegion>
+			</nc:LocationArea>
+		</nc:IncidentLocation>
+		<nc:IncidentJurisdictionalOrganization/>
+		<nc:IncidentObservationText/>
+	</inc:Incident>
+</ims:CreateIncidentRequest>

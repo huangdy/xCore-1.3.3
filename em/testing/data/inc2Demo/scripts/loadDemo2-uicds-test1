@@ -1,0 +1,11 @@
+#!/bin/sh -x
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test1.saic.com/uicds/ws -f ../../../data/inc2Demo/VirginiaBeach/CCA.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test1.saic.com/uicds/ws -f ../../../data/inc2Demo/VirginiaBeach/Agreement/agreement-VirginiaBeach.xml 
+
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test1.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/Bert-Test1.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test1.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/John-Test1.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test1.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/Daniel-Test1.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test1.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/Roger-Test1.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test1.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/Paul-Test1.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test1.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/Jay-Test1.xml
+

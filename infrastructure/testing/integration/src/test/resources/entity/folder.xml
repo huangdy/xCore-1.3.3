@@ -1,0 +1,7 @@
+<entry xmlns="http://www.w3.org/2005/Atom">
+	<title>Folder</title>
+    <summary>Test</summary>	
+    <content type="application/vnd.esri.shp" srs="EPSG:4326"
+        nameFormat="[NAME]"
+        src="src/test/resources/entity/hospitals.shp" />
+</entry>

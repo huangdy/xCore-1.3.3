@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:BroadcastMessageRequest s:id="idvalue0" s:linkMetadata="idvalue0" s:metadata="idvalue0" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:tns="http://uicds.org/BroadcastService" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/BroadcastService BroadcastService.xsd ">
+This is a test for sending bad message
+</tns:BroadcastMessageRequest>
+

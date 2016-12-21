@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:tns="http://servicemix.apache.org/samples/wsdl-first/types">
+	<env:Body>
+		<wp:PublishProductRequest
+			xmlns:wp="http://uicds.org/WorkProduct">
+			<wp:type>Feature</wp:type>
+			<wp:product>
+				<edxl:EDXLDistribution xmlns:edxl="urn:oasis:names:tc:emergency:EDXL:DE:1.0">
+					<edxl:contentObject>
+						<edxl:xmlContent>
+							<edxl:embeddedXMLContent xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1">
+								<test>
+								</test>
+							</edxl:embeddedXMLContent>
+						</edxl:xmlContent>
+					</edxl:contentObject>
+				</edxl:EDXLDistribution>
+			</wp:product>
+		</wp:PublishProductRequest>
+	</env:Body>
+</env:Envelope>

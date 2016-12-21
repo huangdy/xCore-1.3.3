@@ -1,0 +1,40 @@
+		<swn:sendNotification xmlns:swn="http://www.sendwordnow.com/notification">
+			<swn:pSendNotificationInfo>
+				<swn:SendNotificationInfo>
+					<swn:id>notificationid2</swn:id>
+					<swn:custSentTimestamp>2008-12-24T12:18:00</swn:custSentTimestamp>
+					<swn:sender>
+						<swn:introName>SAIC Demo Test</swn:introName>
+						<swn:introOrganization>Science Applications International Inc.</swn:introOrganization>
+						<swn:phone>7033285957</swn:phone>
+						<swn:email>mcleanj@saic.com</swn:email>
+					</swn:sender>
+					<swn:notification>
+						<swn:subject>Evacuation Alert</swn:subject>
+						<swn:body>http://uicds.trial.kzoinnovations.com/flash/player.php?v=542&amp;l=129&amp;c=2</swn:body>
+					</swn:notification>
+					<swn:rcpts>
+						<swn:rcpt>
+							<swn:id>jeff.f.mclean</swn:id>
+							<swn:firstName>Jeff</swn:firstName>
+							<swn:middleName>X</swn:middleName>
+							<swn:lastName>Mclean</swn:lastName>
+							<swn:contactPnts>
+								<swn:contactPntInfo type="Email">
+									<swn:id>255-1</swn:id>
+									<swn:label>GWB</swn:label>
+									<swn:address>mcleanj@saic.com</swn:address>
+								</swn:contactPntInfo>
+								<swn:contactPntInfo type="Email">
+									<swn:id>255-3</swn:id>
+									<swn:label>WCTP 3</swn:label>
+									<swn:address>7033285957@messaging.sprintpcs.com</swn:address>
+                                    					<swn:countryCode>0</swn:countryCode>
+								</swn:contactPntInfo>
+							</swn:contactPnts>
+						</swn:rcpt>
+
+					</swn:rcpts>
+				</swn:SendNotificationInfo>
+			</swn:pSendNotificationInfo>
+		</swn:sendNotification>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inc:Incident xmlns:inc="http://uicds.org/incident" xmlns="http://niem.gov/niem/niem-core/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ActivityCategoryText>CBRNE</ActivityCategoryText>
+    <ActivityCategoryText>Met</ActivityCategoryText>
+    <ActivityDescriptionText>cause</ActivityDescriptionText>
+    <ActivityName>Flood</ActivityName>
+    <IncidentLocation>
+        <LocationArea>
+            <AreaCircularRegion>
+                <CircularRegionCenterCoordinate>
+                    <GeographicCoordinateLatitude>
+                        <LatitudeDegreeValue>36</LatitudeDegreeValue>
+                    </GeographicCoordinateLatitude>
+                    <GeographicCoordinateLongitude>
+                        <LongitudeDegreeValue>-75</LongitudeDegreeValue>
+                    </GeographicCoordinateLongitude>
+                </CircularRegionCenterCoordinate>
+				    <CircularRegionRadiusLengthMeasure>
+					    <MeasurePointValue>5.0</MeasurePointValue>
+					    <LengthUnitCode>SMI</LengthUnitCode>
+				    </CircularRegionRadiusLengthMeasure>
+            </AreaCircularRegion>
+        </LocationArea>
+    </IncidentLocation>
+	 <IncidentJurisdictionalOrganization/>
+	 <IncidentObservationText>Flood</IncidentObservationText>
+    <inc:SharedCoreName/>
+	 <inc:OwningCore/>
+</inc:Incident>

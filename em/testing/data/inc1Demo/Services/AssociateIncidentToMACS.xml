@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ics:AssociateICStructureToIncidentRequest
+    xmlns:ics="http://uicds.org/IncidentCommandStructureService" xmlns:org="http://uicds.org/OrganizationElement"
+    xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/IncidentCommandStructureService ../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/IncidentCommandStructure.xsd ">
+    <ics:incidentID>62a03bdb-c5e3-4ce1-9d28-5e56ad7c7a81
+    </ics:incidentID>
+    <ics:icsID>MultiagencyCoordinationSystem-77d18e52-aa81-442a-9ed3-8dbfc4ee6684
+    </ics:icsID>
+</ics:AssociateICStructureToIncidentRequest>

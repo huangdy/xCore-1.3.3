@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:UpdateAgreementRequest xmlns:as="http://uicds.org/AgreementService" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:p="http://metadata.dod.mil/mdr/ns/DDMS/2.0/" xmlns:p1="urn:us:gov:ic:ism:v2" xmlns:precisb="http://www.saic.com/precis/2009/06/base" xmlns:ucore="http://ucore.gov/ucore/2.0" xmlns:ulex="ulex:message:structure:1.0" xmlns:ulexcodes="ulex:message:codes:1.0" xmlns:ulexlib="ulex:message:library:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/AgreementService AgreementService.xsd ">
+  <as:Agreement>
+    <as:Principals>
+      <as:LocalCore>uicds@hauar-m4300.us.saic.com</as:LocalCore>
+      <as:RemoteCore>uicds@pezz.saic.com</as:RemoteCore>
+    </as:Principals>
+    <as:ShareRules enabled="true">
+      <as:ShareRule enabled="true" id="idvalue0">
+        <as:Condition>
+          <as:InterestGroup precisb:codespace="http://uicds.org/interestgroup#Incident" >CBRNE</as:InterestGroup>
+        </as:Condition>
+      </as:ShareRule>
+    </as:ShareRules>
+  </as:Agreement>
+</as:UpdateAgreementRequest>
+

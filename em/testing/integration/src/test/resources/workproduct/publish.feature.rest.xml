@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edxl:EDXLDistribution xmlns:edxl="urn:oasis:names:tc:emergency:EDXL:DE:1.0">
+	<edxl:contentObject>
+		<edxl:contentKeyword>
+			<edxl:valueListUrn>workproduct.type</edxl:valueListUrn>
+			<edxl:value>Feature</edxl:value>
+		</edxl:contentKeyword>
+		<edxl:xmlContent>
+			<edxl:embeddedXMLContent>
+				<entry xmlns="http://www.w3.org/2005/Atom">
+					<title>NC sting leads to federal change</title>
+					<summary>
+						Fallout from a North Carolina immigration sting last year
+						has changed the way federal enforcement officials root out illegal
+						immigrants nationwide.
+        			</summary>
+					<georss:where xmlns:georss="http://www.georss.org/georss"
+						xmlns:gml="http://www.opengis.net/gml">
+						<Polygon xmlns="http://www.opengis.net/gml">
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates> -93.84,41.06 -93.61,40.91 -93.58,41.17 -93.48,41.28 -93.74,41.34 -93.84,41.06
+                                    </coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+							<innerBoundaryIs />
+						</Polygon>
+					</georss:where>
+				</entry>
+			</edxl:embeddedXMLContent>
+		</edxl:xmlContent>
+	</edxl:contentObject>
+</edxl:EDXLDistribution>

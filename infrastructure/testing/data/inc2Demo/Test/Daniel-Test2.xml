@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user:AddUserRequest xmlns:nc="http://niem.gov/niem/niem-core/2.0"
+    xmlns:niem-xsd="http://niem.gov/niem/proxy/xsd/2.0" xmlns:user="http://uicds.org/UserManagementService"
+    xmlns:prof="http://uicds.org/ProfileService" xmlns:s="http://niem.gov/niem/structures/2.0"
+    xmlns:tns="http://www.w3.org/2005/08/addressing" xmlns:wsn="http://docs.oasis-open.org/wsn/b-2"
+    xmlns:wsrf-bf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:wsrf-rl="http://docs.oasis-open.org/wsrf/rl-2"
+    xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/UserManagement/ ../../main/xsd/uicds/UserManagement.xsd ">
+    <user:Profile>
+        <prof:ref>
+            <prof:id>daniel@uicds-test2.saic.com</prof:id>
+            <prof:name>Daniel</prof:name>
+        </prof:ref>
+        <prof:entityInfo>
+            <prof:personInfo>
+                <ns:PersonName xmlns:ns="http://niem.gov/niem/niem-core/2.0">
+                    <ns:PersonFullName>Daniel</ns:PersonFullName>
+                </ns:PersonName>
+            </prof:personInfo>
+        </prof:entityInfo>
+        <prof:interests>
+            <prof:interest>
+                <prof:TopicExpression>Incident</prof:TopicExpression>
+            </prof:interest>
+            <prof:interest>
+                <prof:TopicExpression>Alert</prof:TopicExpression>
+            </prof:interest>
+            <prof:interest>
+                <prof:TopicExpression>MapViewContext</prof:TopicExpression>
+            </prof:interest>
+            <prof:interest>
+                <prof:TopicExpression>ICS</prof:TopicExpression>
+            </prof:interest>
+            <prof:interest>
+                <prof:TopicExpression>MACS</prof:TopicExpression>
+            </prof:interest>
+            <prof:interest>
+                <prof:TopicExpression>Tasking</prof:TopicExpression>
+            </prof:interest>
+        </prof:interests>
+        <prof:roles>Rescue Team</prof:roles>
+    </user:Profile>
+</user:AddUserRequest>

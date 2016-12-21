@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:PostDetailedCFSMessageRequest xmlns:tns="http://uicds.org/LEITSCService" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/LEITSCService LEITSCService.xsd ">
+<DetailedCFSInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://leitsc-lib/2.0/doc/DetailedCFSInformation">
+  <Payload xmlns="http://leitsc-lib/2.0">
+    <ServiceCall>
+      <ActivityIdentification xsi:nil="true" xmlns="http://niem.gov/niem/niem-core/2.0">CAD_XYZ_456</ActivityIdentification>
+      <ActivityDescriptionText xmlns="http://niem.gov/niem/niem-core/2.0">Description of call.</ActivityDescriptionText>
+      <ActivityStatus xmlns="http://niem.gov/niem/niem-core/2.0">
+        <StatusText>CREATED</StatusText>
+      </ActivityStatus>
+      <ServiceCallDispatchedDate xmlns="http://niem.gov/niem/domains/jxdm/4.0">
+      </ServiceCallDispatchedDate>
+      <ServiceCallAugmentation>
+        <CallTypeText>187</CallTypeText>
+        <CallPriorityText>1</CallPriorityText>
+        <Comment>
+          <CommentText xmlns="http://niem.gov/niem/niem-core/2.0">Sample comment text.</CommentText>
+          <CommentDateTime>
+            <DateTime xmlns="http://niem.gov/niem/niem-core/2.0">2009-10-29T09:43:42.466685-07:00</DateTime>
+          </CommentDateTime>
+        </Comment>
+      </ServiceCallAugmentation>
+      <ServiceCallResponseLocation>
+        <LocationTwoDimensionalGeographicCoordinate xmlns="http://niem.gov/niem/niem-core/2.0">
+          <GeographicCoordinateLatitude>
+            <LatitudeDegreeValue>76.237843</LatitudeDegreeValue>
+          </GeographicCoordinateLatitude>
+          <GeographicCoordinateLongitude>
+            <LongitudeDegreeValue>23.43268</LongitudeDegreeValue>
+          </GeographicCoordinateLongitude>
+        </LocationTwoDimensionalGeographicCoordinate>
+      </ServiceCallResponseLocation>
+    </ServiceCall>
+    <ServiceCallOriginator d3p1:id="9ad5397d-b4b8-4f27-aec6-b00f5c2b45ea" xmlns:d3p1="http://niem.gov/niem/structures/2.0">
+      <PersonName xmlns="http://niem.gov/niem/niem-core/2.0">
+        <PersonGivenName>John</PersonGivenName>
+        <PersonMiddleName>C</PersonMiddleName>
+        <PersonSurName>Smith</PersonSurName>
+        <PersonFullName>Smith,John C</PersonFullName>
+      </PersonName>
+      <ServiceCallOriginatorAugmentation>
+        <EnforcementOfficialBadgeIdentification xmlns="http://niem.gov/niem/domains/jxdm/4.0">
+          <IdentificationID xmlns="http://niem.gov/niem/niem-core/2.0">12345</IdentificationID>
+        </EnforcementOfficialBadgeIdentification>
+        <EnforcementUnitIdentification xmlns="http://niem.gov/niem/domains/jxdm/4.0">
+          <IdentificationID xmlns="http://niem.gov/niem/niem-core/2.0">54321</IdentificationID>
+        </EnforcementUnitIdentification>
+      </ServiceCallOriginatorAugmentation>
+    </ServiceCallOriginator>
+    <Location>
+      <LocationAddress xmlns="http://niem.gov/niem/niem-core/2.0">
+        <StructuredAddress>
+          <LocationStreet>
+            <StreetNumberText>123</StreetNumberText>
+            <StreetPredirectionalText>W</StreetPredirectionalText>
+            <StreetName>Main</StreetName>
+            <StreetPostdirectionalText>NE</StreetPostdirectionalText>
+          </LocationStreet>
+          <AddressDeliveryPointID xsi:type="TextType">5</AddressDeliveryPointID>
+          <LocationCityName>Natick</LocationCityName>
+          <LocationCountyName>Contra Costa</LocationCountyName>
+          <LocationStateUSPostalServiceCode>CA</LocationStateUSPostalServiceCode>
+          <LocationCountryName>USA</LocationCountryName>
+          <LocationPostalCode>94523</LocationPostalCode>
+        </StructuredAddress>
+        <AddressFullText>123 W Main St. NE, Natick, CA 94523</AddressFullText>
+      </LocationAddress>
+      <LocationAugmentation>
+        <LocationCrossStreet>
+          <StreetName xmlns="http://niem.gov/niem/niem-core/2.0">5th</StreetName>
+        </LocationCrossStreet>
+      </LocationAugmentation>
+    </Location>
+    <ServiceCallAssignedUnit>
+      <OrganizationDescriptionText xmlns="http://niem.gov/niem/niem-core/2.0">Organization description</OrganizationDescriptionText>
+      <OrganizationIdentification xmlns="http://niem.gov/niem/niem-core/2.0">
+        <IdentificationID>E123</IdentificationID>
+      </OrganizationIdentification>
+      <ServiceCallAssignedUnitAugmentation>
+        <UnitNotifiedByDispatch>
+          <StatusDate xmlns="http://niem.gov/niem/niem-core/2.0">
+            <DateTime>2008-06-07T00:00:00</DateTime>
+          </StatusDate>
+        </UnitNotifiedByDispatch>
+        <UnitEnRoute>
+          <StatusDate xmlns="http://niem.gov/niem/niem-core/2.0">
+            <DateTime>2008-08-21T00:00:00</DateTime>
+          </StatusDate>
+        </UnitEnRoute>
+        <UnitArrivedOnScene>
+          <StatusDate xmlns="http://niem.gov/niem/niem-core/2.0">
+            <DateTime>2008-12-01T00:00:00</DateTime>
+          </StatusDate>
+        </UnitArrivedOnScene>
+        <UnitLeftScene>
+          <StatusDate xmlns="http://niem.gov/niem/niem-core/2.0">
+            <DateTime>2007-04-13T00:00:00</DateTime>
+          </StatusDate>
+        </UnitLeftScene>
+        <UnitPatientArrivedAtDestination>
+          <StatusDate xmlns="http://niem.gov/niem/niem-core/2.0">
+            <DateTime>2009-06-12T00:00:00</DateTime>
+          </StatusDate>
+        </UnitPatientArrivedAtDestination>
+        <UnitBackInService>
+          <StatusDate xmlns="http://niem.gov/niem/niem-core/2.0">
+            <DateTime>2007-08-09T18:11:05</DateTime>
+          </StatusDate>
+        </UnitBackInService>
+      </ServiceCallAssignedUnitAugmentation>
+    </ServiceCallAssignedUnit>
+  </Payload>
+  <ExchangeMetadata xmlns="http://leitsc-lib/2.0">
+    <TransactionMetadata>
+      <MetadataAugmentation>
+        <TerminalID>
+          <IdentificationID xmlns="http://niem.gov/niem/niem-core/2.0">TERM123</IdentificationID>
+        </TerminalID>
+        <MessageDateTime>
+          <DateTime xmlns="http://niem.gov/niem/niem-core/2.0">2009-10-29T09:43:42.48231-07:00</DateTime>
+        </MessageDateTime>
+      </MetadataAugmentation>
+    </TransactionMetadata>
+  </ExchangeMetadata>
+</DetailedCFSInformation>
+</tns:PostDetailedCFSMessageRequest>
+

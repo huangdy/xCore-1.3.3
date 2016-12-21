@@ -1,0 +1,43 @@
+<entry xmlns="http://www.w3.org/2005/Atom">
+	<id>I-9cfdc0f6-5a1b-4846-b527-bda8080bb6ec</id>
+	<summary>Ocean 12 is the test bed for Demo 3.</summary>
+	<title>Ocean 12</title>
+	<content type="application/common-alerting-protocol+xml">
+		<alert xmlns="urn:oasis:names:tc:emergency:cap:1.1"
+			xmlns:georss="http://www.georss.org/georss"
+			xmlns:gml="http://www.opengis.net/gml">
+			<identifier>I-9cfdc0f6-5a1b-4846-b527-bda8080bb6ec</identifier>
+			<sender>ieoc.user</sender>
+			<sent>2008-01-25T10:29:13</sent>
+			<status>Exercise</status>
+			<msgType>Alert</msgType>
+			<scope>Restricted</scope>
+			<info>
+				<category>Rescue</category>
+				<event>Alert</event>
+				<headline>Ocean 12</headline>
+				<urgency>Immediate</urgency>
+				<severity>Moderate</severity>
+				<certainty>Likely</certainty>
+				<description>
+					Ocean 12 is the test bed for Demo 3.
+				</description>
+				<area>
+					<georss:where>
+						<gml:Point>
+							<gml:coordinates>
+								-122.28531093471,47.47410237885939
+							</gml:coordinates>
+						</gml:Point>
+					</georss:where>
+				</area>
+			</info>
+		</alert>
+	</content>
+	<author>
+		<uri>xmpp:InterestManager@a2019-3</uri>
+		<name>a2019-3</name>
+	</author>
+	<published>2008-01-25T10:29:14.175-05:00</published>
+	<updated>2008-01-25T10:29:14.175-05:00</updated>
+</entry>

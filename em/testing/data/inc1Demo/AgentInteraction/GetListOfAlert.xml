@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:GetListOfAlertsRequest xmlns:as="http://uicds.org/AlertService"
+    xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0"
+    xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/AlertService ../../../../oxm-xmlbeans/src/main/xsd/uicds/AlertService.xsd "></as:GetListOfAlertsRequest>

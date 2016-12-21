@@ -1,0 +1,117 @@
+<str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures">
+  <ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0">
+    <ulex:DataItemID xmlns:ulex="ulex:message:structure:1.0">Incident-f3d4ec36-0ffe-46f1-95fd-d2df878bdf19</ulex:DataItemID>
+    <ulex:DataItemReferenceID xmlns:ulex="ulex:message:structure:1.0">Incident-f3d4ec36-0ffe-46f1-95fd-d2df878bdf19</ulex:DataItemReferenceID>
+    <ns:DataItemStatus xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Active" ns:codespace="http://uicds.org/1.0/codespace/workproduct/status" ns:label="UICDS Work Product Status"/>
+    <ulex:DataOwnerMetadata xmlns:ulex="ulex:message:structure:1.0">
+      <ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0">
+        <ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/">
+          <ns1:name xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/">ucids.org</ns1:name>
+        </ns1:Organization>
+      </ns:DataOwnerIdentifier>
+      <ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0">
+        <ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/">
+          <ns1:name xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/">http://uicds.us</ns1:name>
+        </ns1:Organization>
+      </ns:DataOwnerContact>
+      <ulex:DataOwnerMetadataDomainAttribute xmlns:ulex="ulex:message:structure:1.0">
+        <ulex:DomainName xmlns:ulex="ulex:message:structure:1.0">UICDS EM Domain</ulex:DomainName>
+      </ulex:DataOwnerMetadataDomainAttribute>
+    </ulex:DataOwnerMetadata>
+    <ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/>
+    <str:WorkProductIdentification xmlns:str="http://www.saic.com/precis/2009/06/structures">
+      <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-f3d4ec36-0ffe-46f1-95fd-d2df878bdf19</base:Identifier>
+      <base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">1</base:Version>
+      <base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type>
+      <base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Tue Mar 22 12:37:13 EDT 2011:1:2:4042493496</base:Checksum>
+      <base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State>
+    </str:WorkProductIdentification>
+    <str:WorkProductProperties xmlns:str="http://www.saic.com/precis/2009/06/structures">
+      <base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2011-03-22T12:37:13.343-04:00</base:Created>
+      <base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">user1@clash.saic.com</base:CreatedBy>
+      <base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2011-03-22T12:37:13.343-04:00</base:LastUpdated>
+      <base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">user1@clash.saic.com</base:LastUpdatedBy>
+      <base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Kilobytes>
+      <base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType>
+      <base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base">
+        <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">IG-6eece92b-8d34-484a-8afa-ba7f89b3960b</base:Identifier>
+      </base:AssociatedGroups>
+    </str:WorkProductProperties>
+  </ulex:PackageMetadata>
+  <ns:Digest xmlns:ns="http://ucore.gov/ucore/2.0">
+    <ns:Event xmlns:ns="http://ucore.gov/ucore/2.0" id="Event-190ef5aa-0f02-47dc-a635-d0decc77004e">
+      <ns:Descriptor xmlns:ns="http://ucore.gov/ucore/2.0">Neighbors report large quantity of mysterious drums and vehicles accumulating in yard and garage</ns:Descriptor>
+      <ns:Identifier xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="ActivityName" ns:codespace="http://niem.gov/niem/niem-core/2.0" ns:label="ID">Investigate report of suspicious activity (Demo)</ns:Identifier>
+      <ns:What xmlns:ns="http://ucore.gov/ucore/2.0" ns:code="Domestic Disturbance" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+    </ns:Event>
+    <ns:Location xmlns:ns="http://ucore.gov/ucore/2.0" id="Location-4c7e91b5-debc-4cd4-a062-c0e786120621">
+      <ns:GeoLocation xmlns:ns="http://ucore.gov/ucore/2.0">
+        <ns:CircleByCenterPoint xmlns:ns="http://ucore.gov/ucore/2.0">
+          <ns1:CircleByCenterPoint xmlns:ns1="http://www.opengis.net/gml/3.2" numArc="1">
+            <ns1:pos xmlns:ns1="http://www.opengis.net/gml/3.2" srsName="EPSG:4326">38.95023 -76.98783</ns1:pos>
+            <ns1:radius xmlns:ns1="http://www.opengis.net/gml/3.2" uom="SMI">4.5</ns1:radius>
+          </ns1:CircleByCenterPoint>
+        </ns:CircleByCenterPoint>
+      </ns:GeoLocation>
+    </ns:Location>
+    <ns:OccursAt xmlns:ns="http://ucore.gov/ucore/2.0" id="OccursAt-6667dd84-fae8-46e2-952c-5601195ffac9">
+      <ns:Time xmlns:ns="http://ucore.gov/ucore/2.0">
+        <ns:TimeInstant xmlns:ns="http://ucore.gov/ucore/2.0">
+          <Value xmlns="http://ucore.gov/ucore/2.0">2009-11-20T12:05:00-05:00</Value>
+        </ns:TimeInstant>
+      </ns:Time>
+      <ns:EventRef xmlns:ns="http://ucore.gov/ucore/2.0" ref="Event-190ef5aa-0f02-47dc-a635-d0decc77004e"/>
+      <ns:LocationRef xmlns:ns="http://ucore.gov/ucore/2.0" ref="Location-4c7e91b5-debc-4cd4-a062-c0e786120621"/>
+    </ns:OccursAt>
+  </ns:Digest>
+  <ulex:StructuredPayload xmlns:ulex="ulex:message:structure:1.0">
+    <ulex:StructuredPayloadMetadata xmlns:ulex="ulex:message:structure:1.0">
+      <ulex:CommunityURI xmlns:ulex="ulex:message:structure:1.0">Incident</ulex:CommunityURI>
+      <ulex:CommunityVersion xmlns:ulex="ulex:message:structure:1.0"/>
+    </ulex:StructuredPayloadMetadata>
+    <Incident xmlns="http://uicds.org/incident">
+      <ActivityCategoryText xmlns="http://niem.gov/niem/niem-core/2.0">Domestic Disturbance</ActivityCategoryText>
+      <ActivityDate xmlns="http://niem.gov/niem/niem-core/2.0">
+        <DateTime>2009-11-20T12:05:00</DateTime>
+      </ActivityDate>
+      <ActivityDescriptionText xmlns="http://niem.gov/niem/niem-core/2.0">Neighbors report large quantity of mysterious drums and vehicles accumulating in yard and garage</ActivityDescriptionText>
+      <ActivityName xmlns="http://niem.gov/niem/niem-core/2.0">Investigate report of suspicious activity (Demo)</ActivityName>
+      <IncidentLocation xmlns="http://niem.gov/niem/niem-core/2.0">
+        <LocationAddress>
+          <AddressFullText>1260 Emerson Road, NE, Washington, DC</AddressFullText>
+        </LocationAddress>
+        <LocationArea>
+          <AreaCircularRegion>
+            <CircularRegionCenterCoordinate>
+              <GeographicCoordinateLatitude>
+                <LatitudeDegreeValue>38</LatitudeDegreeValue>
+                <LatitudeMinuteValue>57</LatitudeMinuteValue>
+                <LatitudeSecondValue>00.82</LatitudeSecondValue>
+              </GeographicCoordinateLatitude>
+              <GeographicCoordinateLongitude>
+                <LongitudeDegreeValue>-76</LongitudeDegreeValue>
+                <LongitudeMinuteValue>59</LongitudeMinuteValue>
+                <LongitudeSecondValue>16.19</LongitudeSecondValue>
+              </GeographicCoordinateLongitude>
+            </CircularRegionCenterCoordinate>
+            <CircularRegionRadiusLengthMeasure>
+              <MeasurePointValue>4.5</MeasurePointValue>
+              <LengthUnitCode>SMI</LengthUnitCode>
+            </CircularRegionRadiusLengthMeasure>
+          </AreaCircularRegion>
+        </LocationArea>
+      </IncidentLocation>
+      <IncidentJurisdictionalOrganization xmlns="http://niem.gov/niem/niem-core/2.0">
+        <OrganizationName>DC Police</OrganizationName>
+        <OrganizationPrincipalOfficial>
+          <PersonName NS1:nil="false">
+            <PersonFullName NS1:nil="false">Captain John Jones</PersonFullName>
+          </PersonName>
+        </OrganizationPrincipalOfficial>
+        <OrganizationStatus>
+          <StatusDescriptionText NS1:nil="false">Activated</StatusDescriptionText>
+        </OrganizationStatus>
+      </IncidentJurisdictionalOrganization>
+    </Incident>
+  </ulex:StructuredPayload>
+</str:WorkProduct>

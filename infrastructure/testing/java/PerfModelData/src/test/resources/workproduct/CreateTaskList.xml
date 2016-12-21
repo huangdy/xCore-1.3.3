@@ -1,0 +1,22 @@
+<CreateTaskListRequest xmlns="http://uicds.org/TaskingService" xmlns:nam="namespace">
+  <entityID>entityIdA</entityID>
+  <incidentId>incidentIdA</incidentId>
+  <TaskList>
+    <Task>
+      <taskID>taskId1</taskID>
+      <description>Description1</description>
+      <priority>1</priority>
+      <assignedTo>
+        <id>IncidentCommander@core1.saic.com</id>
+        <assigned>2009-02-25T14:36:45.046-05:00</assigned>
+        <accepted>2009-12-31T12:00:00</accepted>
+      </assignedTo>
+      <assignedBy>
+        <id>IncidentCommander@core1.saic.com</id>
+        <assigned>2009-02-25T14:36:45.468-05:00</assigned>
+      </assignedBy>
+      <status>Active</status>
+      <suspense>2009-02-25T14:36:44.468-05:00</suspense>
+    </Task>
+  </TaskList>
+</CreateTaskListRequest>

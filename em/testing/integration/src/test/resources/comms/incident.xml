@@ -1,0 +1,59 @@
+<urn:EDXLDistribution xmlns:wor="http://uicds.org/WorkProduct" xmlns:urn="urn:oasis:names:tc:emergency:EDXL:DE:1.0" xmlns:inc="http://uicds.org/Incident">
+  <urn:contentObject>
+    <urn:contentKeyword>
+      <urn:valueListUrn>urn:uicds:workproduct:type</urn:valueListUrn>
+      <urn:value>Incident</urn:value>
+    </urn:contentKeyword>
+    <urn:contentKeyword>
+      <urn:valueListUrn>urn:uicds:workproduct:id</urn:valueListUrn>
+      <urn:value>Incident-8b393abb-8e53-4aa6-87aa-893f1ba4db58</urn:value>
+    </urn:contentKeyword>
+    <urn:incidentID>70a07ac7-58ac-42c8-8e53-3933fd83d526@clash.us.saic.com</urn:incidentID>
+    <urn:xmlContent>
+      <urn:embeddedXMLContent>
+        <inc:Incident ns:id="Incident-8b393abb-8e53-4aa6-87aa-893f1ba4db58" xmlns:ims="http://uicds.org/IMS" xmlns:inc="http://uicds.org/incident" xmlns:ns="http://niem.gov/niem/structures/2.0" xmlns:ns1="http://niem.gov/niem/niem-core/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <ns1:ActivityIdentification>
+            <ns1:IdentificationID>70a07ac7-58ac-42c8-8e53-3933fd83d526@clash.us.saic.com</ns1:IdentificationID>
+          </ns1:ActivityIdentification>
+          <ns1:ActivityCategoryText>CBRNE</ns1:ActivityCategoryText>
+          <ns1:ActivityDateRepresentation xsi:type="xs:anySimpleType" xmlns:xs="http://www.w3.org/2001/XMLSchema">2008-12-07T16:35:52.718-05:00</ns1:ActivityDateRepresentation>
+          <ns1:ActivityName>ANOTHER</ns1:ActivityName>
+          <ns1:IncidentLocation>
+            <ns1:LocationAddress>
+              <ns1:AddressFullText>Mile marker 138</ns1:AddressFullText>
+            </ns1:LocationAddress>
+          </ns1:IncidentLocation>
+          <ns1:IncidentJurisdictionalOrganization>
+            <ns1:OrganizationName>Organization Name</ns1:OrganizationName>
+          </ns1:IncidentJurisdictionalOrganization>
+          <urn:alert xmlns:urn="urn:oasis:names:tc:emergency:cap:1.1">
+            <urn:identifier>identifier</urn:identifier>
+            <urn:sender>joe@core1.saic.com</urn:sender>
+            <urn:sent>2008-12-07T16:35:52.718-05:00</urn:sent>
+            <urn:status>Actual</urn:status>
+            <urn:msgType>Alert</urn:msgType>
+            <urn:scope>Public</urn:scope>
+            <urn:addresses>Mile marker 138</urn:addresses>
+            <urn:info>
+              <urn:category>Transport</urn:category>
+              <urn:event>a test alert event</urn:event>
+              <urn:urgency>Expected</urn:urgency>
+              <urn:severity>Moderate</urn:severity>
+              <urn:certainty>Likely</urn:certainty>
+              <urn:eventCode>
+                <urn:valueName>name</urn:valueName>
+                <urn:value>value</urn:value>
+              </urn:eventCode>
+              <urn:senderName>Joe</urn:senderName>
+              <urn:headline>a test alert headline</urn:headline>
+            </urn:info>
+          </urn:alert>
+          <inc:productIDList>
+            <id>Incident-8b393abb-8e53-4aa6-87aa-893f1ba4db58</id>
+          </inc:productIDList>
+        </inc:Incident>
+      </urn:embeddedXMLContent>
+    </urn:xmlContent>
+  </urn:contentObject>
+</urn:EDXLDistribution>
+

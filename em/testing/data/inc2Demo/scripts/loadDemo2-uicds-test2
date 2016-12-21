@@ -1,0 +1,14 @@
+#!/bin/sh -x
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/VDEM/CCA.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/VDEM/Agreement/agreement-VDEM.xml
+
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/Bert-Test2.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/John-Test2.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/Daniel-Test2.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/Roger-Test2.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/Paul-Test2.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/Test/Jay-Test2.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/sendword/profiles/SendWord.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/VDEM/WebEOC.xml
+java -jar ClientRunner-jar-with-dependencies.jar -u https://uicds-test2.saic.com/uicds/ws -f ../../../data/inc2Demo/VDEM/ObjectFX.xml
+

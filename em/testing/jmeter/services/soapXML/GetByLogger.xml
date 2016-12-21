@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://servicemix.apache.org/samples/wsdl-first/types">
+<env:Body>
+<log:GetLogByLoggerRequest xmlns:log="http://uicds.org/LoggingMessage" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/LoggingMessage ../core/oxm-xmlbeans/src/main/xsd/uicds/LoggingMessage.xsd ">
+  <log:logger>BrianClientApp</log:logger>
+</log:GetLogByLoggerRequest>
+</env:Body>
+</env:Envelope>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Mort Bay Consulting//DTD Configure//EN" "http://jetty.mortbay.org/configure.dtd">
+
+<Configure class="org.mortbay.jetty.webapp.WebAppContext">
+
+	<!-- Add an EnvEntry only valid for this webapp               -->
+	<!--
+		<New id="gargle" class="org.mortbay.jetty.plus.naming.EnvEntry">
+		<Arg>gargle</Arg> <Arg type="java.lang.Double">100</Arg> <Arg
+		type="boolean">true</Arg> </New>
+	-->
+
+	<!-- Add an override for a global EnvEntry                           -->
+	<!--
+		<New id="wiggle" class="org.mortbay.jetty.plus.naming.EnvEntry">
+		<Arg>wiggle</Arg> <Arg type="java.lang.Double">55.0</Arg> <Arg
+		type="boolean">true</Arg> </New>
+	-->
+
+	<!-- because jetty is being run via maven, the HashUserRealm is configured in the plugin, not here -->
+	<!--
+        <Call name="addRealm">
+        <Arg>
+          <New class="org.mortbay.http.HashUserRealm">
+            <Arg>UICDS Services</Arg>
+            <Put name="user1">user1</Put>
+            <Call name="addUserToRole">
+              <Arg>uicds</Arg>
+              <Arg>uicds-userr</Arg>
+            </Call>
+          </New>
+        </Arg>
+        </Call>
+        -->
+	<!--  RulesFile for RulesEngine -->
+	
+	<!-- a DataSource                                                -->
+	<New class="org.mortbay.jetty.plus.naming.Resource">
+		<Arg>jdbc/HibernateDS</Arg>
+		<Arg>
+			<New class="org.h2.jdbcx.JdbcDataSource">
+<!--
+				<Set name="URL">jdbc:h2:target/services-test</Set>
+-->
+				<Set name="URL">jdbc:h2:target/default;MVCC=true</Set>
+				<Set name="User">sa</Set>
+				<!-- 
+				<Set name="Password"></Set>
+				-->
+			</New>
+		</Arg>
+	</New>
+	
+
+</Configure>
+

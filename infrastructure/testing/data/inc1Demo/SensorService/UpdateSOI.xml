@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:UpdateSOIRequest xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0" xmlns:smil20="http://www.w3.org/2001/SMIL20/" xmlns:smil20lang="http://www.w3.org/2001/SMIL20/Language" xmlns:sos="http://www.opengis.net/sos/1.0" xmlns:tns="http://uicds.org/SensorService" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/SensorService SensorService.xsd "  xmlns:precisb="http://www.saic.com/precis/2009/06/base" xmlns:preciss="http://www.saic.com/precis/2009/06/structures" >
+  <preciss:WorkProductIdentification>
+    <precisb:Identifier>SOI-703eb2ee-12f6-4562-bc34-8ac5d2475271</precisb:Identifier>
+    <precisb:Version>1</precisb:Version>
+    <precisb:Type>SOI</precisb:Type>
+    <precisb:Checksum>Wed Jul 29 16:22:19 EDT 2009:1:0:790630465</precisb:Checksum>
+    <precisb:State>Active</precisb:State>
+  </preciss:WorkProductIdentification>
+  <tns:productID>SOI-703eb2ee-12f6-4562-bc34-8ac5d2475271</tns:productID>
+  <tns:SensorObservationInfo>
+    <tns:incidentID>bee9f67c-41e2-4839-afd7-3c0757e08762</tns:incidentID>
+    <tns:sosURN>SENSOR_01</tns:sosURN>
+    <tns:SensorInfo>
+      <tns:id>idvalue0</tns:id>
+      <tns:name>Traffic Sensor 1</tns:name>
+      <tns:description>Traffic Sensor Number 1</tns:description>
+      <tns:latitude>15.0</tns:latitude>
+      <tns:longitude>12.0</tns:longitude>
+    </tns:SensorInfo>
+    <sos:GetObservation service="SOS" version="1.0.0"/>
+  </tns:SensorObservationInfo>
+</tns:UpdateSOIRequest>

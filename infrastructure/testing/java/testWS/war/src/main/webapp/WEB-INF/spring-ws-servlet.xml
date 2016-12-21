@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd 
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+    <!--          -->
+    <!-- XMLBEANS -->
+    <!--          -->
+    <bean id="xmlbeansMarshaller" class="org.springframework.oxm.xmlbeans.XmlBeansMarshaller" />
+    <bean class="org.springframework.ws.server.endpoint.adapter.GenericMarshallingMethodEndpointAdapter">
+        <property name="marshaller" ref="xmlbeansMarshaller" />
+        <property name="unmarshaller" ref="xmlbeansMarshaller" />
+    </bean>
+
+    <!--                                   -->
+    <!-- SCAN THE CLASSPATH FOR ENDPOINTS -->
+    <!--                                   -->
+    <context:component-scan base-package="com.saic.uicds.testWS.endpoint" />
+
+    <!--                  -->
+    <!-- ENDPOINT MAPPING -->
+    <!--                  -->
+    <bean
+        class="org.springframework.ws.server.endpoint.mapping.PayloadRootAnnotationMethodEndpointMapping">
+        <property name="interceptors">
+            <bean class="org.springframework.ws.server.endpoint.interceptor.PayloadLoggingInterceptor" />
+        </property>
+    </bean>
+    <bean id="NotificationService" class="org.springframework.ws.wsdl.wsdl11.DefaultWsdl11Definition">
+        <property name="schema">
+            <bean class="org.springframework.xml.xsd.SimpleXsdSchema">
+                <property name="xsd"
+                    value="classpath:/schemaorg_apache_xmlbeans/src/services/Notification/0.1/NotificationService.xsd" />
+            </bean>
+        </property>
+        <property name="portTypeName" value="NotificationService" />
+        <property name="locationUri" value="http://localhost:8080/testWS/ws/services/NotificationService" />
+    </bean>
+</beans>

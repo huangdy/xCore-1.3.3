@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dir:GetUserListRequest xmlns:cc="http://uicds.org/CoreConfig" xmlns:dir="http://uicds.org/Directory" xmlns:edsc="http://uicds.org/ExternalDataSourceConfig" xmlns:etc="http://uicds.org/ExternalToolConfig" xmlns:iil="http://uicds.org/IncidentIdList" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:sc="http://uicds.org/ServiceConfig" xmlns:sc1="http://uicds.org/SensorConfig" xmlns:sn="http://uicds.org/ServiceName" xmlns:uc="http://uicds.org/UserConfig" xmlns:wp="http://uicds.org/WorkProduct" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/Directory ../../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/Directory.xsd ">
+  <dir:coreName>dir:coreName</dir:coreName>
+</dir:GetUserListRequest>

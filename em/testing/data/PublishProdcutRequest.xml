@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wp:PublishProductRequest xmlns:base="http://www.saic.com/precis/2009/06/base"
+    xmlns:str="http://www.saic.com/precis/2009/06/structures" xmlns:ulex="ulex:message:structure:1.0"
+    xmlns:wp="http://uicds.org/WorkProductService">
+  <str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures">
+    <ulex:PackageMetadata xmlns:ulex="ulex:message:structure:1.0">
+      <ulex:DataItemID>dataItemId</ulex:DataItemID>
+      <ulex:DataItemReferenceID>dataItemReferenceId</ulex:DataItemReferenceID>
+      <ns:DataItemStatus ns:label="dataItemLabel" urn:classificationReason="Safe" xmlns:ns="http://ucore.gov/ucore/2.0" xmlns:urn="urn:us:gov:ic:ism:v2"/>
+      <ulex:DataOwnerMetadata>
+        <ns:DataOwnerIdentifier xmlns:ns="http://ucore.gov/ucore/2.0">
+          <ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/">
+            <ns1:name>Organization Two</ns1:name>
+          </ns1:Organization>
+        </ns:DataOwnerIdentifier>
+        <ns:DataOwnerContact xmlns:ns="http://ucore.gov/ucore/2.0">
+          <ns1:Organization xmlns:ns1="http://metadata.dod.mil/mdr/ns/DDMS/2.0/">
+            <ns1:name>Organization One</ns1:name>
+          </ns1:Organization>
+        </ns:DataOwnerContact>
+        <ulex:DataOwnerMetadataDomainAttribute>
+          <ulex:DomainName>Example Domain</ulex:DomainName>
+        </ulex:DataOwnerMetadataDomainAttribute>
+      </ulex:DataOwnerMetadata>
+      <ns:DisseminationCriteria xmlns:ns="http://ucore.gov/ucore/2.0"/>
+      <str:WorkProductIdentification>
+        <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">ICS-b64d1e28-69ce-4548-8668-c26a1190096d</base:Identifier>
+        <base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version>
+        <base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">ICS</base:Type>
+        <base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Fri Oct 09 13:17:52 EDT 2009:2:0:68136245</base:Checksum>
+        <base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Inactive</base:State>
+      </str:WorkProductIdentification>
+      <str:WorkProductProperties>
+        <base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2009-10-09T13:15:55.067-04:00</base:Created>
+        <base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">user1@huangda2</base:CreatedBy>
+        <base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2009-10-09T13:17:52.158-04:00</base:LastUpdated>
+        <base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">user1@huangda2</base:LastUpdatedBy>
+        <base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">0</base:Kilobytes>
+        <base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType>
+        <base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base">
+          <base:Identifier>0896550c-83b5-4fc1-a338-c11d17c10592</base:Identifier>
+        </base:AssociatedGroups>
+      </str:WorkProductProperties>
+    </ulex:PackageMetadata>
+    <ulex:StructuredPayload xmlns:ulex="ulex:message:structure:1.0">
+      <ulex:StructuredPayloadMetadata>
+        <ulex:CommunityURI>ICS</ulex:CommunityURI>
+        <ulex:CommunityVersion/>
+      </ulex:StructuredPayloadMetadata>
+      <Organization xmlns="http://uicds.org/OrganizationElement">
+        <OrganizationName>Incident Commander</OrganizationName>
+        <OrganizationType>Incident Commander</OrganizationType>
+        <PersonInCharge>
+          <RoleProfileRef>Incident Commander</RoleProfileRef>
+        </PersonInCharge>
+        <Organization>
+          <OrganizationName>Operations</OrganizationName>
+          <OrganizationType>Section</OrganizationType>
+          <PersonInCharge>
+            <RoleProfileRef>Operations Chief</RoleProfileRef>
+          </PersonInCharge>
+        </Organization>
+      </Organization>
+    </ulex:StructuredPayload>
+  </str:WorkProduct>
+</wp:PublishProductRequest>

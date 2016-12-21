@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:GetAgreementsListRequest xmlns:as="http://uicds.org/AgreementService/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/AgreementService/ AgreementService.xsd ">
+  <as:entityID>uicds@uicds-test3</as:entityID>
+</as:GetAgreementsListRequest>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:CancelAlertRequest xmlns:as="http://uicds.org/AlertService" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/AlertService ../../../../../rel_9.0/core/xmlbeans-em/src/main/xsd/services/Alert/0.1/AlertService.xsd "
+   xmlns:base="http://www.saic.com/precis/2009/06/base" xmlns:str="http://www.saic.com/precis/2009/06/structures">
+      <str:WorkProductIdentification>
+        <base:Identifier>Alert-b173e791-161d-4068-990a-32c35374c49d</base:Identifier>
+        <base:Version>1</base:Version>
+        <base:Type>Alert</base:Type>
+        <base:Checksum>Mon Sep 21 14:47:14 EDT 2009:1:1:1424310121</base:Checksum>
+        <base:State>Active</base:State>
+    </str:WorkProductIdentification>
+</as:CancelAlertRequest>

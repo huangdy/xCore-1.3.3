@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<as:CancelAlertRequest xmlns:as="http://uicds.org/AlertService"
+    xmlns:cap="urn:oasis:names:tc:emergency:cap:1.1" xmlns:p="urn:oasis:names:tc:emergency:EDXL:DE:1.0"
+    xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:sl="http://uicds.org/StringList"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://uicds.org/AlertService ../../../../../com.saic.dctd.uicds.core.oxm-xmlbeans/src/main/xsd/uicds/AlertService.xsd ">Alert-bea4d60a-b226-4bbc-b9e5-be8fa590e11b</as:CancelAlertRequest>

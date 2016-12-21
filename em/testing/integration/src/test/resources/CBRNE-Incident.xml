@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+			<Incident xmlns="http://uicds.org/incident">
+				<ActivityCategoryText xmlns="http://niem.gov/niem/niem-core/2.0">CBRNE</ActivityCategoryText>
+				<ActivityDate xmlns="http://niem.gov/niem/niem-core/2.0">
+					<DateTime>2009-11-20T12:05:00</DateTime>
+				</ActivityDate>
+				<ActivityDescriptionText xmlns="http://niem.gov/niem/niem-core/2.0">Hazardous material spill at 115 East Glenside Avenue.</ActivityDescriptionText>
+				<ActivityName xmlns="http://niem.gov/niem/niem-core/2.0">East Glenside Ave. Hazardous Spill (Demo)</ActivityName>
+				<IncidentLocation xmlns="http://niem.gov/niem/niem-core/2.0">
+					<LocationAddress>
+						<AddressFullText>115 East Glenside Avenue, Philadelphia, PA</AddressFullText>
+					</LocationAddress>
+					<LocationArea>
+						<AreaCircularRegion>
+							<CircularRegionCenterCoordinate>
+								<GeographicCoordinateLatitude>
+									<LatitudeDegreeValue>40</LatitudeDegreeValue>
+									<LatitudeMinuteValue>6</LatitudeMinuteValue>
+									<LatitudeSecondValue>1.10</LatitudeSecondValue>
+								</GeographicCoordinateLatitude>
+								<GeographicCoordinateLongitude>
+									<LongitudeDegreeValue>-75</LongitudeDegreeValue>
+									<LongitudeMinuteValue>9</LongitudeMinuteValue>
+									<LongitudeSecondValue>4.17</LongitudeSecondValue>
+								</GeographicCoordinateLongitude>
+							</CircularRegionCenterCoordinate>
+							<CircularRegionRadiusLengthMeasure>
+								<MeasurePointValue>0.1</MeasurePointValue>
+								<LengthUnitCode>SMI</LengthUnitCode>
+							</CircularRegionRadiusLengthMeasure>
+						</AreaCircularRegion>
+					</LocationArea>
+				</IncidentLocation>
+				<IncidentJurisdictionalOrganization xmlns="http://niem.gov/niem/niem-core/2.0">
+					<OrganizationName>Gloucester County Hazmat</OrganizationName>
+					<OrganizationPrincipalOfficial>
+						<PersonName>
+							<PersonFullName>Captain John Jones</PersonFullName>
+						</PersonName>
+					</OrganizationPrincipalOfficial>
+				</IncidentJurisdictionalOrganization>
+			</Incident>
